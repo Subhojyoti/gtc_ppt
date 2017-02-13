@@ -1,0 +1,67 @@
+\begin{frame}
+\frametitle{Approach of ClusUCB}
+\begin{itemize}
+\item<1-> The basic idea of ClusUCB directly follows from UCB-Imp. It starts by dividing the horizon into rounds and initializing parameters.
+\item<2-> It then creates $p$ fixed clusters (given as an input) and randomly assign arms into each of them such that each cluster contains equal number of arms.
+\item<3-> Pull all surviving arms equal number of times during a round.
+\item<4-> At the end of the round eliminate arms inside each cluster by comparing its performance against the best arm in the cluster. 
+\item<5-> Also eliminate clusters with all of its arms by comparing its performance against the globally  best arm. 
+\item<5-> Reset parameters and move to the next round.
+\item<6-> At a higher level ClusUCB behaves like $p$ independently running UCB-Imp with the exploration parameters $\rho_a,\rho_s$ and $\psi$ helping in overcoming early exploration.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[allowframebreaks]
+\frametitle{Approach of ClusUCB}
+%\begin{algorithm}[H]
+%\caption{ClusUCB}
+%\label{alg:clusucb}
+\begin{algorithmic}[1]
+\State {\bf Input:} Number of clusters $p$, time horizon $T$, exploration parameters $\rho_a$, $\rho_s$ and $\psi$.
+\State {\bf Initialization:} Set $B_{0}:=A$, $S_0 = S$ and $\epsilon_{0}:=1$.
+\State Create a partition $S_0$ of the arms at random into $p$ clusters of size up to $\ell=\bigg\lceil \frac{K}{p} \bigg\rceil$ each.
+\For{$m=0,1,..\big \lfloor \frac{1}{2}\log_{2} \frac{7T}{K}\big\rfloor$}	
+\State Pull each arm in $B_m$ so that the total number of times it has been pulled is $n_{m}=\bigg\lceil\frac{2\log{(\psi T\epsilon_{m}^{2})}}{\epsilon_{m}}\bigg\rceil$. 
+\ArmElim
+\State For each cluster $s_k \in S_{m}$, delete arm ${i}\in s_{k}$ from $B_{m}$ if
+\begin{align*}
+\hat{r}_{i} + \sqrt{\frac{\rho_{a}\log{(\psi T\epsilon_{m}^{2})}}{2 n_{m}}}  < \max_{{j}\in s_{k}}\bigg\lbrace\hat{r}_{j} -\sqrt{\frac{\rho_{a}\log{(\psi T\epsilon_{m}^{2})}}{2 n_{m}}} \bigg\rbrace
+\end{align*}
+% where $\rho_{a}=\frac{1}{w_{m}}$ and remove all such arms from $B_{m}$.
+\EndArmElim
+\ClusElim
+\State Delete cluster $s_{k}\in S_{m}$ and remove all arms $i\in s_{k}$ from $B_{m}$ if 
+\begin{align*}
+ \max_{{i}\in s_{k}}\bigg\lbrace\hat{r}_{i} + \sqrt{\frac{\rho_{s}\log{(\psi T\epsilon_{m}^{2})}}{2 n_{m}}}\bigg\rbrace 
+ < \max_{{j}\in B_{m}} \bigg\lbrace\hat{r}_{j} - \sqrt{\frac{\rho_{s} \log{(\psi T\epsilon_{m}^{2})}}{2 n_{m}}}\bigg\rbrace.
+\end{align*}
+%  and remove all such arms in the cluster $s_{k}$ from $B_{m}$ to obtain $B_{m+1}$.
+\EndClusElim
+\State Set $\epsilon_{m+1}:=\frac{\epsilon_{m}}{2}$\vspace{0.5ex}
+\State Set $B_{m+1}:=B_{m}$
+%\State \hspace*{2em} $\ell_{m+1}:=\min\lbrace 2\ell_{m}, K\rbrace$
+%\State \hspace*{2em} $w_{m+1}:=2w_{m}$
+\State Stop if $|B_{m}|=1$ and pull ${i}\in B_{m}$ till $T$ is reached.
+\EndFor
+\end{algorithmic}
+%\end{algorithm}
+\end{frame}
+
+\begin{frame}
+\frametitle{UCB1, MOSS, OCUCB, UCB-Imp, ClusUCB}
+\begin{table}
+%\caption{Cumulative Regret of Algorithms}
+\begin{center}
+\begin{tabular}{|c|c|}
+\toprule
+Algorithm  & Upper bound on Cumulative Regret\\
+\midrule
+UCB1        &$\min\left \lbrace O\left(\dfrac{K\log T}{\Delta} \right), O\left( \sqrt{KT\log T}\right) \right\rbrace$ \\\midrule
+MOSS        &$\min\left \lbrace O\left(\dfrac{K^2\log (T\Delta^2/K)}{\Delta} \right), O\left( \sqrt{KT}\right) \right\rbrace$ \\\midrule
+OCUCB        &$\min\left \lbrace O\left(\dfrac{K\log (T/H)}{\Delta} \right), O\left( \sqrt{KT}\right) \right\rbrace$ \\\midrule
+UCB-Improved      &$\min\left \lbrace O\left(\dfrac{K\log (T\Delta^2)}{\Delta} \right), O\left( \sqrt{KT\log K}\right) \right\rbrace$\\\midrule
+ClusUCB      &$\min\left \lbrace O\left(\dfrac{K\log (T\Delta^2 /\sqrt{\log K})}{\Delta} \right), O\left( \sqrt{KT\log K}\right) \right\rbrace$\\\bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+\end{frame}

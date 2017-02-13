@@ -1,0 +1,37 @@
+\begin{frame}
+\frametitle{Stochastic Multi-Armed Bandit Problem}
+\begin{itemize}
+\item<1-> In stochastic multi-armed bandit problem we are presented with a finite set of actions or arms. 
+\item<2-> The rewards for each of the arms drawn from distributions are identical and independent random variables. 
+\item<3-> The learner does not know the mean of the distributions, denoted by $r_{i}$. 
+\item<4-> The learner has to find the optimal arm the mean of whose distribution is denoted by $r^{*}$ such that $r^{*}> r_{i}, \forall i\in A$.
+\item<5-> The distributions for each of the arms are fixed throughout the time horizon. 
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Basic Notations}
+\begin{itemize}
+\item<1-> Goal: To minimize Regret
+\item<2-> Average reward of best action is $r^{*}$ and any other action $i$ as $r_{i}$. There are $K$ total actions. $T_{i}(n)$ is number of times tried action $i$ is executed till $n$-timesteps.
+\item<3-> Cumulative Regret: The loss we suffer because of not pulling the optimal arm till the total number of timesteps  $T$. 
+\begin{align*}
+R_{T}=r^{*}T - \sum_{i\in A} r_{i}T_{i}(T),
+\end{align*}
+\item<4-> The expected regret of an algorithm after $T$ rounds can be written as
+\begin{align*}
+\E[R_{T}]= \sum_{i=1}^K \E[T_{i}(T)] \Delta_i,
+\end{align*}
+\item<4-> $\Delta_{i}=r^{*}-r_{i}$ denotes the gap between the means of the optimal arm and of the $i$-th arm. 
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Another Notion of Regret}
+\begin{itemize}
+\item<1-> Goal: To minimize Regret
+\item<2-> Can we have a policy which achieves the minimum regret among all the possible environments available?
+\item<3-> This is called the worst case gap-independent regret or sometimes called the minimax regret.
+\item<4-> It is generally found by setting all the gaps to equal values of order $O\left( 1/\sqrt{T} \right)$.
+\end{itemize}
+\end{frame}
