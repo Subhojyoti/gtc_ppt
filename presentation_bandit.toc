@@ -1,0 +1,12 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Stochastic Multi-Armed Bandit Problem}{14}{0}{2}
+\beamer@sectionintoc {3}{Literature Survey}{27}{0}{3}
+\beamer@sectionintoc {4}{Algorithms}{35}{0}{4}
+\beamer@sectionintoc {5}{Problem Definition}{49}{0}{5}
+\beamer@sectionintoc {6}{Clustered UCB}{59}{0}{6}
+\beamer@sectionintoc {7}{Efficient Clustered UCB}{68}{0}{7}
+\beamer@sectionintoc {8}{Experiments}{76}{0}{8}
+\beamer@sectionintoc {9}{Conclusion}{77}{0}{9}
+\beamer@sectionintoc {10}{References}{81}{0}{10}
