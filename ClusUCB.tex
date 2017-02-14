@@ -20,7 +20,7 @@
 \State {\bf Input:} Number of clusters $p$, time horizon $T$, exploration parameters $\rho_a$, $\rho_s$ and $\psi$.
 \State {\bf Initialization:} Set $B_{0}:=A$, $S_0 = S$ and $\epsilon_{0}:=1$.
 \State Create a partition $S_0$ of the arms at random into $p$ clusters of size up to $\ell=\bigg\lceil \frac{K}{p} \bigg\rceil$ each.
-\For{$m=0,1,..\big \lfloor \frac{1}{2}\log_{2} \frac{7T}{K}\big\rfloor$}	
+\For{$m=0,1,..\big \lfloor \frac{1}{2}\log_{2} \frac{14T}{K}\big\rfloor$}	
 \State Pull each arm in $B_m$ so that the total number of times it has been pulled is $n_{m}=\bigg\lceil\frac{2\log{(\psi T\epsilon_{m}^{2})}}{\epsilon_{m}}\bigg\rceil$. 
 \ArmElim
 \State For each cluster $s_k \in S_{m}$, delete arm ${i}\in s_{k}$ from $B_{m}$ if

@@ -21,3 +21,126 @@
 \end{itemize}
 \end{itemize} 
 \end{frame}
+
+\begin{frame}
+\frametitle{UCB1 Algorithm (\cite{auer2002finite})}
+\begin{algorithm}[H]
+\caption{UCB1}
+\begin{algorithmic}[1]
+\State Pull each arm once
+ \For{$t=K+1,..., T$}
+\State Pull the arm such that $\max_{i\in A}\bigg\lbrace\hat{r}_{i} + \sqrt{\dfrac{2\log t}{s_i}}\bigg\rbrace$
+\State $t:=t+1 $
+ \EndFor
+\end{algorithmic}
+\end{algorithm}
+
+\begin{itemize}
+\item<1-> Maintain an upper confidence bound ($c_i$) for each of the arms
+\item<1-> This $c_i$ will help in sufficiently exploring sub-optimal arms and then exploiting the optimal arm.
+\item<1-> The gap-independent regret bound of $O\left( \sqrt{KT\log T}\right) $ and gap-dependent bound of $O\left( \dfrac{K \log (T)}{\Delta} \right)$.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Minimax Optimal Strategy in the Stochastic Case (\cite{audibert2009minimax})}
+\begin{algorithm}[H]
+\caption{MOSS}
+\begin{algorithmic}[1]
+\State Pull each arm once
+ \For{$t=K+1,..., T$}
+\State Pull the arm such that $\max_{i\in A}\bigg\lbrace\hat{r}_{i} + \sqrt{\dfrac{\max\lbrace 0,\log(\frac{T}{K s_i})\rbrace}{s_i}}\bigg\rbrace$
+\State $t:=t+1 $
+ \EndFor
+\end{algorithmic}
+\end{algorithm}
+\begin{itemize}
+\item<1-> UCB1 suffers from a worst case regret of $O\left( \sqrt{KT\log T }\right) $.
+\item<1-> MOSS corrects this and gives us a gap-independent regret bound of $O\left( \sqrt{KT}\right)$ and gap-dependent bound of $O\left( \dfrac{K^2 \log (\frac{T\Delta^2}{K})}{\Delta}\right)$.
+%UCB1 performs badly when the gaps are closer to $\sqrt{\dfrac{K}{T}}$.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Approach of UCB-Improved}
+\begin{itemize}
+\item<1-> The basic idea of UCB-Improved is to divide the horizon into phases or rounds and initialize parameters.
+\item<2-> Pull all surviving arms equal number of times during a round.
+\item<3-> At the end of the round eliminate some arms based on some criteria.
+\item<4-> Reset parameters and proceed to next round.
+\item<5-> UCB-Imp achieves a gap-independent regret bound of $O\left( \sqrt{KT\log K}\right)$ and gap-dependent bound of $O\left( \dfrac{K \log (T\Delta^2)}{\Delta}\right)$.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{UCB-Improved (\cite{auer2010ucb})}
+\begin{algorithm}[H]
+\caption{UCB-Improved}
+\begin{algorithmic}[1]
+\State {\bf Input:} Time horizon $T$
+\State {\bf Initialization:} Set $B_{0}:=A$ and $\tilde{\Delta}_{0}:=1$.
+\For{$m=0,1,..\big \lfloor \dfrac{1}{2}\log_{2} \dfrac{T}{e}\big\rfloor$}	
+\State Pull each arm in $B_m$, $n_{m}=\bigg\lceil\dfrac{2\log{( T\tilde{\Delta}_{m}^{2})}}{\tilde{\Delta}_{m}}\bigg\rceil$ number of times.
+%so that the total  it has been pulled is
+\ArmElim
+\State For each $i \in B_{m}$, delete arm ${i}$ from $B_{m}$ if,
+\begin{align*}
+\bar{X}_{i} + \sqrt{\dfrac{\log{(T\tilde{\Delta}_{m}^{2})}}{2 n_{m}}}  < \max_{{j}\in B_{m}}\bigg\lbrace\bar{X}_{j} -\sqrt{\dfrac{\log{( T\tilde{\Delta}_{m}^{2})}}{2 n_{m}}} \bigg\rbrace
+\end{align*}
+\EndArmElim
+%\ResParam
+\State Set $\tilde{\Delta}_{m+1}:=\dfrac{\tilde{\Delta}_{m}}{2}$, Set $B_{m+1}:=B_{m}$
+%\EndResParam
+\State Stop if $|B_{m}|=1$ and pull ${i}\in B_{m}$ till $n$ is reached.
+\EndFor
+\end{algorithmic}
+\end{algorithm}
+\end{frame}
+
+\begin{frame}
+\frametitle{Some technical details of UCB-Improved}
+\begin{itemize}
+\item<1-> We do not know the true means $\mu_i ,\forall i\in A$ of the distributions so we estimate it by the $\tilde{\Delta}$ by initializing it from $1$.
+\item<2-> All rewards are assume to be bounded between $[0,1]$ and so $\Delta_{i}\in [0,1],\forall i\in A$ as well.
+\item<3-> As opposed to UCB1, MOSS and OCUCB, UCB-Improved has fixed confidence interval  $c_{m}=\sqrt{\dfrac{\log{(T\tilde{\Delta}_{m}^{2})}}{2 n_{m}}}$ for all arms in a particular phase.
+\item<4-> $c_m$ ensures that whenever $\tilde{\Delta}_{m}<\dfrac{\Delta_i}{2}$ in the $m$-th round, the arm $i$ gets eliminated.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Optimally confident UCB (\cite{lattimore2015optimally})}
+\begin{algorithm}[H]
+\caption{MOSS}
+\begin{algorithmic}[1]
+\State \textbf{Input: } K,T, $\alpha$, $\psi$
+\State Pull each arm once
+ \For{$t=K+1,..., T$}
+\State Pull the arm such that $\max_{i\in A}\bigg\lbrace\hat{r}_{i} + \sqrt{\alpha\dfrac{\max\lbrace 0,\log(\frac{\psi T}{ s_i})\rbrace}{s_i}}\bigg\rbrace$
+\State $t:=t+1 $
+ \EndFor
+\end{algorithmic}
+\end{algorithm}
+\begin{itemize}
+\item<1-> UCB1 is too conservative in exploiting, MOSS is not conservative enough and tends to explore more often than required. 
+\item<1-> OCUCB correctly balances this and achieves a gap-independent regret bound  $O\left(\sqrt{KT}\right)$ and gap-dependent bound $O \left(\dfrac{K\log (T/H)}{\Delta}\right)$.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Comparison of UCB1, MOSS, OCUCB, UCB-Improved}
+\begin{table}
+\caption{Cumulative Regret of Algorithms}
+\begin{center}
+\begin{tabular}{|c|c|}
+\toprule
+Algorithm  & Upper bound on Cumulative Regret\\
+\midrule
+UCB1        &$\min\left \lbrace O\left(\dfrac{K\log T}{\Delta} \right), O\left( \sqrt{KT\log T}\right) \right\rbrace$ \\\midrule
+MOSS        &$\min\left \lbrace O\left(\dfrac{K^2\log (T\Delta^2/K)}{\Delta} \right), O\left( \sqrt{KT}\right) \right\rbrace$ \\\midrule
+OCUCB        &$\min\left \lbrace O\left(\dfrac{K\log (T/H)}{\Delta} \right), O\left( \sqrt{KT}\right) \right\rbrace$ \\\midrule
+UCB-Improved      &$\min\left \lbrace O\left(\dfrac{K\log (T\Delta^2)}{\Delta} \right), O\left( \sqrt{KT\log K}\right) \right\rbrace$\\\bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+\end{frame}
+

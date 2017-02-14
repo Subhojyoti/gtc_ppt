@@ -1,7 +1,7 @@
 \begin{frame}
 \frametitle{Stochastic Multi-Armed Bandit Problem}
 \begin{itemize}
-\item<1-> In stochastic multi-armed bandit problem we are presented with a finite set of actions or arms. 
+\item<1-> In stochastic multi-armed bandit problem, we are presented with a finite set of actions or arms. 
 \item<2-> The rewards for each of the arms drawn from distributions are identical and independent random variables. 
 \item<3-> The learner does not know the mean of the distributions, denoted by $r_{i}$. 
 \item<4-> The learner has to find the optimal arm the mean of whose distribution is denoted by $r^{*}$ such that $r^{*}> r_{i}, \forall i\in A$.
@@ -33,5 +33,6 @@ R_{T}=r^{*}T - \sum_{i\in A} r_{i}T_{i}(T),
 \item<2-> Can we have a policy which achieves the minimum regret among all the possible environments available?
 \item<3-> This is called the worst case gap-independent regret or sometimes called the minimax regret.
 \item<4-> It is generally found by setting all the gaps to equal values of order $O\left( 1/\sqrt{T} \right)$.
+\item<5-> Also we will define the hardness parameter $H$ as $H=\sum_{i=1}^{K}\dfrac{1}{\Delta_{i}^2}$
 \end{itemize}
 \end{frame}

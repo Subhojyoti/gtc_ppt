@@ -2,15 +2,15 @@
 \frametitle{Introduction}
 \begin{itemize}
 \item<1-> The bandit problem is a sequential decision making process where at each timestep we have to choose one action or arm from a set of arms. 
-\item<2-> After say pulling each arm once we are presented with an \emph{exploration-exploitation}  trade-off, that is whether to continue to pull the arm for which we have observed the highest estimated reward till now(exploitation) or to explore a new arm(exploration). 
-\item<3-> If we become too greedy and always exploit we may miss the chance of actually finding the optimal arm and get stuck with a sub-optimal arm.
+\item<2-> After say pulling each arm once, we are presented with an \emph{exploration-exploitation}  trade-off, that is whether to continue to pull the arm for which we have observed the highest estimated reward till now(exploitation) or to explore a new arm(exploration). 
+\item<3-> If we become too greedy and always exploit, we may miss the chance of actually finding the optimal arm and get stuck with a sub-optimal arm.
 \end{itemize}
 \end{frame}
 
 \begin{frame}
 \frametitle{Why study bandits at all?}
 \begin{itemize}
-\item<1-> We all know of $\epsilon$-greedy \cite{sutton1998reinforcement} algorithm, we can simply stick to it.
+\item<1-> We know of $\epsilon$-greedy \cite{sutton1998reinforcement} algorithm, we can simply stick to it.
 \item<2-> But $\epsilon$-greedy only gives us an asymptotic guarantee. There is no guarantee that in a highly regressive environment how $\epsilon$-greedy will behave. Can we be better in our search?
 \item<3-> Bandits allows us to study this behavior in a more formal way giving us strict guarantees regarding the performance of our algorithm.
 \item<4-> They form the linking pieces of a larger problem.
