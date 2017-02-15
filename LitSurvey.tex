@@ -3,8 +3,8 @@
 \begin{itemize}
 \item<1-> A considerable amount of research has been conducted on SMAB. We can divide the gamut of literature on SMAB into broadly two categories:
 \begin{itemize}
-\item<2-> \textbf{Frequentist approach:} In this approach for each of the arms compute a dynamic allocation index that depends only on the number of draws on the arm and choose the arm with the maximal index. Eg:  \emph{UCB} variants
-\item<3-> \textbf{Bayesian Approach:} In this approach you start with a prior guess over the performance of each of the arms, then you pull an arm and based on the reward received we update our posterior guess on the performance of the arm. 
+\item<2-> \textbf{Frequentist approach:} In this approach for each of the arms compute a dynamic allocation index that depends only on the number of draws on the arm and exploration parameters and choose the arm with the maximal index. Eg:  \emph{UCB} variants
+\item<3-> \textbf{Bayesian Approach:} In this approach we start with a prior guess over the performance of each of the arms. Then we pull an arm by behaving greedily based on our guess, receive the reward and then we update our prior for the arm. Eg: TS 
 \end{itemize} 
 \item<4-> We will be focusing on UCB based approaches in our work.
 \end{itemize}
@@ -17,7 +17,7 @@
 \begin{itemize}
 \item<2-> \textbf{Mean-based estimation: } In this approach at every timestep we choose an arm based on $\hat{r}_i$ and its confidence interval $c_i$. Eg: UCB1 \cite{auer2002finite}, MOSS \cite{audibert2009minimax}, UCB-Improved \cite{auer2010ucb}
 \item<3-> \textbf{Mean and Variance based Estimation: } Here, at every timestep we choose an arm based on $\hat{r}_i$, $\hat{V}_i$ and its confidence interval $c_i$. Eg: UCB-Normal \cite{auer2002finite}l, UCB-V \cite{audibert2009exploration}.
-\item<4-> \textbf{Divergence based methods: } Eg: KL-UCB \cite{garivier2011kl}, DMED \cite{honda2010asymptotically}.
+%\item<4-> \textbf{Divergence based methods: } In this approach at every timestep we choose an arm that Eg: KL-UCB \cite{garivier2011kl}, DMED \cite{honda2010asymptotically}.
 \end{itemize}
 \end{itemize} 
 \end{frame}
