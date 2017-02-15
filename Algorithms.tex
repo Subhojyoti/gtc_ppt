@@ -76,7 +76,7 @@
 \begin{frame}
 \frametitle{Some technical details of UCB-Improved}
 \begin{itemize}
-\item<1-> We do not know the true means $\mu_i ,\forall i\in A$ of the distributions so we estimate it by the $\tilde{\Delta}$ by initializing it from $1$.
+\item<1-> We do not know the true means $r_i ,\forall i\in A$ of the distributions so we estimate it by the $\tilde{\Delta}$ by initializing it from $1$.
 \item<2-> All rewards are assume to be bounded between $[0,1]$ and so $\Delta_{i}\in [0,1],\forall i\in A$ as well.
 \item<3-> As opposed to UCB1, MOSS and OCUCB, UCB-Improved has fixed confidence interval  $c_{m}=\sqrt{\dfrac{\log{(T\tilde{\Delta}_{m}^{2})}}{2 n_{m}}}$ for all arms in a particular phase.
 \item<4-> $c_m$ ensures that whenever $\tilde{\Delta}_{m}<\dfrac{\Delta_i}{2}$ in the $m$-th round, the arm $i$ gets eliminated.
