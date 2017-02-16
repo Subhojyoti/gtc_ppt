@@ -8,8 +8,19 @@
 \end{itemize}
 \end{frame}
 
+\begin{frame}
+\frametitle{Technical Details of EClusUCB}
+\begin{itemize}
+\item<1-> EClusUCB has three exploration parameters $\rho_a$, $\rho_s$ and $\psi$.
+\item<2-> It also creates $p$ fixed clusters (given as an input) and randomly assign arms into each of them such that each cluster contains equal number of arms.
+\item<3-> Divide the horizon into rounds and for each round allocate $|B_{m}|n_{m}$ pulls, where $n_{m}:=\bigg\lceil\frac{2\log{(\psi T\epsilon_{m}^{2})}}{\epsilon_{m}}\bigg\rceil$.
+\item<4-> Within a round pull an arm that has the maximum UCB among all arms. 
+\item<5-> The arm and cluster elimination is done in same way.
+\end{itemize}
+\end{frame}
+
 \begin{frame}[allowframebreaks]
-\frametitle{Approach of ClusUCB}
+\frametitle{EClusUCB Algorithm}
 
 \begin{algorithmic}
 \State {\bf Input:} Number of clusters $p$, time horizon $T$, exploration parameters $\rho_a$, $\rho_s$ and $\psi$.
@@ -29,7 +40,7 @@
 \ClusElim
 \State Delete cluster $s_{k}\in S_{m}$ and remove all arms $i\in s_{k}$ from $B_{m}$ if 
 \begin{align*}
- \max_{{i}\in s_{k}}\bigg\lbrace\hat{r}_{i} + \sqrt{\frac{\rho_{s}\log{(\psi T\epsilon_{m}^{2})}}{2 z_{i}}}\bigg\rbrace \\
+ \max_{{i}\in s_{k}}\bigg\lbrace\hat{r}_{i} + \sqrt{\frac{\rho_{s}\log{(\psi T\epsilon_{m}^{2})}}{2 z_{i}}}\bigg\rbrace 
  < \max_{{j}\in B_{m}} \bigg\lbrace\hat{r}_{j} - \sqrt{\frac{\rho_{s} \log{(\psi T\epsilon_{m}^{2})}}{2 z_{j}}}\bigg\rbrace.
 \end{align*}
 %  and remove all such arms in the cluster $s_{k}$ from $B_{m}$ to obtain $B_{m+1}$.
@@ -61,9 +72,9 @@ Algorithm  & Upper bound on Cumulative Regret\\
 \midrule
 UCB1        &$\min\left \lbrace O\left(\dfrac{K\log T}{\Delta} \right), O\left( \sqrt{KT\log T}\right) \right\rbrace$ \\\midrule
 MOSS        &$\min\left \lbrace O\left(\dfrac{K^2\log (T\Delta^2/K)}{\Delta} \right), O\left( \sqrt{KT}\right) \right\rbrace$ \\\midrule
-OCUCB        &$\min\left \lbrace O\left(\dfrac{K\log (T/H)}{\Delta} \right), O\left( \sqrt{KT}\right) \right\rbrace$ \\\midrule
 UCB-Improved      &$\min\left \lbrace O\left(\dfrac{K\log (T\Delta^2)}{\Delta} \right), O\left( \sqrt{KT\log K}\right) \right\rbrace$\\\midrule
-EClusUCB      &$\min\left \lbrace O\left(\dfrac{K\log (T\Delta^2 /\sqrt{\log K})}{\Delta} \right), O\left( \sqrt{KT\log K}\right) \right\rbrace$\\\bottomrule
+\begin{alertenv} EClusUCB    \end{alertenv}  & \begin{alertenv}$\min\left \lbrace O\left(\dfrac{K\log (T\Delta^2 /\sqrt{\log K})}{\Delta} \right), O\left( \sqrt{KT\log K}\right) \right\rbrace$ \end{alertenv}\\\midrule
+OCUCB        &$\min\left \lbrace O\left(\dfrac{K\log (T/H)}{\Delta} \right), O\left( \sqrt{KT}\right) \right\rbrace$ \\\bottomrule
 \end{tabular}
 \end{center}
 \end{table}

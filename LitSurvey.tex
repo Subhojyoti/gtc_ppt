@@ -13,12 +13,13 @@
 \begin{frame}
 \frametitle{Literature Survey}
 \begin{itemize}
-\item<1-> The literature under UCB can be broadly classified into three categories:
+\item<1-> The literature under UCB can be broadly classified into two categories:
 \begin{itemize}
 \item<2-> \textbf{Mean-based estimation: } In this approach at every timestep we choose an arm based on $\hat{r}_i$ and its confidence interval $c_i$. Eg: UCB1 \cite{auer2002finite}, MOSS \cite{audibert2009minimax}, UCB-Improved \cite{auer2010ucb}
 \item<3-> \textbf{Mean and Variance based Estimation: } Here, at every timestep we choose an arm based on $\hat{r}_i$, $\hat{V}_i$ and its confidence interval $c_i$. Eg: UCB-Normal \cite{auer2002finite}l, UCB-V \cite{audibert2009exploration}.
-%\item<4-> \textbf{Divergence based methods: } In this approach at every timestep we choose an arm that Eg: KL-UCB \cite{garivier2011kl}, DMED \cite{honda2010asymptotically}.
+%\item<4-> \textbf{Divergence based methods: } In this approach at every timestep we choose an arm that minimizes the divergence function. Eg: KL-UCB \cite{garivier2011kl}, DMED \cite{honda2010asymptotically}. 
 \end{itemize}
+\item<4-> We will be focusing on Mean based estimation.
 \end{itemize} 
 \end{frame}
 
@@ -100,7 +101,7 @@
 \begin{frame}
 \frametitle{Some technical details of UCB-Improved}
 \begin{itemize}
-\item<1-> We do not know the true means $\mu_i ,\forall i\in A$ of the distributions so we estimate it by the $\tilde{\Delta}$ by initializing it from $1$.
+\item<1-> We do not know the true means $r_i ,\forall i\in A$ of the distributions so we estimate it by the $\tilde{\Delta}$ by initializing it from $1$.
 \item<2-> All rewards are assume to be bounded between $[0,1]$ and so $\Delta_{i}\in [0,1],\forall i\in A$ as well.
 \item<3-> As opposed to UCB1, MOSS and OCUCB, UCB-Improved has fixed confidence interval  $c_{m}=\sqrt{\dfrac{\log{(T\tilde{\Delta}_{m}^{2})}}{2 n_{m}}}$ for all arms in a particular phase.
 \item<4-> $c_m$ ensures that whenever $\tilde{\Delta}_{m}<\dfrac{\Delta_i}{2}$ in the $m$-th round, the arm $i$ gets eliminated.
@@ -137,8 +138,8 @@ Algorithm  & Upper bound on Cumulative Regret\\
 \midrule
 UCB1        &$\min\left \lbrace O\left(\dfrac{K\log T}{\Delta} \right), O\left( \sqrt{KT\log T}\right) \right\rbrace$ \\\midrule
 MOSS        &$\min\left \lbrace O\left(\dfrac{K^2\log (T\Delta^2/K)}{\Delta} \right), O\left( \sqrt{KT}\right) \right\rbrace$ \\\midrule
-OCUCB        &$\min\left \lbrace O\left(\dfrac{K\log (T/H)}{\Delta} \right), O\left( \sqrt{KT}\right) \right\rbrace$ \\\midrule
-UCB-Improved      &$\min\left \lbrace O\left(\dfrac{K\log (T\Delta^2)}{\Delta} \right), O\left( \sqrt{KT\log K}\right) \right\rbrace$\\\bottomrule
+UCB-Improved      &$\min\left \lbrace O\left(\dfrac{K\log (T\Delta^2)}{\Delta} \right), O\left( \sqrt{KT\log K}\right) \right\rbrace$\\\midrule
+OCUCB        &$\min\left \lbrace O\left(\dfrac{K\log (T/H)}{\Delta} \right), O\left( \sqrt{KT}\right) \right\rbrace$ \\\bottomrule
 \end{tabular}
 \end{center}
 \end{table}

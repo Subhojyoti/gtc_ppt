@@ -12,7 +12,7 @@
 \end{frame}
 
 \begin{frame}[allowframebreaks]
-\frametitle{Approach of ClusUCB}
+\frametitle{ClusUCB Algorithm}
 %\begin{algorithm}[H]
 %\caption{ClusUCB}
 %\label{alg:clusucb}
@@ -58,9 +58,9 @@ Algorithm  & Upper bound on Cumulative Regret\\
 \midrule
 UCB1        &$\min\left \lbrace O\left(\dfrac{K\log T}{\Delta} \right), O\left( \sqrt{KT\log T}\right) \right\rbrace$ \\\midrule
 MOSS        &$\min\left \lbrace O\left(\dfrac{K^2\log (T\Delta^2/K)}{\Delta} \right), O\left( \sqrt{KT}\right) \right\rbrace$ \\\midrule
-OCUCB        &$\min\left \lbrace O\left(\dfrac{K\log (T/H)}{\Delta} \right), O\left( \sqrt{KT}\right) \right\rbrace$ \\\midrule
 UCB-Improved      &$\min\left \lbrace O\left(\dfrac{K\log (T\Delta^2)}{\Delta} \right), O\left( \sqrt{KT\log K}\right) \right\rbrace$\\\midrule
-ClusUCB      &$\min\left \lbrace O\left(\dfrac{K\log (T\Delta^2 /\sqrt{\log K})}{\Delta} \right), O\left( \sqrt{KT\log K}\right) \right\rbrace$\\\bottomrule
+\begin{alertenv} ClusUCB  \end{alertenv}    & \begin{alertenv}$\min\left \lbrace O\left(\dfrac{K\log (T\Delta^2 /\sqrt{\log K})}{\Delta} \right), O\left( \sqrt{KT\log K}\right) \right\rbrace$\end{alertenv}  \\\midrule
+OCUCB        &$\min\left \lbrace O\left(\dfrac{K\log (T/H)}{\Delta} \right), O\left( \sqrt{KT}\right) \right\rbrace$ \\\bottomrule
 \end{tabular}
 \end{center}
 \end{table}
