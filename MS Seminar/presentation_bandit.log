@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  10 JUL 2017 17:33
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  10 JUL 2017 18:47
 entering extended mode
  %&-line parsing enabled.
 **presentation_bandit.tex
@@ -1621,49 +1621,36 @@ Overfull \hbox (13.61871pt too wide) in paragraph at lines 43--43
 
 [60
 
-]) (./expt.tex
-PGFPlots: reading {results/budgetTestAP/APT12_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestAP/AugUCBV1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestAP/UCBEM1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestAP/UCBEMV1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestAP/SR1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestAP/UA1_comp_subsampled.txt}
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 72.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 72.
-
-Underfull \hbox (badness 1005) in paragraph at lines 72--72
-[]\OT1/phv/m/n/9 (a) Expt-$1$: Arith-metic Pro-gres-
+]
+Overfull \hbox (3.72626pt too wide) in paragraph at lines 90--90
+[]|\OT1/phv/m/n/10.95 Algorithm| 
  []
 
-PGFPlots: reading {results/budgetTestGP/APT12_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGP/AugUCBV1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGP/UCBEM1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGP/UCBEMV1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGP/SR1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGP/UA1_comp_subsampled.txt}
+
+Overfull \vbox (2.12187pt too high) detected at line 90
+ []
+
 [61
 
-]
-PGFPlots: reading {results/budgetTestGR1/APT1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR1/AugUCB1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR1/UCBEM1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR1/UCBEMV1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR1/SR1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR1/UA1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR2/APT1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR2/AugUCBV1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR2/UCBEM1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR2/UCBEMV1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR2/SR1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR2/UA1_comp_subsampled.txt}
+] [62
 
-Underfull \hbox (badness 1112) in paragraph at lines 141--141
-[]\OT1/phv/m/n/9 (d) Expt-$4$: Two Group Set-ting
- []
+] [63
 
-[62
+] [64
+
+]) (./expt.tex [65
+
+] [66
+
+] [67
+
+] [68
+
+] [69
+
+] [70
+
+] [71
 
 ]
 PGFPlots: reading {results/budgetTestGR4/APT1_comp_subsampled.txt}
@@ -1672,16 +1659,20 @@ PGFPlots: reading {results/budgetTestGR4/UCBEM1_comp_subsampled.txt}
 PGFPlots: reading {results/budgetTestGR4/UCBEMV1_comp_subsampled.txt}
 PGFPlots: reading {results/budgetTestGR4/SR1_comp_subsampled.txt}
 PGFPlots: reading {results/budgetTestGR4/UA1_comp_subsampled.txt}
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <14.4> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 235.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 235.
 
-Underfull \hbox (badness 1112) in paragraph at lines 211--211
-[]\OT1/phv/m/n/9 (e) Expt-$5$: Two Group Set-ting
+Underfull \hbox (badness 1112) in paragraph at lines 235--235
+[]\OT1/phv/m/n/9 (a) Expt-$1$: Two Group Set-ting
  []
 
 PGFPlots: reading {results/budgetTestGR3/testUCBEMV1_0.25_comp_subsampled.txt}
 PGFPlots: reading {results/budgetTestGR4/AugUCB1_comp_subsampled.txt}
 PGFPlots: reading {results/budgetTestGR3/testUCBEMV1_256_comp_subsampled.txt}
 PGFPlots: reading {results/budgetTestGR4/UCBEMV1_comp_subsampled.txt}
-[63
+[72
 
 ]) (./presentation_bandit.bbl
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 106.
@@ -1689,40 +1680,40 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 106.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)) [64
+)) [73
 
- </usr/share/texmf/tex/latex/beamer/base/art/beamericonarticle.pdf>] [65
-
-
-] [66
-
-
-] [67
-
-
-] [68
-
-
-] [69
-
-
-]
-[70
-
-
-] [71
-
-
-] [72
-
-
-] [73
-
-
-] [74
+ </usr/share/texmf/tex/latex/beamer/base/art/beamericonarticle.pdf>] [74
 
 
 ] [75
+
+
+] [76
+
+
+] [77
+
+
+] [78
+
+
+]
+[79
+
+
+] [80
+
+
+] [81
+
+
+] [82
+
+
+] [83
+
+
+] [84
 
 ]
 \tf@nav=\write7
@@ -1736,30 +1727,31 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 
  (./presentation_bandit.aux) ) 
 Here is how much of TeX's memory you used:
- 25062 strings out of 493848
- 532595 string characters out of 1152823
- 751308 words of memory out of 3000000
- 27393 multiletter control sequences out of 15000+50000
- 47789 words of font info for 96 fonts, out of 3000000 for 9000
+ 25030 strings out of 493848
+ 531022 string characters out of 1152823
+ 694911 words of memory out of 3000000
+ 27353 multiletter control sequences out of 15000+50000
+ 49549 words of font info for 98 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 51i,26n,77p,1054b,1752s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 51i,26n,77p,1054b,1746s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-texlive/fonts/enc/dvips/base/8r
 .enc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
 share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf
 -texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fo
-nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/pu
-blic/amsfonts/cm/cmss10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
-ts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/s
-hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-t
-exlive/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-texlive
-/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/h
-elvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvbo8a.p
-fb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/te
-xmf-texlive/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on presentation_bandit.pdf (75 pages, 697632 bytes).
+nts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmss10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss8.
+pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
+hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-texlive/fonts/type1
+/urw/courier/ucrr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb
+8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/sha
+re/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/
+fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on presentation_bandit.pdf (84 pages, 747564 bytes).
 PDF statistics:
- 2232 PDF objects out of 2487 (max. 8388607)
- 203 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2479 PDF objects out of 2487 (max. 8388607)
+ 218 named destinations out of 1000 (max. 500000)
+ 151 words of extra memory for PDF output out of 10000 (max. 10000000)
 

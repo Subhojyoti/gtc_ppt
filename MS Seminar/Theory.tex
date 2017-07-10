@@ -41,3 +41,67 @@ H_{\sigma,2}\le H_{\sigma,1}\le\overline{\log}(K) H_{\sigma,2} \le \log(2K) H_{\
 
 \end{itemize}
 \end{frame}
+
+
+
+\begin{frame}
+\frametitle{Expected Loss}
+
+\begin{theorem}
+For $K\geq 4$ and $\rho={1}/{3}$,
+the expected loss of the AugUCB algorithm is given by,
+\begin{align*}
+\E[\Ls(T)]
+& \leq 2KT \exp\bigg(- \frac{T}{4096 \log( K\log K) H_{\sigma,2}} \bigg).
+\end{align*}
+\end{theorem}
+
+
+\begin{table}[b]
+\caption{AugUCB vs.\ State of the art}
+\label{tab:regret-bds}
+\begin{center}
+\begin{tabular}{|p{1.5cm}|p{6.4cm}|}
+% \toprule
+\hline
+Algorithm  & Upper Bound on Expected Loss \\
+% \midrule
+\hline
+%\hline
+AugUCB      &$ \exp\left(- \frac{T}{4096 \log(K\log K)H_{\sigma,2}} + \log\left(2KT\right) \right) $ \\
+%\hline
+\hline
+UCBEV		&$\exp\left(-\frac{1}{512}\frac{T-2K}{H_{\sigma,1}} + \log\left(6KT\right)\right)$ \\
+%\midrule
+%\hline
+\hline
+APT         &$\exp\left(-\frac{T}{64 H_1}+2\log((\log(T)+1)K)\right)$ \\
+% \midrule
+%\hline
+\hline
+CSAR		&$\exp\left(-\frac{T-K}{72\log(K)H_{CSAR,2}}+2\log(K)\right)$ \\
+%\midrule
+\hline
+
+%\bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Sketch of the proof}
+\begin{itemize}
+\item<1-> The proof comprises of two modules. In the first module we investigate the necessary conditions for arm elimination within a specified number of rounds, which is motivated by the technique in UCB-Imp. 
+ 
+\item<2-> We bound the arm-elimination probability by Bernstein inequality (as in \cite{audibert2009exploration}) rather that the Chernoff-Hoeffding bounds (used in UCB-Imp). 
+
+\item<3-> In the second module,we define a favourable event that will yield an upper bound on the expected loss and use union bound and module-1 (on the arm elimination probability) to derive the result through a series of simplifications.
+\end{itemize}
+
+\end{frame}
+
+
+

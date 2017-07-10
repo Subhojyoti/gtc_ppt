@@ -44,14 +44,14 @@
 \small
 \begin{algorithmic}[1]
 \State {\bf Input:} Time horizon $T$
-\State {\bf Initialization:} Set $B_{0}:=A$ and $\tilde{\epsilon}_{0}:=1$.
+\State {\bf Initialization:} Set $B_{0}:=A$ and ${\epsilon}_{0}:=1$.
 \For{$m=0,1,..\big \lfloor \dfrac{1}{2}\log_{2} \dfrac{T}{e}\big\rfloor$}	
 \State Pull each arm in $B_m$, $n_{m}=\bigg\lceil\dfrac{2\log{( T{\epsilon}_{m}^{2})}}{{\epsilon}_{m}}\bigg\rceil$ number of times.
 %so that the total  it has been pulled is
 \ArmElim
 \State For each $i \in B_{m}$, delete arm ${i}$ from $B_{m}$ if,
 \begin{align*}
-\bar{X}_{i} + \sqrt{\dfrac{\log{(T{\epsilon}_{m}^{2})}}{2 n_{m}}}  < \max_{{j}\in B_{m}}\bigg\lbrace\bar{X}_{j} -\sqrt{\dfrac{\log{( T{\epsilon}_{m}^{2})}}{2 n_{m}}} \bigg\rbrace
+\hat{r}_{i} + \sqrt{\dfrac{\log{(T{\epsilon}_{m}^{2})}}{2 n_{m}}}  < \max_{{j}\in B_{m}}\bigg\lbrace\hat{r}_{j} -\sqrt{\dfrac{\log{( T{\epsilon}_{m}^{2})}}{2 n_{m}}} \bigg\rbrace
 \end{align*}
 \EndArmElim
 %\ResParam
