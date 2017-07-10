@@ -1,0 +1,76 @@
+\begin{frame}
+\frametitle{Finally, experiment!!!}
+\begin{figure}[!tbp]
+    \centering
+    \begin{tabular}{cc}
+    \setlength{\tabcolsep}{0.1pt}
+    \subfigure[0.25\textwidth][Experiment $1$: $20$ Bernoulli-distributed arms with $r_{i_{{i}\neq {*}}}=0.07$ and $r^{*}=0.1$.]
+    {
+    		\pgfplotsset{
+		tick label style={font=\Large},
+		label style={font=\Large},
+		legend style={font=\Large},
+		ylabel style={yshift=32pt},
+		%legend style={legendshift=32pt},
+		}
+        \begin{tikzpicture}[scale=0.45]
+      	\begin{axis}[
+		xlabel={timestep},
+		ylabel={Cumulative Regret},
+		grid=major,
+        %clip mode=individual,grid,grid style={gray!30},
+        clip=true,
+        %clip mode=individual,grid,grid style={gray!30},
+  		legend style={at={(0.5,1.5)},anchor=north, legend columns=3} ]
+      	% UCB
+		\addplot table{results/NewExpt/Expt1/UCBV01_comp_subsampled.txt};
+		\addplot table{results/NewExpt/Expt1/UCB01_comp_subsampled.txt};
+		\addplot table{results/NewExpt/Expt1/KLUCB01_comp_subsampled.txt};
+		\addplot table{results/NewExpt/Expt1/MOSS01_comp_subsampled.txt};
+		\addplot table{results/NewExpt/Expt1/DMED01_comp_subsampled.txt};
+		\addplot table{results/NewExpt/Expt1/EclUCB01_1_comp_subsampled.txt};
+		\addplot table{results/NewExpt/Expt1/TS01_comp_subsampled.txt};
+		\addplot table{results/NewExpt/Expt1/OCUCB01_comp_subsampled.txt};
+		%\addplot table{results/NewExpt/Expt1/EclUCB011_comp_subsampled.txt};
+      	\legend{UCB-V,UCB1,KL-UCB,MOSS,DMED,EClusUCB,TS,OCUCB}      	
+      	\end{axis}
+      	\end{tikzpicture}
+  		\label{fig:1}
+    }
+    &
+    \subfigure[0.25\textwidth][Experiment $2$: $100$ Gaussian-distributed arms with $r_{i_{{i}\neq {*}:1-33}}=0.1$, $r_{i_{{i}\neq {*}:34-99}}=0.6$ and $r^{*}_{i=100}=0.9$. ]
+    {
+    		\pgfplotsset{
+		tick label style={font=\Large},
+		label style={font=\Large},
+		legend style={font=\Large},
+		}
+        \begin{tikzpicture}[scale=0.45]
+        \begin{axis}[
+		xlabel={timestep},
+		ylabel={Cumulative Regret},
+        %clip mode=individual,grid,grid style={gray!30},
+       	grid=major,
+       	clip=true,
+  		legend style={at={(0.5,1.5)},anchor=north, legend columns=3} ]
+      	% UCB
+        \addplot table{results/NewExpt/Expt2_2/UCB01_comp_subsampled.txt};
+		\addplot table{results/NewExpt/Expt2_2/clUCB01_comp_subsampled.txt};
+		\addplot table{results/NewExpt/Expt2_2/MedElim_comp_subsampled.txt};
+		\addplot table{results/NewExpt/Expt2_2/MOSS01_comp_subsampled.txt};
+		\addplot table{results/NewExpt/Expt2_2/EclUCB01_comp_subsampled.txt};
+		\addplot table{results/NewExpt/Expt2_2/OCUCB01_comp_subsampled.txt};
+		\addplot table{results/NewExpt/Expt2_2/UCBR01_comp_subsampled.txt};
+		%\addplot table{results/NewExpt/Expt2_2/EclUCB01_p_1_comp_subsampled.txt};
+		\legend{UCB1,ClusUCB,Med-Elim,MOSS,EClusUCB,OCUCB,UCB-Imp}
+      	%\legend{UCB1,ClusUCB,Med-Elim,MOSS,EClusUCB,OCUCB,UCB-Imp,EClusUCB-AE}
+      	\end{axis}
+      	\end{tikzpicture}
+   		\label{fig:2}
+    }
+    \end{tabular}
+    \caption{Cumulative regret for various bandit algorithms on two stochastic K-armed bandit environments. }
+    \label{fig:karmed}
+\end{figure}
+\end{frame}
+

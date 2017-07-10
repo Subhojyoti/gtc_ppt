@@ -1,0 +1,74 @@
+\begin{frame}
+\frametitle{Previous Works}
+\begin{itemize}
+\item<1-> The Anytime Parameter Free (APT) \cite{locatelli2016optimal} algorithm was proposed for TBP setting in ICML 2016. 
+\item<2-> This algorithm uses only mean estimation to find the $S_{\tau}$. 
+\item<3-> Theoretically they proved this algorithm to be almost optimal when only mean estimation is used as a metric of comparison.
+\item<4-> Empirically it outperformed other state-of-the-art algorithms which were modified to perform in the TBP setting.  
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Previous Works (Pure Exploration)}
+\begin{itemize}
+\item<1-> The TBP problem also falls within the larger area called the Pure Exploration problem.
+\item<2-> In pure exploration problems the learner has to output a set of recommendations either with high confidence (fixed confidence) or after a specified number of rounds (fixed budget).
+\item<3-> Our considered TBP is a fixed budget pure exploration problem.
+\item<4-> Both APT and AugUCB reuses several ideas from Pure exploration problem. 
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Previous Works (Diagram)}
+\centering
+\includegraphics[scale=0.5]{img/Settings.png}
+\end{frame}
+
+\begin{frame}
+\frametitle{Approach of UCB-Improved (UCB-Imp)}
+\begin{itemize}
+\item<1-> There is a strong relation between UCB-Imp and AugUCB where the former is used to find \emph{a single optimal arm as quickly as possible}.
+\item<2-> The basic idea of UCB-Improved is to divide the horizon into phases or rounds and initialize parameters.
+\item<3-> Pull all surviving arms equal number of times during a round.
+\item<4-> At the end of the round eliminate some sub-optimal arms (as judged by learner) based on elimination criteria.
+\item<5-> Reset parameters and proceed to next round.
+%\item<5-> UCB-Imp achieves a gap-independent regret bound of $O\left( \sqrt{KT\log K}\right)$ and gap-dependent bound of $O\left( \dfrac{K \log (T\Delta^2)}{\Delta}\right)$.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{UCB-Improved (\cite{auer2010ucb})}
+\begin{algorithm}[H]
+\caption{UCB-Improved}
+\small
+\begin{algorithmic}[1]
+\State {\bf Input:} Time horizon $T$
+\State {\bf Initialization:} Set $B_{0}:=A$ and $\tilde{\epsilon}_{0}:=1$.
+\For{$m=0,1,..\big \lfloor \dfrac{1}{2}\log_{2} \dfrac{T}{e}\big\rfloor$}	
+\State Pull each arm in $B_m$, $n_{m}=\bigg\lceil\dfrac{2\log{( T{\epsilon}_{m}^{2})}}{{\epsilon}_{m}}\bigg\rceil$ number of times.
+%so that the total  it has been pulled is
+\ArmElim
+\State For each $i \in B_{m}$, delete arm ${i}$ from $B_{m}$ if,
+\begin{align*}
+\bar{X}_{i} + \sqrt{\dfrac{\log{(T{\epsilon}_{m}^{2})}}{2 n_{m}}}  < \max_{{j}\in B_{m}}\bigg\lbrace\bar{X}_{j} -\sqrt{\dfrac{\log{( T{\epsilon}_{m}^{2})}}{2 n_{m}}} \bigg\rbrace
+\end{align*}
+\EndArmElim
+%\ResParam
+\State Set ${\epsilon}_{m+1}:=\dfrac{{\epsilon}_{m}}{2}$, Set $B_{m+1}:=B_{m}$
+%\EndResParam
+\State Stop if $|B_{m}|=1$ and pull ${i}\in B_{m}$ till $n$ is reached.
+\EndFor
+\end{algorithmic}
+\end{algorithm}
+\end{frame}
+
+\begin{frame}
+\frametitle{Some technical details of UCB-Improved}
+\begin{itemize}
+\item<1-> We do not know the true means $r_i ,\forall i\in A$ of the distributions so we estimate it by the $\tilde{\epsilon}$ by initializing it from $1$.
+\item<2-> All rewards are assume to be bounded between $[0,1]$ and so $\Delta_{i} = (r^* - r_i)\in [0,1],\forall i\in A$ as well.
+\item<3-> UCB-Improved has fixed confidence interval  $c_{m}=\sqrt{\dfrac{\log{(T{\epsilon}_{m}^{2})}}{2 n_{m}}}$ for all arms in a particular phase.
+\item<4-> $c_m$ ensures that whenever ${\epsilon}_{m}<\dfrac{\Delta_i}{2}$ in the $m$-th round, the arm $i$ gets eliminated.
+\end{itemize}
+\end{frame}

@@ -1,0 +1,211 @@
+\begin{frame}
+\frametitle{Finally, experiment!!!}
+\begin{figure}[tbp]
+    \centering
+    \begin{tabular}{cc}
+    \subfigure[0.32\textwidth][Expt-$1$: Arithmetic Progression (Gaussian)]
+    {
+    		\pgfplotsset{
+		tick label style={font=\Large},
+		label style={font=\Large},
+		legend style={font=\Large},
+		}
+        \begin{tikzpicture}[scale=0.5]
+      	\begin{axis}[
+		xlabel={Time-step},
+		ylabel={Error Percentage},
+		grid=major,
+        %clip mode=individual,grid,grid style={gray!30},
+        clip=true,
+        %clip mode=individual,grid,grid style={gray!30},
+  		legend style={at={(0.5,1.2)},anchor=north, legend columns=3} ]
+      	% UCB
+		\addplot table{results/budgetTestAP/APT12_comp_subsampled.txt};
+		\addplot table{results/budgetTestAP/AugUCBV1_comp_subsampled.txt};
+		%\addplot table{results/budgetTestAP/AugUCBV_1_13_comp_subsampled.txt};
+		\addplot table{results/budgetTestAP/UCBEM1_comp_subsampled.txt};
+		\addplot table{results/budgetTestAP/UCBEMV1_comp_subsampled.txt};
+		\addplot table{results/budgetTestAP/SR1_comp_subsampled.txt};
+		\addplot table{results/budgetTestAP/UA1_comp_subsampled.txt};
+		%\addplot table{results/budgetTestAP/AugUCBM12_comp_subsampled.txt};
+		%\addplot table{results/budgetTestAP/AugUCBV1_comp_subsampled.txt};
+      	%\legend{APT,AugUCB,UCBE,UCBEV,CSAR,Unif Alloc,AugUCBM,AugUCBV}
+      	\legend{APT,AugUCB,UCBE,UCBEV,CSAR,UA}
+      	\end{axis}
+      	\end{tikzpicture}
+  		\label{Fig:budgetExpt1}
+    }
+    &
+    \subfigure[0.32\textwidth][Expt-$2$: Geometric Progression (Gaussian)]
+    {
+    	\pgfplotsset{
+		tick label style={font=\Large},
+		label style={font=\Large},
+		legend style={font=\Large},
+		}
+        \begin{tikzpicture}[scale=0.5]
+        \begin{axis}[
+		xlabel={Time-step},
+		ylabel={Error Percentage},
+        %clip mode=individual,grid,grid style={gray!30},
+		grid=major,
+		clip=true,
+  		legend style={at={(0.5,1.2)},anchor=north, legend columns=3} ]
+        % UCB
+		\addplot table{results/budgetTestGP/APT12_comp_subsampled.txt};
+		\addplot table{results/budgetTestGP/AugUCBV1_comp_subsampled.txt};
+		%\addplot table{results/budgetTestGP/AugUCBV_1_13_comp_subsampled.txt};
+		\addplot table{results/budgetTestGP/UCBEM1_comp_subsampled.txt};
+		\addplot table{results/budgetTestGP/UCBEMV1_comp_subsampled.txt};
+		\addplot table{results/budgetTestGP/SR1_comp_subsampled.txt};
+		\addplot table{results/budgetTestGP/UA1_comp_subsampled.txt};
+		%\addplot table{results/budgetTestGP/AugUCBM12_comp_subsampled.txt};
+		%\addplot table{results/budgetTestGP/AugUCBV1_comp_subsampled.txt};
+        %\legend{APT,AugUCB,UCBE,UCBEV,CSAR,Unif Alloc,AugUCBM,AugUCBV}
+        \legend{APT,AugUCB,UCBE,UCBEV,CSAR,UA}
+      	\end{axis}
+      	\label{Fig:budgetExpt2}
+        \end{tikzpicture}
+    }
+    \end{tabular}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Finally, experiment!!!}
+\begin{figure}[tbp]
+    \centering
+    \begin{tabular}{cc}
+    \subfigure[0.32\textwidth][Expt-$3$: Three Group Setting (Gaussian)]
+    {
+    		\pgfplotsset{
+		tick label style={font=\Large},
+		label style={font=\Large},
+		legend style={font=\Large},
+		}
+        \begin{tikzpicture}[scale=0.5]
+        \begin{axis}[
+		xlabel={Time-step},
+		ylabel={Error Percentage},
+        %clip mode=individual,grid,grid style={gray!30},
+       	grid=major,
+       	clip=true,
+  		legend style={at={(0.5,1.2)},anchor=north, legend columns=3} ]
+      	% UCB
+		\addplot table{results/budgetTestGR1/APT1_comp_subsampled.txt};
+		\addplot table{results/budgetTestGR1/AugUCB1_comp_subsampled.txt};
+		\addplot table{results/budgetTestGR1/UCBEM1_comp_subsampled.txt};
+		\addplot table{results/budgetTestGR1/UCBEMV1_comp_subsampled.txt};
+		\addplot table{results/budgetTestGR1/SR1_comp_subsampled.txt};
+		\addplot table{results/budgetTestGR1/UA1_comp_subsampled.txt};
+        \legend{APT,AugUCB,UCBE,UCBEV,CSAR,UA}
+      	\end{axis}
+      	\end{tikzpicture}
+   		\label{Fig:budgetExpt3} 
+    }
+    &
+    \subfigure[0.32\textwidth][Expt-$4$: Two Group Setting (Gaussian) ]
+    {
+    	\pgfplotsset{
+		tick label style={font=\Large},
+		label style={font=\Large},
+		legend style={font=\Large},
+		}
+        \begin{tikzpicture}[scale=0.5]
+        \begin{axis}[
+		xlabel={Time-step},
+		ylabel={Error Percentage},
+        %clip mode=individual,grid,grid style={gray!30},
+		grid=major,
+		clip=true,
+  		legend style={at={(0.5,1.2)},anchor=north, legend columns=3} ]
+        % UCB
+		\addplot table{results/budgetTestGR2/APT1_comp_subsampled.txt};
+		\addplot table{results/budgetTestGR2/AugUCBV1_comp_subsampled.txt};
+		%\addplot table{results/budgetTestGP/AugUCBV_1_13_comp_subsampled.txt};
+		\addplot table{results/budgetTestGR2/UCBEM1_comp_subsampled.txt};
+		\addplot table{results/budgetTestGR2/UCBEMV1_comp_subsampled.txt};
+		\addplot table{results/budgetTestGR2/SR1_comp_subsampled.txt};
+		\addplot table{results/budgetTestGR2/UA1_comp_subsampled.txt};
+		%\addplot table{results/budgetTestGP/AugUCBM12_comp_subsampled.txt};
+		%\addplot table{results/budgetTestGP/AugUCBV1_comp_subsampled.txt};
+        %\legend{APT,AugUCB,UCBE,UCBEV,CSAR,Unif Alloc,AugUCBM,AugUCBV}
+        \legend{APT,AUgUCB,UCBE,UCBEV,CSAR,UA}
+        %\legend{APT,AugUCB,UCBE,UCBEV,CSAR,Unif Alloc}
+      	\end{axis}
+      	\label{Fig:budgetExpt4}
+        \end{tikzpicture}
+    }
+	\end{tabular}
+\end{figure}
+\end{frame}    
+    
+\begin{frame}
+\frametitle{Finally, experiment!!!}
+\begin{figure}[tbp]
+    \centering
+    \begin{tabular}{cc}
+    \subfigure[0.32\textwidth][Expt-$5$: Two Group Setting (Advance) ]
+    {
+    	\pgfplotsset{
+		tick label style={font=\Large},
+		label style={font=\Large},
+		legend style={font=\Large},
+		}
+        \begin{tikzpicture}[scale=0.5]
+        \begin{axis}[
+		xlabel={Time-step},
+		ylabel={Error Percentage},
+        %clip mode=individual,grid,grid style={gray!30},
+		grid=major,
+		clip=true,
+  		legend style={at={(0.5,1.2)},anchor=north, legend columns=3} ]
+        % UCB
+		\addplot table{results/budgetTestGR4/APT1_comp_subsampled.txt};
+		\addplot table{results/budgetTestGR4/AugUCB1_comp_subsampled.txt};
+		\addplot table{results/budgetTestGR4/UCBEM1_comp_subsampled.txt};
+		\addplot table{results/budgetTestGR4/UCBEMV1_comp_subsampled.txt};
+		\addplot table{results/budgetTestGR4/SR1_comp_subsampled.txt};
+		\addplot table{results/budgetTestGR4/UA1_comp_subsampled.txt};
+        \legend{APT,AUgUCB,UCBE,UCBEV,CSAR,UA}
+      	\end{axis}
+      	\label{Fig:budgetExpt5}
+        \end{tikzpicture}
+    }
+    &
+    \subfigure[0.32\textwidth][Expt-$6$: Two Group Setting (Advance) ]
+    {
+    	\pgfplotsset{
+		tick label style={font=\Large},
+		label style={font=\Large},
+		legend style={font=\Large},
+		}
+        \begin{tikzpicture}[scale=0.5]
+        \begin{axis}[
+		xlabel={Time-step},
+		ylabel={Error Percentage},
+        %clip mode=individual,grid,grid style={gray!30},
+		grid=major,
+		clip=true,
+  		legend style={at={(0.5,1.2)},anchor=north, legend columns=2} ]
+        % UCB
+		\addplot table{results/budgetTestGR3/testUCBEMV1_0.25_comp_subsampled.txt};
+		\addplot table{results/budgetTestGR4/AugUCB1_comp_subsampled.txt};
+		%\addplot table{results/budgetTestGP/AugUCBV_1_13_comp_subsampled.txt};
+		%\addplot table{results/budgetTestGR3/testUCBEMV1_0.25_comp_subsampled.txt};
+		\addplot table{results/budgetTestGR3/testUCBEMV1_256_comp_subsampled.txt};
+		\addplot table{results/budgetTestGR4/UCBEMV1_comp_subsampled.txt};
+		%\addplot table{results/budgetTestGR3/testUCBEMV1_64_comp_subsampled.txt};
+		%\addplot table{results/budgetTestGP/AugUCBM12_comp_subsampled.txt};
+		%\addplot table{results/budgetTestGP/AugUCBV1_comp_subsampled.txt};
+        %\legend{APT,AugUCB,UCBE,UCBEV,CSAR,Unif Alloc,AugUCBM,AugUCBV}
+        \legend{UCBEV($0.25$), AugUCB, UCBEV($256$), UCBEV($1$)}
+        %\legend{UCBEV($0.06$),AUgUCB,UCBEV($0.25$),UCBEV($1$),UCBEV($64$),UCBEV($256$)}
+        %\legend{APT,AugUCB,UCBE,UCBEV,CSAR,Unif Alloc}
+      	\end{axis}
+      	\label{Fig:budgetExpt6}
+        \end{tikzpicture}
+    }
+    \end{tabular}
+\end{figure}
+\end{frame}

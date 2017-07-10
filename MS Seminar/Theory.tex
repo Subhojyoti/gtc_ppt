@@ -1,0 +1,43 @@
+\begin{frame}
+\frametitle{Problem Complexity}
+\begin{itemize}
+\item<1-> We must delve into the notion of hardness which come from the general pure exploration bandit literature.
+\item<2-> We define $H_{1} = \sum_{i=1}^{K}\dfrac{1}{\Delta_{i}^{2}}$ and $
+H_{2} =\min_{i\in \mathcal{A}}\dfrac{i}{{\Delta_{(i)}^{2}}} $
+%\end{align*}
+%where $(\Delta_{(i)}: i\in\mathcal{A})$ is obtained by arranging $(\Delta_i:i\in\mathcal{A})$ in an increasing order. Also, from \cite{chen2014combinatorial} we have
+%\begin{align*}
+%H_{CSAR,2}=\max_{i\in\mathcal{A}}\frac{i}{\Delta_{(i)}^2}.
+%\end{align*}
+%$H_{CSAR,2}$ is the complexity term appearing in the bound for the CSAR algorithm. The relation between the above complexity terms are as follows (see \cite{locatelli2016optimal}):
+%
+%$H_1$ and $H_2$ is same as the problem complexity defined in \cite{locatelli2016optimal} for the thresholding bandit problem while $H_{CSAR,2}=\max_{i}\frac{i}{\Delta_{(i)}^2}$ is defined in \cite{chen2014combinatorial}. Also we know from \cite{locatelli2016optimal} that,
+\item<3-> The relationship between $H_1$ and $H_2$ can be derived as,
+\begin{align*}
+H_{1}\leq \log(2K)H_{2} \mbox{ and }
+ H_1 \leq \log(K)H_{CSAR,2}.
+\end{align*}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Problem Complexity}
+\begin{itemize}
+\item<1-> For variance aware algorithm $H_{1}^{\sigma}$ (\cite{gabillon2011multi}) that incorporates reward variances into its expression as:
+\begin{align*}
+ H_{\sigma,1}=\sum_{i=1}^{K}\frac{\sigma_{i}+\sqrt{\sigma_{i}^{2}+(16/3)\Delta_{i}}}{\Delta_{i}^{2}}.
+\end{align*}
+
+\item<2-> Finally, analogous to $H_{2}$, we introduce $H_{\sigma,2}$, such that $
+H_{\sigma,2}=\max_{i\in \mathcal{A}} \frac{i}{\tilde{\Delta}_{(i)}^{2}}$ , where $\tilde{\Delta}_{i}^{2}=\frac{\Delta_{i}^{2}}{\sigma_{i}+\sqrt{\sigma_{i}^{2}+(16/3)\Delta_{i}}}$,  $(\tilde{\Delta}_{(i)})$ is an increasing ordering of $(\tilde{\Delta}_{i})$.
+
+\item<3-> From \cite{audibert2010best}, we can show that
+\begin{align*}
+H_{\sigma,2}\le H_{\sigma,1}\le\overline{\log}(K) H_{\sigma,2} \le \log(2K) H_{\sigma,2}.
+\end{align*}
+
+
+\item<4-> Note that $H_1 , H_2 $ and $H_{\sigma,1}, H_{\sigma,2}$ are not directly comparable to each other except in a special case when variances are very low we can say that $H_{\sigma,1} < H_{1} $.
+
+\end{itemize}
+\end{frame}

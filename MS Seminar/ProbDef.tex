@@ -1,0 +1,39 @@
+\begin{frame}
+\frametitle{Problem Definition}
+\begin{itemize}
+\item<1-> The primary aim in the thresholding bandit problem (TBP) is to identify the arms whose mean of the reward distribution is above a particular threshold $\tau$ given as input.
+\item<2-> The above goal has to be achieved within $T$ timesteps of exploration/exploitation and this is termed as a fixed-budget problem.
+\item<3-> At the end of the given $T$ timesteps the learner must recommend a set of arms which (according to it) are the arms having reward mean above $\tau$.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Problem Definition}
+\begin{itemize}
+\item<1-> We define the set $S_{\tau}=\lbrace i\in \mathcal{A}: r_{i}\geq \tau \rbrace$. Note that, $S_\tau$ is the set of all arms whose reward mean is greater than $\tau$. Let 
+$S_\tau^c$ denote the complement of $S_\tau$, i.e.,  $S_{\tau}^{c}=\lbrace i\in \mathcal{A}: r_{i} < \tau \rbrace$. 
+\item<2-> Let $\hat{S}_{\tau}$ denote the recommendation of a learning algorithm after $T$ time units of exploration, while $\hat{S}_{\tau}^c$ denotes its complement.
+
+\item<3-> The performance of the learning agent is measured by the accuracy with which it can classify the arms into $S_{\tau}$ and $S_{\tau}^{c}$ after time horizon $T$. Equivalently, the \emph{loss} $\mathcal{L}(T)$ is defined as
+\begin{align*}
+\Ls (T) = \mathbb{I}\big(\lbrace S_{\tau}\cap \hat{S}_{\tau}^{c}\neq \emptyset\rbrace    \cup    \lbrace\hat{S}_{\tau}\cap S_{\tau}^{c}\neq \emptyset\rbrace\big).
+\end{align*}			
+
+\item<4-> The goal of the learning agent is to minimize the expected loss:
+\begin{align*}
+\Ex[\Ls(T)] = \Pb\big(\lbrace S_{\tau}\cap \hat{S}_{\tau}^{c} \neq \emptyset \rbrace  \cup   \lbrace \hat{S}_{\tau}\cap S_{\tau}^{c} \neq \emptyset\rbrace\big).
+\end{align*}
+%Note that the expected loss is simply the \emph{probability of mis-classification} (i.e., error), that occurs either if a good arm is rejected or a bad arm is accepted as a good one.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Some practical applications}
+\begin{itemize}
+\item<1-> Selecting the best channels (out of several existing channels) for mobile communications in a very short duration whose qualities are above an acceptable threshold (see \cite{audibert2010best}).
+\item<2-> Selecting a small set of best workers (out of a very large pool of workers) whose productivity is above a threshold.
+\item<3-> In anomaly detection and classification (see  \cite{locatelli2016optimal}).
+\end{itemize}
+\end{frame}
+
+%The above TBP formulation has several applications, for instance, from areas ranging from anomaly detection and classification (see  \citet{locatelli2016optimal}) to industrial applications as well as in mobile communications (see \citet{audibert2010best})  where the users are to be allocated only those channels whose quality is above an acceptable threshold.

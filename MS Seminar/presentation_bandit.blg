@@ -1,0 +1,45 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: presentation_bandit.aux
+The style file: plainnat.bst
+Database file #1: ijcai17.bib
+You've used 37 entries,
+            2773 wiz_defined-function locations,
+            794 strings with 10808 characters,
+and the built_in function-call counts, 18278 in all, are:
+= -- 1655
+> -- 1004
+< -- 31
++ -- 339
+- -- 300
+* -- 1388
+:= -- 2691
+add.period$ -- 115
+call.type$ -- 37
+change.case$ -- 207
+chr.to.int$ -- 35
+cite$ -- 74
+duplicate$ -- 902
+empty$ -- 1524
+format.name$ -- 365
+if$ -- 3942
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 39
+newline$ -- 194
+num.names$ -- 148
+pop$ -- 454
+preamble$ -- 1
+purify$ -- 173
+quote$ -- 0
+skip$ -- 728
+stack$ -- 0
+substring$ -- 703
+swap$ -- 171
+text.length$ -- 14
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 392
+warning$ -- 0
+while$ -- 168
+width$ -- 0
+write$ -- 480
