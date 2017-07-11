@@ -37,7 +37,13 @@
 \begin{frame}
 \frametitle{Previous Works (Diagram)}
 \centering
-\includegraphics[scale=0.5]{img/Settings2.png}
+\begin{figure}
+\includegraphics[scale=0.3]{img/Settings2.png}
+\caption{TBP place within SMAB and Pure exploration}
+\end{figure}
+
+
+
 \end{frame}
 
 \begin{frame}
@@ -72,7 +78,7 @@
 %\ResParam
 \State Set ${\epsilon}_{m+1}:=\dfrac{{\epsilon}_{m}}{2}$, Set $B_{m+1}:=B_{m}$
 %\EndResParam
-\State Stop if $|B_{m}|=1$ and pull ${i}\in B_{m}$ till $n$ is reached.
+\State Stop if $|B_{m}|=1$ and pull ${i}\in B_{m}$ till $T$ is reached.
 \EndFor
 \end{algorithmic}
 \end{algorithm}
@@ -83,7 +89,7 @@
 \begin{itemize}
 \item<1-> We do not know the true means $r_i ,\forall i\in A$ of the distributions so we estimate it by the ${\epsilon}$ by initializing it from $1$.
 \item<2-> All rewards are assume to be bounded between $[0,1]$ and so $\Delta_{i} = (r^* - r_i)\in [0,1],\forall i\in A$ as well.
-\item<3-> UCB-Improved has fixed confidence interval  $c_{m}=\sqrt{\dfrac{\log{(T{\epsilon}_{m}^{2})}}{2 n_{m}}}$ for all arms in a particular phase.
+\item<3-> UCB-Improved has fixed confidence interval  $c_{m}=\sqrt{\dfrac{\log{(T{\epsilon}_{m}^{2})}}{2 n_{m}}}$ for all arms in a particular round.
 \item<4-> $c_m$ ensures that whenever ${\epsilon}_{m}<\dfrac{\Delta_i}{2}$ in the $m$-th round, the arm $i$ gets eliminated.
 \end{itemize}
 \end{frame}
