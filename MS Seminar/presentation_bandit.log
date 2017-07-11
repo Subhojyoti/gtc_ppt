@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  10 JUL 2017 18:47
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  11 JUL 2017 15:55
 entering extended mode
  %&-line parsing enabled.
 **presentation_bandit.tex
@@ -1234,7 +1234,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \rotheadsize=\dimen222
 \c@nlinenum=\count183
 \TeXr@lab=\toks54
-)
+))
 (/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip72
 \f@ncyO@elh=\skip73
@@ -1245,25 +1245,26 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \f@ncyO@erf=\skip78
 \f@ncyO@olf=\skip79
 \f@ncyO@orf=\skip80
-))
+)
 (./presentation_bandit.aux)
 \openout1 = `presentation_bandit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 97.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 102.
+
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
@@ -1322,7 +1323,7 @@ driver: pdftex
 \MPnumerator=\count188
 \everyMPtoPDFconversion=\toks56
 ) ABD: EveryShipout initializing macros
-Package hyperref Info: Link coloring OFF on input line 97.
+Package hyperref Info: Link coloring OFF on input line 102.
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
@@ -1332,8 +1333,8 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count189
 )
-LaTeX Info: Redefining \ref on input line 97.
-LaTeX Info: Redefining \pageref on input line 97.
+LaTeX Info: Redefining \ref on input line 102.
+LaTeX Info: Redefining \pageref on input line 102.
 
 (./presentation_bandit.out) (./presentation_bandit.out)
 \@outlinefile=\write6
@@ -1341,47 +1342,47 @@ LaTeX Info: Redefining \pageref on input line 97.
 
 \AtBeginShipoutBox=\box80
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 97.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 102.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 97.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 102.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/ptm/m/n on input line 97.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 97.
+(Font)                  OT1/cmss/m/n --> OT1/ptm/m/n on input line 102.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 97.
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 97.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 97.
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 102.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 97.
+(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/phv/m/n on input line 97.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 97.
+(Font)                  OT1/cmss/bx/n --> OT1/phv/m/n on input line 102.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/phv/m/it on input line 97.
+(Font)                  OT1/cmr/m/it --> OT1/phv/m/it on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/phv/m/it on input line 97.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 97.
+(Font)                  OT1/cmr/bx/it --> OT1/phv/m/it on input line 102.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 97.
+(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 97.
+(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 102.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 97.
+(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 102.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/phv/m/it --> OT1/phv/bx/it on input line 97.
+(Font)                  OT1/phv/m/it --> OT1/phv/bx/it on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/ptm/bx/n on input line 97.
+(Font)                  OT1/cmss/bx/n --> OT1/ptm/bx/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/phv/bx/n --> OT1/phv/bx/n on input line 97.
+(Font)                  OT1/phv/bx/n --> OT1/phv/bx/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 97.
+(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/phv/m/it --> OT1/phv/bx/it on input line 97.
+(Font)                  OT1/phv/m/it --> OT1/phv/bx/it on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/pcr/m/n --> OT1/pcr/bx/n on input line 97.
+(Font)                  OT1/pcr/m/n --> OT1/pcr/bx/n on input line 102.
 
 (/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-basic-dicti
 onary/translator-basic-dictionary-English.dict
@@ -1469,50 +1470,29 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
 ] [21
 
 ])
-(./contribution.tex
-Overfull \hbox (10.91438pt too wide) in paragraph at lines 10--10
-\OT1/phv/m/n/10.95 [[]] 
- []
+(./contribution.tex [22
 
-[22
+] [23
 
-]
-Overfull \hbox (10.91438pt too wide) in paragraph at lines 10--10
-\OT1/phv/m/n/10.95 [[]] 
- []
+] [24
 
-[23
+] [25
 
-]
-Overfull \hbox (10.91438pt too wide) in paragraph at lines 10--10
-\OT1/phv/m/n/10.95 [[]] 
- []
-
-[24
-
-]
-Overfull \hbox (10.91438pt too wide) in paragraph at lines 10--10
-\OT1/phv/m/n/10.95 [[]] 
- []
-
-[25
-
-]
-Overfull \hbox (10.91438pt too wide) in paragraph at lines 10--10
-\OT1/phv/m/n/10.95 [[]] 
- []
-
-[26
+] [26
 
 ]) (./prevWork.tex [27
 
 ] [28
 
-] [29
+]
+[29
 
 ] [30
 
-] [31
+]
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 25.
+ [31
 
 ] [32
 
@@ -1520,44 +1500,43 @@ Overfull \hbox (10.91438pt too wide) in paragraph at lines 10--10
 
 ] [34
 
+] [35
+
 ]
-<img/Settings.png, id=995, 531.48563pt x 375.65344pt>
-File: img/Settings.png Graphic file (type png)
- <use img/Settings.png>
-[35
+<img/Settings2.png, id=1015, 531.48563pt x 426.09187pt>
+File: img/Settings2.png Graphic file (type png)
 
- <./img/Settings.png (PNG copy)>] [36
+<use img/Settings2.png> [36
 
-] [37
+ <./img/Settings2.png (PNG copy)>] [37
 
 ] [38
 
-] [39
+]
+[39
 
 ] [40
 
-]
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 64.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 64.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 64.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 64.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 64.
-LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <10> not available
-(Font)              Font shape `OT1/phv/b/it' tried instead on input line 64.
-LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 64.
+] [41
 
-Overfull \vbox (0.80237pt too high) detected at line 64
+]
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 79.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 79.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 79.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 79.
+LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <10> not available
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 79.
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 79.
+
+Overfull \vbox (0.80237pt too high) detected at line 79
  []
 
-[41
-
-] [42
+[42
 
 ] [43
 
@@ -1565,16 +1544,20 @@ Overfull \vbox (0.80237pt too high) detected at line 64
 
 ] [45
 
+] [46
+
 ]) (./AugUCB.tex
-<img/SeminarThresholdBandit.pdf, id=1288, 976.64874pt x 528.97626pt>
-File: img/SeminarThresholdBandit.pdf Graphic file (type pdf)
+<img/SeminarThresholdBandit.png, id=1311, 1281.78876pt x 554.07pt>
+File: img/SeminarThresholdBandit.png Graphic file (type png)
 
-<use img/SeminarThresholdBandit.pdf> [46
+<use img/SeminarThresholdBandit.png>
+Overfull \hbox (14.04094pt too wide) in paragraph at lines 12--12
+[]  
+ []
 
- <./img/SeminarThresholdBandit.pdf>]
 [47
 
-] [48
+ <./img/SeminarThresholdBandit.png>] [48
 
 ] [49
 
@@ -1586,61 +1569,42 @@ File: img/SeminarThresholdBandit.pdf Graphic file (type pdf)
 
 ] [53
 
+] [54
 
-]) (./Theory.tex [54
 
-] [55
+])
+(./Theory.tex [55
 
 ] [56
 
-]
-Overfull \hbox (13.61871pt too wide) in paragraph at lines 43--43
-\OT1/phv/m/n/10.95 ([[]]) 
- []
+] [57
 
-[57
+] [58
 
-]
-Overfull \hbox (13.61871pt too wide) in paragraph at lines 43--43
-\OT1/phv/m/n/10.95 ([[]]) 
- []
+] [59
 
-[58
+] [60
+
+] [61
 
 ]
-Overfull \hbox (13.61871pt too wide) in paragraph at lines 43--43
-\OT1/phv/m/n/10.95 ([[]]) 
- []
-
-[59
-
-]
-Overfull \hbox (13.61871pt too wide) in paragraph at lines 43--43
-\OT1/phv/m/n/10.95 ([[]]) 
- []
-
-[60
-
-]
-Overfull \hbox (3.72626pt too wide) in paragraph at lines 90--90
+Overfull \hbox (3.72626pt too wide) in paragraph at lines 91--91
 []|\OT1/phv/m/n/10.95 Algorithm| 
  []
 
 
-Overfull \vbox (2.12187pt too high) detected at line 90
+Overfull \vbox (2.12187pt too high) detected at line 91
  []
 
-[61
-
-] [62
+[62
 
 ] [63
 
 ] [64
 
-]) (./expt.tex [65
+] [65
 
-] [66
+]) (./expt.tex [66
 
 ] [67
 
@@ -1651,6 +1615,8 @@ Overfull \vbox (2.12187pt too high) detected at line 90
 ] [70
 
 ] [71
+
+] [72
 
 ]
 PGFPlots: reading {results/budgetTestGR4/APT1_comp_subsampled.txt}
@@ -1663,57 +1629,67 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <14.4> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 235.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 235.
-
-Underfull \hbox (badness 1112) in paragraph at lines 235--235
-[]\OT1/phv/m/n/9 (a) Expt-$1$: Two Group Set-ting
- []
-
 PGFPlots: reading {results/budgetTestGR3/testUCBEMV1_0.25_comp_subsampled.txt}
 PGFPlots: reading {results/budgetTestGR4/AugUCB1_comp_subsampled.txt}
 PGFPlots: reading {results/budgetTestGR3/testUCBEMV1_256_comp_subsampled.txt}
 PGFPlots: reading {results/budgetTestGR4/UCBEMV1_comp_subsampled.txt}
-[72
+ [73
 
-]) (./presentation_bandit.bbl
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 106.
-
-
-(/usr/share/texmf-texlive/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)) [73
-
- </usr/share/texmf/tex/latex/beamer/base/art/beamericonarticle.pdf>] [74
-
+])
+(./conclusion.tex [74
 
 ] [75
 
-
 ] [76
-
 
 ] [77
 
-
 ] [78
 
-
-]
-[79
-
+] [79
 
 ] [80
 
+])
+(./presentation_bandit.bbl
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 106.
 
-] [81
+ (/usr/share/texmf-texlive/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)) [81
 
-
-] [82
+ </usr/share/texmf/tex/latex/beamer/base/art/beamericonarticle.pdf>]
+[82
 
 
 ] [83
 
 
 ] [84
+
+
+] [85
+
+
+] [86
+
+
+] [87
+
+
+] [88
+
+
+] [89
+
+
+] [90
+
+
+] [91
+
+
+] [92
 
 ]
 \tf@nav=\write7
@@ -1725,33 +1701,34 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 \tf@snm=\write9
 \openout9 = `presentation_bandit.snm'.
 
- (./presentation_bandit.aux) ) 
+
+(./presentation_bandit.aux) ) 
 Here is how much of TeX's memory you used:
- 25030 strings out of 493848
- 531022 string characters out of 1152823
- 694911 words of memory out of 3000000
- 27353 multiletter control sequences out of 15000+50000
+ 25058 strings out of 493848
+ 531323 string characters out of 1152823
+ 695068 words of memory out of 3000000
+ 27361 multiletter control sequences out of 15000+50000
  49549 words of font info for 98 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  51i,26n,77p,1054b,1746s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r
-.enc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
-share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf
--texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fo
-nts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/pu
-blic/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
-s/cm/cmss10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss8.
-pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
-hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-t
-exlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-texlive/fonts/type1
-/urw/courier/ucrr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb
-8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/sha
-re/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/
-fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on presentation_bandit.pdf (84 pages, 747564 bytes).
+{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.
+enc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/s
+hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fon
+ts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
+/cm/cmss10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss8.p
+fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
+are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-texlive/fonts/type1/
+urw/courier/ucrr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8
+a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/shar
+e/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/f
+onts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on presentation_bandit.pdf (92 pages, 787526 bytes).
 PDF statistics:
- 2479 PDF objects out of 2487 (max. 8388607)
- 218 named destinations out of 1000 (max. 500000)
- 151 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2674 PDF objects out of 2984 (max. 8388607)
+ 235 named destinations out of 1000 (max. 500000)
+ 159 words of extra memory for PDF output out of 10000 (max. 10000000)
 

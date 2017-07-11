@@ -147,7 +147,7 @@
 \begin{itemize}
 \item<1-> We experiment with APT, AugUCB, UCBE, UCBEV, CSAR, UA.
 \item<2-> Note that UCBE and UCBEV require access to $H_1$ and $H_{\sigma, 1}$ as input and hence not implementable in real life. 
-\item<2-> By access we mean that an oracle supplies them the $H_1$ or $H_{\sigma, 1}$, they do not have access to individual means and variances.
+\item<2-> By access we mean that an oracle supplies them the $H_1$ or $H_{\sigma, 1}$. They do not have access to individual means and variances.
 \item<3-> APT, AugUCB, CSAR, UA do not require access to $H_1$ or $H_{\sigma, 1}$.
 \item<4-> UCBE, UCBEV, CSAR and UA come from the pure exploration lineage and are modified suitably to perform in TBP setting.
 \end{itemize}
@@ -191,7 +191,7 @@
 		\addplot table{results/budgetTestGR4/UCBEMV1_comp_subsampled.txt};
 		\addplot table{results/budgetTestGR4/SR1_comp_subsampled.txt};
 		\addplot table{results/budgetTestGR4/UA1_comp_subsampled.txt};
-        \legend{APT,AUgUCB,UCBE,UCBEV,CSAR,UA}
+        \legend{APT,AugUCB,UCBE,UCBEV,CSAR,UA}
       	\end{axis}
       	\label{Fig:budgetExpt5}
         \end{tikzpicture}

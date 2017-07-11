@@ -202,9 +202,9 @@ Shie Mannor and John~N Tsitsiklis.
 \newblock \emph{Journal of Machine Learning Research}, 5\penalty0
   (Jun):\penalty0 623--648, 2004.
 
-\bibitem[Mukherjee et~al.(2017)Mukherjee, Naveen, Nandan, and
+\bibitem[Mukherjee et~al.(2017)Mukherjee, Naveen, Sudarsanam, and
   Ravindran]{DBLP:journals/corr/MukherjeeNSR17}
-Mukherjee, Naveen, Nandan, and Ravindran.
+Subhojyoti Mukherjee, K.~P. Naveen, Nandan Sudarsanam, and Balaraman Ravindran.
 \newblock Thresholding bandits with augmented {UCB}.
 \newblock \emph{CoRR}, abs/1704.02281, 2017.
 \newblock URL \url{http://arxiv.org/abs/1704.02281}.

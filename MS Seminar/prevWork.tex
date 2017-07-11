@@ -1,13 +1,28 @@
 \begin{frame}
 \frametitle{Previous Works}
 \begin{itemize}
-\item<1-> The Anytime Parameter Free (APT) \cite{locatelli2016optimal} algorithm was proposed for TBP setting in ICML 2016. 
+\item<1-> The Anytime Parameter Free (APT) [{Locatelli et al. (2016)}] algorithm was proposed for TBP setting in ICML 2016. 
 \item<2-> This algorithm uses only mean estimation to find the $S_{\tau}$. 
 \item<3-> Theoretically they proved this algorithm to be almost optimal when only mean estimation is used as a metric of comparison.
 \item<4-> Empirically it outperformed other state-of-the-art algorithms which were modified to perform in the TBP setting.  
 \end{itemize}
 \end{frame}
 
+\begin{frame}
+\frametitle{APT Algorithm}
+\begin{algorithm}[H]
+\caption{APT}
+\begin{algorithmic}[1]
+\State {\bf Input:} Time horizon $T$, threshold $\tau$, tolerance factor $\epsilon\geq 0$
+\State Pull each arm once
+\vspace{-3mm}
+\State \For{$t=K+1,..,T$}
+\State Pull arm $j\in\argmin_{i\in A}\Big\lbrace \left(|\hat{r}_{i} - \tau | + \epsilon\right)\sqrt{n_i}\Big\rbrace$ and observe the reward for arm $j$.
+\EndFor
+\State \textbf{Output:} $\hat{S}_{\tau}=\lbrace i: \hat{r}_{i}\geq \tau \rbrace$.
+\end{algorithmic}
+\end{algorithm}
+\end{frame}
 
 \begin{frame}
 \frametitle{Previous Works (Pure Exploration)}
@@ -22,13 +37,13 @@
 \begin{frame}
 \frametitle{Previous Works (Diagram)}
 \centering
-\includegraphics[scale=0.5]{img/Settings.png}
+\includegraphics[scale=0.5]{img/Settings2.png}
 \end{frame}
 
 \begin{frame}
 \frametitle{Approach of UCB-Improved (UCB-Imp)}
 \begin{itemize}
-\item<1-> There is a strong relation between UCB-Imp and AugUCB where the former is used to find \emph{a single optimal arm as quickly as possible}.
+\item<1-> There is a strong relation between UCB-Imp \cite{auer2010ucb} and AugUCB where the former is used to find \emph{a single optimal arm as quickly as possible}.
 \item<2-> The basic idea of UCB-Improved is to divide the horizon into phases or rounds and initialize parameters.
 \item<3-> Pull all surviving arms equal number of times during a round.
 \item<4-> At the end of the round eliminate some sub-optimal arms (as judged by learner) based on elimination criteria.
@@ -66,7 +81,7 @@
 \begin{frame}
 \frametitle{Some technical details of UCB-Improved}
 \begin{itemize}
-\item<1-> We do not know the true means $r_i ,\forall i\in A$ of the distributions so we estimate it by the $\tilde{\epsilon}$ by initializing it from $1$.
+\item<1-> We do not know the true means $r_i ,\forall i\in A$ of the distributions so we estimate it by the ${\epsilon}$ by initializing it from $1$.
 \item<2-> All rewards are assume to be bounded between $[0,1]$ and so $\Delta_{i} = (r^* - r_i)\in [0,1],\forall i\in A$ as well.
 \item<3-> UCB-Improved has fixed confidence interval  $c_{m}=\sqrt{\dfrac{\log{(T{\epsilon}_{m}^{2})}}{2 n_{m}}}$ for all arms in a particular phase.
 \item<4-> $c_m$ ensures that whenever ${\epsilon}_{m}<\dfrac{\Delta_i}{2}$ in the $m$-th round, the arm $i$ gets eliminated.

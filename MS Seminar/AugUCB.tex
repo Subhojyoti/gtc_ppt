@@ -1,13 +1,21 @@
 \begin{frame}
-\frametitle{AugUCB algorithm}
-\includegraphics[scale=0.3]{img/SeminarThresholdBandit}
+\frametitle{AugUCB algorithm (Intuition)}
+\begin{itemize}
+\item We define $\Delta_i = |r_i - \tau| $ . 
+\item It is risky to eliminate arm $i$ while $\hat{r}_i$ is inside \emph{Margin}. 
+\item Confidence interval $s_i$ will make sure arm $i$ is not eliminated while inside Margin with a high probability. 
+
+%So we have to bound P{\hat{ri} <= ri - 2si}. Till that time arm i will not be accepted as good arm. For arm j we have to bound P{\hat{rj} >= rj + 2sj} since till that time j will not be rejected as bad arm.
+
+\end{itemize}
+\includegraphics[scale=0.278]{img/SeminarThresholdBandit.png}
 \end{frame}
 
 \begin{frame}
 \frametitle{AugUCB algorithm}
 \begin{itemize}
 \item<1-> Like UCB-Imp, AugUCB also divides the time budget $T$ into rounds.
-\item<2-> A crucial difference is that in every round instead of pulling all the arms equal number of times we pull the arm that minimizes $j\in\argmin_{i\in B_{m}}\Big\lbrace |\hat{r}_{i} - \tau | - 2s_{i}\Big\rbrace$. 
+\item<2-> A crucial difference is that in every round instead of pulling all the arms equal number of times we pull the arm that minimizes $j\in\argmin_{i\in B_{m}}\Big\lbrace |\hat{r}_{i} - \tau | - 2s_{i}\Big\rbrace$ (like APT). 
 \item<3-> At every timestep now we run the arm elimination check to eliminate sub-optimal arms.
 \item<4-> At the end of the phase we reset the parameters. 
 \item<5-> Note that the length of the phase, the exploration parameters and the confidence interval term $s_i  = \sqrt{\frac{\rho\psi_m (\hat{v}_{i}+1) \log ( T \epsilon_{m})}{4 n_{i}}}$ are set through detailed theoretical analysis. 
