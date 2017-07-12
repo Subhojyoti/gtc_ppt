@@ -7,6 +7,6 @@
 \beamer@sectionintoc {5}{Previous Works}{27}{0}{5}
 \beamer@sectionintoc {6}{AugUCB}{47}{0}{6}
 \beamer@sectionintoc {7}{Theoretical Analysis}{55}{0}{7}
-\beamer@sectionintoc {8}{Experiments}{66}{0}{8}
-\beamer@sectionintoc {9}{Conclusion}{74}{0}{9}
-\beamer@sectionintoc {10}{References}{81}{0}{10}
+\beamer@sectionintoc {8}{Experiments}{68}{0}{8}
+\beamer@sectionintoc {9}{Conclusion}{76}{0}{9}
+\beamer@sectionintoc {10}{References}{83}{0}{10}
