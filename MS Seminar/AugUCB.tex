@@ -1,21 +1,38 @@
 \begin{frame}
-\frametitle{AugUCB algorithm (Intuition)}
+\frametitle{AugUCB algorithm (Intuition, Arm pulling)}
 \begin{itemize}
 \item We define $\Delta_i = |r_i - \tau| $ . 
 \item It is risky to eliminate arm $i$ while $\hat{r}_i$ is inside \emph{Margin}. 
 \item Confidence interval $s_i$ will make sure arm $i$ is not eliminated while inside Margin with a high probability. 
-
-%So we have to bound P{\hat{ri} <= ri - 2si}. Till that time arm i will not be accepted as good arm. For arm j we have to bound P{\hat{rj} >= rj + 2sj} since till that time j will not be rejected as bad arm.
-
 \end{itemize}
 
 \begin{figure}
-%\caption{AugUCB Intuition}
-\includegraphics[scale=0.278]{img/SeminarThresholdBandit.png}
+\caption{AugUCB Intuition (Arm pulling)}
+\includegraphics[scale=0.178]{img/SeminarThresholdBandit.png}
 \end{figure}
-
-
 \end{frame}
+
+\begin{frame}
+\frametitle{AugUCB algorithm (Intuition, Arm Elimination)}
+\begin{itemize}
+\item It is risky to eliminate arm $i$ while $\hat{r}_i$ is inside \emph{Margin}. 
+\item Confidence interval $s_i$ will make sure arm $i$ is not eliminated while inside Margin with a high probability. 
+\end{itemize}
+
+\begin{figure}
+\caption{AugUCB Intuition (Arm Elimination)}
+\includegraphics[scale=0.178]{img/ArmElim1.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{AugUCB algorithm (Intuition, Arm Elimination)}
+\begin{figure}
+\caption{AugUCB Intuition (Arm Elimination)}
+\includegraphics[scale=0.178]{img/ArmElim2.png}
+\end{figure}
+\end{frame}
+
 
 \begin{frame}
 \frametitle{AugUCB algorithm}
