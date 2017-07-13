@@ -90,23 +90,23 @@ CSAR		&$\exp\left(-\frac{T-K}{72\log(K)H_{CSAR,2}}+2\log(K)\right)$ \\
 \end{table}
 \end{frame}
 
-\begin{frame}
-\frametitle{Concentration Bounds}
-\begin{itemize}
-\item<1-> Let $X_{1}, . . . , X_{n}$ be random variables with common support $[0, 1]$ and such that $E[X_{t} |X_{1}, . . . , X_{t-1}] = r_i$. Let $\hat{r}_i = \dfrac{X_{1} +,....,+ X_{n}}{n}$. Then for all $c \geq 0$,
-\begin{align*}
-\mathbb{P} \lbrace \hat{r}_i \geq r_i + c \rbrace \leq \exp{(-2c^{2}n)}\\
-\mathbb{P}\lbrace \hat{r}_i \leq r_i - c \rbrace \leq \exp{(-2c^{2}n)}
-\end{align*}
-
-\item<2-> Along with the above information if we know that $\text{Var}[X_{t} |X_{1}, . . . , X_{t-1}]=\sigma_i^2$ then Bernstein inequality gives us,
-\begin{align*}
-\mathbb{P} \lbrace \hat{r}_i \geq r_i + c \rbrace \leq \exp{(-\dfrac{c^{2}n}{2\sigma_i^2 +\frac{2c}{3}})}\\
-\mathbb{P}\lbrace \hat{r}_i \leq r_i - c \rbrace \leq \exp{(-\dfrac{c^{2}n}{2\sigma_i^2 +\frac{2c}{3}})}
-\end{align*}
-
-\end{itemize}
-\end{frame}
+%\begin{frame}
+%\frametitle{Concentration Bounds}
+%\begin{itemize}
+%\item<1-> Let $X_{1}, . . . , X_{n}$ be random variables with common support $[0, 1]$ and such that $E[X_{t} |X_{1}, . . . , X_{t-1}] = r_i$. Let $\hat{r}_i = \dfrac{X_{1} +,....,+ X_{n}}{n}$. Then for all $c \geq 0$,
+%\begin{align*}
+%\mathbb{P} \lbrace \hat{r}_i \geq r_i + c \rbrace \leq \exp{(-2c^{2}n)}\\
+%\mathbb{P}\lbrace \hat{r}_i \leq r_i - c \rbrace \leq \exp{(-2c^{2}n)}
+%\end{align*}
+%
+%\item<2-> Along with the above information if we know that $\text{Var}[X_{t} |X_{1}, . . . , X_{t-1}]=\sigma_i^2$ then Bernstein inequality gives us,
+%\begin{align*}
+%\mathbb{P} \lbrace \hat{r}_i \geq r_i + c \rbrace \leq \exp{(-\dfrac{c^{2}n}{2\sigma_i^2 +\frac{2c}{3}})}\\
+%\mathbb{P}\lbrace \hat{r}_i \leq r_i - c \rbrace \leq \exp{(-\dfrac{c^{2}n}{2\sigma_i^2 +\frac{2c}{3}})}
+%\end{align*}
+%
+%\end{itemize}
+%\end{frame}
 
 \begin{frame}
 \frametitle{Sketch of the proof}

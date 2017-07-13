@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  13 JUL 2017 14:04
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  13 JUL 2017 18:35
 entering extended mode
  %&-line parsing enabled.
 **presentation_bandit.tex
@@ -1487,7 +1487,7 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
 ] <img/UCB_Drawing.png, id=825, 963.6pt x 722.7pt>
 File: img/UCB_Drawing.png Graphic file (type png)
 
-<use img/UCB_Drawing.png> <img/Ucb-Imp.png, id=827, 961.5925pt x 955.57pt>
+<use img/UCB_Drawing.png> <img/Ucb-Imp.png, id=827, 904.37875pt x 955.57pt>
 File: img/Ucb-Imp.png Graphic file (type png)
 
 <use img/Ucb-Imp.png>
@@ -1510,26 +1510,27 @@ File: img/Ucb_Imp_intuition.png Graphic file (type png)
 
 ] [35
 
-] <img/APT_intuition.png, id=1015, 1329.96875pt x 716.6775pt>
+]
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 116.
+ [36
+
+]
+<img/APT_intuition.png, id=1042, 1329.96875pt x 716.6775pt>
 File: img/APT_intuition.png Graphic file (type png)
 
 <use img/APT_intuition.png>
-Overfull \hbox (27.43494pt too wide) in paragraph at lines 108--108
+Overfull \hbox (27.43494pt too wide) in paragraph at lines 125--125
  [] 
  []
 
 
-Overfull \vbox (22.63463pt too high) detected at line 108
+Overfull \vbox (22.63463pt too high) detected at line 125
  []
 
-[36
+[37
 
- <./img/APT_intuition.png>]
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 124.
- [37
-
-]) (./AugUCB.tex
+ <./img/APT_intuition.png>]) (./AugUCB.tex
 <img/SeminarThresholdBandit.png, id=1070, 1281.78876pt x 554.07pt>
 File: img/SeminarThresholdBandit.png Graphic file (type png)
 
@@ -1539,50 +1540,92 @@ File: img/SeminarThresholdBandit.png Graphic file (type png)
 <img/ArmElim1.png, id=1099, 1300.86pt x 443.6575pt>
 File: img/ArmElim1.png Graphic file (type png)
  <use img/ArmElim1.png>
+Overfull \hbox (19.34273pt too wide) in paragraph at lines 26--26
+ [] 
+ []
+
 [39
 
  <./img/ArmElim1.png>]
 <img/ArmElim2.png, id=1127, 1303.87125pt x 431.6125pt>
 File: img/ArmElim2.png Graphic file (type png)
  <use img/ArmElim2.png>
+Overfull \hbox (20.17986pt too wide) in paragraph at lines 34--34
+ [] 
+ []
+
 [40
 
- <./img/ArmElim2.png>] [41
+ <./img/ArmElim2.png>]
+<img/AugUCB_flow.png, id=1155, 987.69pt x 948.54375pt>
+File: img/AugUCB_flow.png Graphic file (type png)
 
-] [42
+<use img/AugUCB_flow.png> [41
 
-] [43
+ <./img/AugUCB_flow.png>]
+<img/AugUCB_flow_param.png, id=1183, 1170.3725pt x 947.54pt>
+File: img/AugUCB_flow_param.png Graphic file (type png)
 
-] [44
+<use img/AugUCB_flow_param.png> [42
+
+ <./img/AugUCB_flow_param.png>] [43
+
+]
+[44
 
 ] [45
 
+] <img/AugUCB_flow_armpull.png, id=1291, 1170.3725pt x 947.54pt>
+File: img/AugUCB_flow_armpull.png Graphic file (type png)
+
+<use img/AugUCB_flow_armpull.png> [46
+
+ <./img/AugUCB_flow_armpull.png>] [47
+
 ]
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 90.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 90.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 90.
- [46
-
-] [47
-
-
-]) (./Theory.tex
 [48
 
 ] [49
 
 ] [50
 
-] [51
+] <img/AugUCB_flow_elim.png, id=1424, 1170.3725pt x 947.54pt>
+File: img/AugUCB_flow_elim.png Graphic file (type png)
 
-] [52
+<use img/AugUCB_flow_elim.png> [51
+
+ <./img/AugUCB_flow_elim.png>] [52
 
 ] [53
 
-] [54
+]
+[54
+
+] <img/AugUCB_flow_reset.png, id=1530, 1170.3725pt x 947.54pt>
+File: img/AugUCB_flow_reset.png Graphic file (type png)
+
+<use img/AugUCB_flow_reset.png> [55
+
+ <./img/AugUCB_flow_reset.png>] [56
+
+]
+[57
+
+] [58
+
+]) (./Theory.tex [59
+
+] [60
+
+] [61
+
+] [62
+
+] [63
+
+] [64
+
+] [65
 
 ]
 Overfull \hbox (3.72626pt too wide) in paragraph at lines 91--91
@@ -1593,53 +1636,15 @@ Overfull \hbox (3.72626pt too wide) in paragraph at lines 91--91
 Overfull \vbox (2.12187pt too high) detected at line 91
  []
 
-[55
+[66
 
-] [56
+] [67
 
-] [57
+] [68
 
-] [58
+] [69
 
-] [59
-
-] [60
-
-]) (./expt.tex [61
-
-] [62
-
-] [63
-
-] [64
-
-] [65
-
-] [66
-
-]
-[67
-
-]
-PGFPlots: reading {results/budgetTestGR4/APT1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR4/AugUCB1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR4/UCBEM1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR4/UCBEMV1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR4/SR1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR4/UA1_comp_subsampled.txt}
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 235.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 235.
-PGFPlots: reading {results/budgetTestGR3/testUCBEMV1_0.25_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR4/AugUCB1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR3/testUCBEMV1_256_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR4/UCBEMV1_comp_subsampled.txt}
- [68
-
-]) (./conclusion.tex [69
-
-] [70
+]) (./expt.tex [70
 
 ] [71
 
@@ -1651,46 +1656,86 @@ PGFPlots: reading {results/budgetTestGR4/UCBEMV1_comp_subsampled.txt}
 
 ] [75
 
+] [76
+
+]
+PGFPlots: reading {results/budgetTestGR4/APT1_comp_subsampled.txt}
+PGFPlots: reading {results/budgetTestGR4/AugUCB1_comp_subsampled.txt}
+PGFPlots: reading {results/budgetTestGR4/UCBEM1_comp_subsampled.txt}
+PGFPlots: reading {results/budgetTestGR4/UCBEMV1_comp_subsampled.txt}
+PGFPlots: reading {results/budgetTestGR4/SR1_comp_subsampled.txt}
+PGFPlots: reading {results/budgetTestGR4/UA1_comp_subsampled.txt}
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <14.4> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 235.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 235.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 235.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 235.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 235.
+PGFPlots: reading {results/budgetTestGR3/testUCBEMV1_0.25_comp_subsampled.txt}
+PGFPlots: reading {results/budgetTestGR4/AugUCB1_comp_subsampled.txt}
+PGFPlots: reading {results/budgetTestGR3/testUCBEMV1_256_comp_subsampled.txt}
+PGFPlots: reading {results/budgetTestGR4/UCBEMV1_comp_subsampled.txt}
+ [77
+
+])
+(./conclusion.tex [78
+
+] [79
+
+] [80
+
+] [81
+
+] [82
+
+] [83
+
+] [84
+
 ])
 (./presentation_bandit.bbl
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 106.
 
  (/usr/share/texmf-texlive/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)) [76
+)) [85
 
  </usr/share/texmf/tex/latex/beamer/base/art/beamericonarticle.pdf>]
-[77
-
-
-] [78
-
-
-] [79
-
-
-] [80
-
-
-] [81
-
-
-] [82
-
-
-] [83
-
-
-] [84
-
-
-] [85
-
-
-] [86
+[86
 
 
 ] [87
+
+
+] [88
+
+
+] [89
+
+
+] [90
+
+
+] [91
+
+
+] [92
+
+
+] [93
+
+
+] [94
+
+
+] [95
+
+
+] [96
 
 ]
 \tf@nav=\write7
@@ -1705,11 +1750,11 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 
 (./presentation_bandit.aux) ) 
 Here is how much of TeX's memory you used:
- 25058 strings out of 493848
- 531706 string characters out of 1152823
- 695391 words of memory out of 3000000
- 27375 multiletter control sequences out of 15000+50000
- 43723 words of font info for 92 fonts, out of 3000000 for 9000
+ 25094 strings out of 493848
+ 532306 string characters out of 1152823
+ 696818 words of memory out of 3000000
+ 27390 multiletter control sequences out of 15000+50000
+ 41352 words of font info for 90 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  51i,26n,77p,1054b,1746s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.
@@ -1725,9 +1770,9 @@ xlive/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-texlive/
 fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/he
 lvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb
 ></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on presentation_bandit.pdf (87 pages, 869571 bytes).
+Output written on presentation_bandit.pdf (96 pages, 1329419 bytes).
 PDF statistics:
- 2533 PDF objects out of 2984 (max. 8388607)
- 224 named destinations out of 1000 (max. 500000)
- 176 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2781 PDF objects out of 2984 (max. 8388607)
+ 242 named destinations out of 1000 (max. 500000)
+ 201 words of extra memory for PDF output out of 10000 (max. 10000000)
 

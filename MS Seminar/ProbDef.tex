@@ -23,7 +23,7 @@
 \item<4-> The goal of the learning agent is to minimize the expected loss:
 \begin{align*}
 \Ex[\Ls(T)] &= \Pb\big(\lbrace S_{\tau}\cap \hat{S}_{\tau}^{c} \neq \emptyset \rbrace  \cup   \lbrace \hat{S}_{\tau}\cap S_{\tau}^{c} \neq \emptyset\rbrace\big) \\
-& = 1 - \Pb\big(\lbrace \hat{S}_{\tau}\cap {S}_{\tau}^{c} = \emptyset \rbrace\big)
+& = 1 - \Pb\big(\lbrace \hat{S}_{\tau}\cap {S}_{\tau}^{c} = \emptyset \rbrace \cap \lbrace \hat{S}_{\tau}^c \cap {S}_{\tau} = \emptyset \rbrace \big )
 \end{align*}
 \end{itemize}
 \end{frame}

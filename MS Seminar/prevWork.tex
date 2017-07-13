@@ -5,7 +5,7 @@
 \begin{itemize}
 \item<1-> Since there is an initial uncertainty in the estimated mean ($\hat{r}_i$) introduce a confidence interval term $c_i$.
 \item<2-> $c_i$ ensures that the arm $i$ is properly explored and is gradually reduced with time as one pulls the arm $i$ more.
-\item<3-> At every timestep pull arms that has the maximum value of $\hat{r}_i + c_i$ and this will ensure that proper exploration is done. 
+\item<3-> At every timestep pull arm that has the maximum value of $\hat{r}_i + c_i$ and this will ensure that proper exploration is done. 
 \end{itemize}
 \end{frame}
 
@@ -100,14 +100,6 @@
 \end{frame}
 
 \begin{frame}
-\frametitle{Intuition of APT}
-\begin{figure}
-\caption{APT Intuition}
-\includegraphics[scale=0.278]{img/APT_intuition.png}
-\end{figure}
-\end{frame}
-
-\begin{frame}
 \frametitle{APT Algorithm}
 \begin{algorithm}[H]
 \caption{APT}
@@ -122,6 +114,16 @@
 \end{algorithmic}
 \end{algorithm}
 \end{frame}
+
+
+\begin{frame}
+\frametitle{Intuition of APT}
+\begin{figure}
+\caption{APT Intuition}
+\includegraphics[scale=0.278]{img/APT_intuition.png}
+\end{figure}
+\end{frame}
+
 
 
 
