@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  13 JUL 2017 18:35
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  14 JUL 2017 11:44
 entering extended mode
  %&-line parsing enabled.
 **presentation_bandit.tex
@@ -1446,7 +1446,10 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
 
 ] [10
 
-] [11
+]
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 29.
+ [11
 
 ] [12
 
@@ -1484,19 +1487,23 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
 
 ] [28
 
-] <img/UCB_Drawing.png, id=825, 963.6pt x 722.7pt>
+] <img/UCB_Drawing.png, id=826, 963.6pt x 722.7pt>
 File: img/UCB_Drawing.png Graphic file (type png)
 
-<use img/UCB_Drawing.png> <img/Ucb-Imp.png, id=827, 904.37875pt x 955.57pt>
+<use img/UCB_Drawing.png>
+Overfull \vbox (12.93384pt too high) detected at line 18
+ []
+
+[29
+
+ <./img/UCB_Drawing.png>]
+<img/Ucb-Imp.png, id=855, 759.83875pt x 906.38625pt>
 File: img/Ucb-Imp.png Graphic file (type png)
+ <use img/Ucb-Imp.png>
+[30
 
-<use img/Ucb-Imp.png>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [29
-
- <./img/UCB_Drawing.png>] [30 <./img/Ucb-Imp.png>]
-<img/Ucb_Imp_intuition.png, id=882, 920.43875pt x 405.515pt>
+ <./img/Ucb-Imp.png>]
+<img/Ucb_Imp_intuition.png, id=883, 920.43875pt x 405.515pt>
 File: img/Ucb_Imp_intuition.png Graphic file (type png)
 
 <use img/Ucb_Imp_intuition.png> [31
@@ -1510,22 +1517,14 @@ File: img/Ucb_Imp_intuition.png Graphic file (type png)
 
 ] [35
 
-]
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 116.
- [36
+] [36
 
-]
-<img/APT_intuition.png, id=1042, 1329.96875pt x 716.6775pt>
+] <img/APT_intuition.png, id=1042, 1282.7925pt x 548.0475pt>
 File: img/APT_intuition.png Graphic file (type png)
 
 <use img/APT_intuition.png>
-Overfull \hbox (27.43494pt too wide) in paragraph at lines 125--125
+Overfull \hbox (14.31998pt too wide) in paragraph at lines 129--129
  [] 
- []
-
-
-Overfull \vbox (22.63463pt too high) detected at line 125
  []
 
 [37
@@ -1557,13 +1556,13 @@ Overfull \hbox (20.17986pt too wide) in paragraph at lines 34--34
 [40
 
  <./img/ArmElim2.png>]
-<img/AugUCB_flow.png, id=1155, 987.69pt x 948.54375pt>
+<img/AugUCB_flow.png, id=1155, 1087.06125pt x 1015.795pt>
 File: img/AugUCB_flow.png Graphic file (type png)
 
 <use img/AugUCB_flow.png> [41
 
  <./img/AugUCB_flow.png>]
-<img/AugUCB_flow_param.png, id=1183, 1170.3725pt x 947.54pt>
+<img/AugUCB_flow_param.png, id=1183, 1087.06125pt x 1015.795pt>
 File: img/AugUCB_flow_param.png Graphic file (type png)
 
 <use img/AugUCB_flow_param.png> [42
@@ -1575,7 +1574,7 @@ File: img/AugUCB_flow_param.png Graphic file (type png)
 
 ] [45
 
-] <img/AugUCB_flow_armpull.png, id=1291, 1170.3725pt x 947.54pt>
+] <img/AugUCB_flow_armpull.png, id=1291, 1087.06125pt x 1015.795pt>
 File: img/AugUCB_flow_armpull.png Graphic file (type png)
 
 <use img/AugUCB_flow_armpull.png> [46
@@ -1589,7 +1588,7 @@ File: img/AugUCB_flow_armpull.png Graphic file (type png)
 
 ] [50
 
-] <img/AugUCB_flow_elim.png, id=1424, 1170.3725pt x 947.54pt>
+] <img/AugUCB_flow_elim.png, id=1424, 1087.06125pt x 1015.795pt>
 File: img/AugUCB_flow_elim.png Graphic file (type png)
 
 <use img/AugUCB_flow_elim.png> [51
@@ -1601,7 +1600,7 @@ File: img/AugUCB_flow_elim.png Graphic file (type png)
 ]
 [54
 
-] <img/AugUCB_flow_reset.png, id=1530, 1170.3725pt x 947.54pt>
+] <img/AugUCB_flow_reset.png, id=1530, 1062.97125pt x 905.3825pt>
 File: img/AugUCB_flow_reset.png Graphic file (type png)
 
 <use img/AugUCB_flow_reset.png> [55
@@ -1696,19 +1695,18 @@ PGFPlots: reading {results/budgetTestGR4/UCBEMV1_comp_subsampled.txt}
 
 ] [84
 
+] [85
+
 ])
 (./presentation_bandit.bbl
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 106.
 
  (/usr/share/texmf-texlive/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)) [85
+)) [86
 
  </usr/share/texmf/tex/latex/beamer/base/art/beamericonarticle.pdf>]
-[86
-
-
-] [87
+[87
 
 
 ] [88
@@ -1737,6 +1735,9 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 
 ] [96
 
+
+] [97
+
 ]
 \tf@nav=\write7
 \openout7 = `presentation_bandit.nav'.
@@ -1750,11 +1751,11 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 
 (./presentation_bandit.aux) ) 
 Here is how much of TeX's memory you used:
- 25094 strings out of 493848
- 532306 string characters out of 1152823
- 696818 words of memory out of 3000000
- 27390 multiletter control sequences out of 15000+50000
- 41352 words of font info for 90 fonts, out of 3000000 for 9000
+ 25107 strings out of 493848
+ 532558 string characters out of 1152823
+ 695866 words of memory out of 3000000
+ 27400 multiletter control sequences out of 15000+50000
+ 43521 words of font info for 93 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  51i,26n,77p,1054b,1746s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.
@@ -1770,9 +1771,9 @@ xlive/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-texlive/
 fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/he
 lvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb
 ></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on presentation_bandit.pdf (96 pages, 1329419 bytes).
+Output written on presentation_bandit.pdf (97 pages, 1306219 bytes).
 PDF statistics:
- 2781 PDF objects out of 2984 (max. 8388607)
- 242 named destinations out of 1000 (max. 500000)
+ 2808 PDF objects out of 2984 (max. 8388607)
+ 244 named destinations out of 1000 (max. 500000)
  201 words of extra memory for PDF output out of 10000 (max. 10000000)
 

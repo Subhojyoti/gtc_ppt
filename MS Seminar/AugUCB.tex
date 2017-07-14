@@ -3,12 +3,12 @@
 \begin{itemize}
 %\item We define $\Delta_i = |r_i - \tau| $ . 
 \item Like UCB-Imp, AugUCB also divides the time budget $T$ into rounds.
-\item At every timestep we pull the arm that minimizes $j\in\argmin_{i\in B_{m}}\Big\lbrace |\hat{r}_{i} - \tau | - 2s_{i}\Big\rbrace$ (like APT). 
+\item At every timestep we pull arm j s.t. $j\in\argmin_{i\in B_{m}}\Big\lbrace |\hat{r}_{i} - \tau | - 2s_{i}\Big\rbrace$ (like APT). 
 \end{itemize}
 
 \begin{figure}
 \caption{AugUCB Intuition (Arm pulling)}
-\includegraphics[scale=0.178]{img/SeminarThresholdBandit.png}
+\includegraphics[scale=0.19]{img/SeminarThresholdBandit.png}
 \end{figure}
 \end{frame}
 
@@ -66,8 +66,8 @@
 \frametitle{Parameter initialization}
 \begin{itemize}
 \item<1-> We define $\ell_{0} =\left\lceil \frac{2\psi_0\log( T\epsilon_{0})}{\epsilon_{0}} \right\rceil$ as the budget allocated to each arm in a round.
-\item<2-> The first round gets divided into $N_{0}=K\ell_{0}$
-\item<3-> We define a large exploration regulatory factor $\psi_{0}=\frac{T\epsilon_{0}}{128\Big(\log(\frac{3}{16}K\log K)\Big)^2}$.
+\item<2-> The first round gets divided into $N_{0}=K\ell_{0}$ timesteps.
+\item<3-> We define a large exploration regulatory factor $\psi_{0}=\frac{T\epsilon_{0}}{128\Big(\log(\frac{3}{16}K\log K)\Big)^2}$ which controls exploration.
 %\item<1-> M&=\left\lfloor \frac{1}{2}\log_{2} \frac{T}{e}\right\rfloor; 
 %\hspace{2mm}\psi_{0}=\frac{T\epsilon_{0}}{128\Big(\log(\frac{3}{16}K\log K)\Big)^2}; \\
 %\ell_{0}&=\left\lceil \frac{2\psi_0\log( T\epsilon_{0})}{\epsilon_{0}} \right\rceil ;
