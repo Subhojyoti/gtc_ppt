@@ -1,8 +1,8 @@
 \begin{frame}
 \frametitle{Problem Definition}
 \begin{itemize}
-\item<1-> The primary aim in the thresholding bandit problem (TBP) is to identify the arms whose mean of the reward distribution is above a particular threshold $\tau$ given as input.
-\item<2-> The above goal has to be achieved within $T$ timesteps of exploration and this is termed as a fixed-budget problem.
+\item<1-> Primary aim: Identify the arms whose mean of the reward distribution ($r_i$) is above a particular threshold $\tau$ given as input.
+\item<2-> Condition: This has to be achieved within $T$ timesteps of exploration and this is termed as a fixed-budget problem.
 \item<3-> At the end of the given $T$ timesteps the learner must recommend a set of arms which (according to it) are the arms having reward mean above $\tau$.
 \end{itemize}
 \end{frame}
@@ -30,16 +30,23 @@
 
 \begin{frame}
 \frametitle{Challenges in the TBP Settings}
+%\begin{itemize}
+%\item<1-> The more number of arms' means are closer to the threshold the harder is to discriminate between them.
+%\item<2-> The lesser the budget is, the harder the problem becomes.
+%\item<3-> The higher the variance of the arms' the more difficult is to discriminate.
+%\end{itemize}
+
 \begin{itemize}
-\item<1-> The more number of arms' means are closer to the threshold the harder is to discriminate between them.
-\item<2-> The lesser the budget is, the harder the problem becomes.
-\item<3-> The higher the variance of the arms' the more difficult is to discriminate.
+\item<1-> Closer arms' mean to the threshold $\Rightarrow$ harder is to discriminate.
+\item<2-> Lesser the budget $\Rightarrow$ harder the problem.
+\item<3-> Higher variance of the arms' $\Rightarrow$ harder the problem.
 \end{itemize}
+
 \end{frame}
 
 
 \begin{frame}
-\frametitle{Some practical applications}
+\frametitle{Applications}
 \begin{itemize}
 \item<1-> Selecting the best channels (out of several existing channels) for mobile communications in a very short duration whose qualities are above an acceptable threshold (see \cite{audibert2010best}).
 \item<2-> Selecting a small set of best workers (out of a very large pool of workers) whose productivity is above a threshold.
