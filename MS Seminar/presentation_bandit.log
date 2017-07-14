@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  14 JUL 2017 11:44
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  14 JUL 2017 11:56
 entering extended mode
  %&-line parsing enabled.
 **presentation_bandit.tex
@@ -1637,13 +1637,20 @@ Overfull \vbox (2.12187pt too high) detected at line 91
 
 [66
 
-] [67
+]
+File: img/ArmElim2.png Graphic file (type png)
+ <use img/ArmElim2.png>
+Overfull \hbox (20.17986pt too wide) in paragraph at lines 124--124
+ [] 
+ []
 
-] [68
+[67
+
+]) (./expt.tex [68
 
 ] [69
 
-]) (./expt.tex [70
+] [70
 
 ] [71
 
@@ -1652,10 +1659,6 @@ Overfull \vbox (2.12187pt too high) detected at line 91
 ] [73
 
 ] [74
-
-] [75
-
-] [76
 
 ]
 PGFPlots: reading {results/budgetTestGR4/APT1_comp_subsampled.txt}
@@ -1678,10 +1681,14 @@ PGFPlots: reading {results/budgetTestGR3/testUCBEMV1_0.25_comp_subsampled.txt}
 PGFPlots: reading {results/budgetTestGR4/AugUCB1_comp_subsampled.txt}
 PGFPlots: reading {results/budgetTestGR3/testUCBEMV1_256_comp_subsampled.txt}
 PGFPlots: reading {results/budgetTestGR4/UCBEMV1_comp_subsampled.txt}
- [77
+ [75
 
-])
-(./conclusion.tex [78
+]) (./conclusion.tex
+[76
+
+] [77
+
+] [78
 
 ] [79
 
@@ -1693,20 +1700,21 @@ PGFPlots: reading {results/budgetTestGR4/UCBEMV1_comp_subsampled.txt}
 
 ] [83
 
-] [84
-
-] [85
-
-])
-(./presentation_bandit.bbl
+]) (./presentation_bandit.bbl
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 106.
 
- (/usr/share/texmf-texlive/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)) [86
 
- </usr/share/texmf/tex/latex/beamer/base/art/beamericonarticle.pdf>]
-[87
+(/usr/share/texmf-texlive/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)) [84
+
+ </usr/share/texmf/tex/latex/beamer/base/art/beamericonarticle.pdf>] [85
+
+
+] [86
+
+
+] [87
 
 
 ] [88
@@ -1715,7 +1723,8 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ] [89
 
 
-] [90
+]
+[90
 
 
 ] [91
@@ -1732,12 +1741,6 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 
 ] [95
 
-
-] [96
-
-
-] [97
-
 ]
 \tf@nav=\write7
 \openout7 = `presentation_bandit.nav'.
@@ -1748,32 +1751,31 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 \tf@snm=\write9
 \openout9 = `presentation_bandit.snm'.
 
-
-(./presentation_bandit.aux) ) 
+ (./presentation_bandit.aux) ) 
 Here is how much of TeX's memory you used:
- 25107 strings out of 493848
- 532558 string characters out of 1152823
+ 25103 strings out of 493848
+ 532520 string characters out of 1152823
  695866 words of memory out of 3000000
  27400 multiletter control sequences out of 15000+50000
  43521 words of font info for 93 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  51i,26n,77p,1054b,1746s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.
-enc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/s
-hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-
-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fon
-ts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/pub
-lic/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
-/cm/cmss10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss8.p
-fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
-are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-texlive/
-fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/he
-lvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb
-></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on presentation_bandit.pdf (97 pages, 1306219 bytes).
+{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r
+.enc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf
+-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fo
+nts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmss10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss8.
+pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
+hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-texlive
+/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/h
+elvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pf
+b></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on presentation_bandit.pdf (95 pages, 1293387 bytes).
 PDF statistics:
- 2808 PDF objects out of 2984 (max. 8388607)
- 244 named destinations out of 1000 (max. 500000)
+ 2754 PDF objects out of 2984 (max. 8388607)
+ 240 named destinations out of 1000 (max. 500000)
  201 words of extra memory for PDF output out of 10000 (max. 10000000)
 
