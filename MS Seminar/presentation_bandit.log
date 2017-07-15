@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  14 JUL 2017 19:15
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  15 JUL 2017 16:50
 entering extended mode
  %&-line parsing enabled.
 **presentation_bandit.tex
@@ -1420,12 +1420,12 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (./presentation_bandit.nav)
-Overfull \hbox (215.22215pt too wide) in paragraph at lines 102--102
+Overfull \hbox (191.82262pt too wide) in paragraph at lines 102--102
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
@@ -1433,7 +1433,7 @@ Overfull \hbox (215.22215pt too wide) has occurred while \output is active
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 (./presentation_bandit.toc)
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
@@ -1456,779 +1456,707 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 10.
 
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [3
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [4
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [5
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [6
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [7
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [8
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [9
 
-]) (./ProbDef.tex
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+]
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [10
 
-]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+]) (./ProbDef.tex
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [11
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [12
 
 ]
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 29.
-
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [13
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 29.
+
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [14
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [15
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [16
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [17
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [18
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [19
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [20
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [21
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [22
 
-]) (./contribution.tex
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+]
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [23
 
-]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+]) (./contribution.tex
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [24
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [25
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [26
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [27
 
-]) (./prevWork.tex
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+]
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [28
 
-]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+]) (./prevWork.tex
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [29
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [30
 
-] <img/UCB_Drawing.png, id=879, 963.6pt x 722.7pt>
-File: img/UCB_Drawing.png Graphic file (type png)
-
-<use img/UCB_Drawing.png>
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+]
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [31
 
- <./img/UCB_Drawing.png>]
-<img/Ucb-Imp.png, id=909, 759.83875pt x 906.38625pt>
-File: img/Ucb-Imp.png Graphic file (type png)
- <use img/Ucb-Imp.png>
-Overfull \vbox (8.79486pt too high) detected at line 83
- []
+] <img/UCB_Drawing.png, id=891, 963.6pt x 722.7pt>
+File: img/UCB_Drawing.png Graphic file (type png)
 
-
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+<use img/UCB_Drawing.png>
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [32
 
- <./img/Ucb-Imp.png>]
-<img/Ucb_Imp_intuition.png, id=937, 920.43875pt x 405.515pt>
-File: img/Ucb_Imp_intuition.png Graphic file (type png)
+ <./img/UCB_Drawing.png>]
+<img/Ucb-Imp.png, id=920, 759.83875pt x 906.38625pt>
+File: img/Ucb-Imp.png Graphic file (type png)
+ <use img/Ucb-Imp.png>
+Overfull \vbox (8.79486pt too high) detected at line 84
+ []
 
-<use img/Ucb_Imp_intuition.png>
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [33
 
- <./img/Ucb_Imp_intuition.png>]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+ <./img/Ucb-Imp.png>]
+<img/Ucb_Imp_intuition.png, id=948, 920.43875pt x 405.515pt>
+File: img/Ucb_Imp_intuition.png Graphic file (type png)
+
+<use img/Ucb_Imp_intuition.png>
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [34
 
-]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+ <./img/Ucb_Imp_intuition.png>]
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [35
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [36
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [37
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [38
 
-] <img/APT_intuition.png, id=1096, 1282.7925pt x 548.0475pt>
-File: img/APT_intuition.png Graphic file (type png)
-
-<use img/APT_intuition.png>
-Overfull \hbox (14.31998pt too wide) in paragraph at lines 129--129
- [] 
- []
-
-
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+]
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [39
 
- <./img/APT_intuition.png>]) (./AugUCB.tex
-<img/SeminarThresholdBandit.png, id=1123, 1281.78876pt x 554.07pt>
-File: img/SeminarThresholdBandit.png Graphic file (type png)
+] <img/APT_intuition.png, id=1106, 1282.7925pt x 548.0475pt>
+File: img/APT_intuition.png Graphic file (type png)
 
-<use img/SeminarThresholdBandit.png>
-Overfull \hbox (14.04094pt too wide) in paragraph at lines 13--13
+<use img/APT_intuition.png>
+Overfull \hbox (14.31998pt too wide) in paragraph at lines 130--130
  [] 
  []
 
 
-Overfull \vbox (11.74638pt too high) detected at line 13
- []
-
-
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [40
 
- <./img/SeminarThresholdBandit.png>]
-<img/ArmElim1.png, id=1152, 1300.86pt x 443.6575pt>
-File: img/ArmElim1.png Graphic file (type png)
- <use img/ArmElim1.png>
-Overfull \hbox (19.34273pt too wide) in paragraph at lines 26--26
- [] 
+ <./img/APT_intuition.png>]) (./AugUCB.tex
+<img/AugUCB_flow.png, id=1133, 1087.06125pt x 1015.795pt>
+File: img/AugUCB_flow.png Graphic file (type png)
+
+<use img/AugUCB_flow.png>
+Overfull \vbox (25.99463pt too high) detected at line 7
  []
 
 
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [41
 
- <./img/ArmElim1.png>]
-<img/ArmElim2.png, id=1180, 1303.87125pt x 431.6125pt>
-File: img/ArmElim2.png Graphic file (type png)
- <use img/ArmElim2.png>
-Overfull \hbox (20.17986pt too wide) in paragraph at lines 34--34
+ <./img/AugUCB_flow.png>]
+<img/SeminarThresholdBandit.png, id=1162, 1281.78876pt x 554.07pt>
+File: img/SeminarThresholdBandit.png Graphic file (type png)
+
+<use img/SeminarThresholdBandit.png>
+Overfull \hbox (14.04094pt too wide) in paragraph at lines 23--23
  [] 
  []
 
 
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \vbox (11.74638pt too high) detected at line 23
+ []
+
+
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [42
 
- <./img/ArmElim2.png>]
-<img/AugUCB_flow.png, id=1208, 1087.06125pt x 1015.795pt>
-File: img/AugUCB_flow.png Graphic file (type png)
-
-<use img/AugUCB_flow.png>
-Overfull \vbox (25.99463pt too high) detected at line 42
+ <./img/SeminarThresholdBandit.png>]
+<img/ArmElim1.png, id=1190, 1300.86pt x 443.6575pt>
+File: img/ArmElim1.png Graphic file (type png)
+ <use img/ArmElim1.png>
+Overfull \hbox (19.34273pt too wide) in paragraph at lines 36--36
+ [] 
  []
 
 
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [43
 
- <./img/AugUCB_flow.png>]
-<img/AugUCB_flow_param.png, id=1237, 1087.06125pt x 1015.795pt>
-File: img/AugUCB_flow_param.png Graphic file (type png)
-
-<use img/AugUCB_flow_param.png>
-Overfull \vbox (25.99463pt too high) detected at line 62
+ <./img/ArmElim1.png>]
+<img/ArmElim2.png, id=1219, 1303.87125pt x 431.6125pt>
+File: img/ArmElim2.png Graphic file (type png)
+ <use img/ArmElim2.png>
+Overfull \hbox (20.17986pt too wide) in paragraph at lines 44--44
+ [] 
  []
 
 
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [44
 
- <./img/AugUCB_flow_param.png>]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+ <./img/ArmElim2.png>]
+<img/AugUCB_flow_param.png, id=1247, 1087.06125pt x 1015.795pt>
+File: img/AugUCB_flow_param.png Graphic file (type png)
+
+<use img/AugUCB_flow_param.png>
+Overfull \vbox (25.99463pt too high) detected at line 72
+ []
+
+
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [45
 
-]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+ <./img/AugUCB_flow_param.png>]
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [46
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [47
 
-] <img/AugUCB_flow_armpull.png, id=1343, 1087.06125pt x 1015.795pt>
-File: img/AugUCB_flow_armpull.png Graphic file (type png)
-
-<use img/AugUCB_flow_armpull.png>
-Overfull \vbox (25.99463pt too high) detected at line 85
- []
-
-
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+]
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [48
 
- <./img/AugUCB_flow_armpull.png>]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+] <img/AugUCB_flow_armpull.png, id=1353, 1087.06125pt x 1015.795pt>
+File: img/AugUCB_flow_armpull.png Graphic file (type png)
+
+<use img/AugUCB_flow_armpull.png>
+Overfull \vbox (25.99463pt too high) detected at line 95
+ []
+
+
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [49
 
-]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+ <./img/AugUCB_flow_armpull.png>]
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [50
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [51
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [52
 
-] <img/AugUCB_flow_elim.png, id=1476, 1087.06125pt x 1015.795pt>
-File: img/AugUCB_flow_elim.png Graphic file (type png)
-
-<use img/AugUCB_flow_elim.png>
-Overfull \vbox (25.99463pt too high) detected at line 103
- []
-
-
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+]
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [53
 
- <./img/AugUCB_flow_elim.png>]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+] <img/AugUCB_flow_elim.png, id=1486, 1087.06125pt x 1015.795pt>
+File: img/AugUCB_flow_elim.png Graphic file (type png)
+
+<use img/AugUCB_flow_elim.png>
+Overfull \vbox (25.99463pt too high) detected at line 113
+ []
+
+
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [54
 
-]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+ <./img/AugUCB_flow_elim.png>]
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [55
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [56
 
-] <img/AugUCB_flow_reset.png, id=1583, 1087.06125pt x 1015.795pt>
-File: img/AugUCB_flow_reset.png Graphic file (type png)
-
-<use img/AugUCB_flow_reset.png>
-Overfull \vbox (25.99463pt too high) detected at line 122
- []
-
-
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+]
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [57
 
- <./img/AugUCB_flow_reset.png>]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+] <img/AugUCB_flow_reset.png, id=1593, 1087.06125pt x 1015.795pt>
+File: img/AugUCB_flow_reset.png Graphic file (type png)
+
+<use img/AugUCB_flow_reset.png>
+Overfull \vbox (25.99463pt too high) detected at line 132
+ []
+
+
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [58
 
-]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+ <./img/AugUCB_flow_reset.png>]
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [59
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [60
 
-]) (./Theory.tex
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+]
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [61
 
-]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+]) (./Theory.tex
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 2.
+ (/usr/share/texmf-texlive/tex/latex/psnfss/omsphv.fd
+File: omsphv.fd 
+)
+LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [62
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
-[63
-
-]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+[63]
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [64
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [65
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [66
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [67
 
 ]
-Overfull \hbox (3.72626pt too wide) in paragraph at lines 91--91
-[]|\OT1/phv/m/n/10.95 Algorithm| 
- []
-
-
-Overfull \vbox (2.12187pt too high) detected at line 91
- []
-
-
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [68
 
-] <img/ArmElim3.png, id=1905, 1318.9275pt x 567.11874pt>
-File: img/ArmElim3.png Graphic file (type png)
-
-<use img/ArmElim3.png>
-Overfull \hbox (24.36548pt too wide) in paragraph at lines 124--124
- [] 
- []
-
-
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+]
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [69
 
- <./img/ArmElim3.png>]) (./expt.tex
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+]
+Overfull \hbox (3.72626pt too wide) in paragraph at lines 94--94
+[]|\OT1/phv/m/n/10.95 Algorithm| 
+ []
+
+
+Overfull \vbox (2.12187pt too high) detected at line 94
+ []
+
+
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [70
 
-]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+] <img/ArmElim3.png, id=1937, 1318.9275pt x 567.11874pt>
+File: img/ArmElim3.png Graphic file (type png)
+
+<use img/ArmElim3.png>
+Overfull \hbox (24.36548pt too wide) in paragraph at lines 127--127
+ [] 
+ []
+
+
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [71
 
-]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+ <./img/ArmElim3.png>]) (./expt.tex
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [72
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [73
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [74
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [75
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [76
 
 ]
-PGFPlots: reading {results/budgetTestGR4/APT1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR4/AugUCB1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR4/UCBEM1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR4/UCBEMV1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR4/SR1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR4/UA1_comp_subsampled.txt}
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 235.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 235.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 235.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 235.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 235.
-PGFPlots: reading {results/budgetTestGR3/testUCBEMV1_0.25_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR4/AugUCB1_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR3/testUCBEMV1_256_comp_subsampled.txt}
-PGFPlots: reading {results/budgetTestGR4/UCBEMV1_comp_subsampled.txt}
-
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [77
 
-]) (./conclusion.tex
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+]
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [78
 
 ]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+PGFPlots: reading {results/budgetTestGR4/APT1_comp_subsampled.txt}
+PGFPlots: reading {results/budgetTestGR4/AugUCB1_comp_subsampled.txt}
+PGFPlots: reading {results/budgetTestGR4/UCBEM1_comp_subsampled.txt}
+PGFPlots: reading {results/budgetTestGR4/UCBEMV1_comp_subsampled.txt}
+PGFPlots: reading {results/budgetTestGR4/UA1_comp_subsampled.txt}
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <14.4> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 236.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 236.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 236.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 236.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 236.
+PGFPlots: reading {results/budgetTestGR3/testUCBEMV1_0.25_comp_subsampled.txt}
+PGFPlots: reading {results/budgetTestGR4/AugUCB1_comp_subsampled.txt}
+PGFPlots: reading {results/budgetTestGR3/testUCBEMV1_256_comp_subsampled.txt}
+PGFPlots: reading {results/budgetTestGR4/UCBEMV1_comp_subsampled.txt}
+
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [79
 
-]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+]) (./conclusion.tex
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [80
 
-]) (./presentation_bandit.bbl
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 106.
-
-
-(/usr/share/texmf-texlive/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-))
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+]
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [81
 
- </usr/share/texmf/tex/latex/beamer/base/art/beamericonarticle.pdf>]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+]
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [82
 
-
-]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
+])
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [83
-
-
-]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
- []
-
-[84
-
-
-]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
- []
-
-[85
-
-
-]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
- []
-
-[86
-
-
-]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
- []
-
-[87
-
-
-]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
- []
-
-[88
-
-
-]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
- []
-
-[89
-
-
-]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
- []
-
-[90
-
-
-]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
- []
-
-[91
-
-
-]
-Overfull \hbox (215.22215pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
- []
-
-[92
 
 ]
 \tf@nav=\write7
@@ -2242,13 +2170,13 @@ Overfull \hbox (215.22215pt too wide) has occurred while \output is active
 
  (./presentation_bandit.aux) ) 
 Here is how much of TeX's memory you used:
- 25100 strings out of 493848
- 532530 string characters out of 1152823
- 696334 words of memory out of 3000000
- 27402 multiletter control sequences out of 15000+50000
- 43521 words of font info for 93 fonts, out of 3000000 for 9000
+ 24861 strings out of 493848
+ 526589 string characters out of 1152823
+ 686951 words of memory out of 3000000
+ 27226 multiletter control sequences out of 15000+50000
+ 43006 words of font info for 91 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 51i,26n,77p,1054b,1746s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 51i,26n,77p,1054b,1735s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-texlive/fonts/enc/dvips/base/8r
 .enc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
 share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf
@@ -2259,12 +2187,12 @@ s/cm/cmss10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss8.
 pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
 hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-t
 exlive/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-texlive
-/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/h
-elvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pf
-b></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on presentation_bandit.pdf (92 pages, 1319419 bytes).
+/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/
+helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvro8a.
+pfb>
+Output written on presentation_bandit.pdf (83 pages, 1234069 bytes).
 PDF statistics:
- 2677 PDF objects out of 2984 (max. 8388607)
- 234 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2361 PDF objects out of 2487 (max. 8388607)
+ 178 named destinations out of 1000 (max. 500000)
+ 198 words of extra memory for PDF output out of 10000 (max. 10000000)
 

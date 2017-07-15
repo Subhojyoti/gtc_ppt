@@ -1,7 +1,10 @@
-\begin{frame}
+\begin{scriptsize}
+•
+\end{scriptsize}\begin{frame}
 \frametitle{Problem Complexity}
 \begin{itemize}
-\item<1-> We must delve into the notion of hardness which come from the general pure exploration bandit literature.
+%\item<1-> We must delve into the notion of hardness which come from the general pure exploration bandit literature.
+\item<1-> We have defined $\Delta_i= |\tau - r_i |$.
 \item<2-> We define $H_{1} = \sum_{i=1}^{K}\dfrac{1}{\Delta_{i}^{2}}$ and $
 H_{2} =\min_{i\in \mathcal{A}}\dfrac{i}{{\Delta_{(i)}^{2}}} $ where $\Delta_{(i)}$ is an increasing ordering of ${\Delta}_{i}$.
 %\end{align*}$
@@ -12,7 +15,7 @@ H_{2} =\min_{i\in \mathcal{A}}\dfrac{i}{{\Delta_{(i)}^{2}}} $ where $\Delta_{(i)
 %$H_{CSAR,2}$ is the complexity term appearing in the bound for the CSAR algorithm. The relation between the above complexity terms are as follows (see \cite{locatelli2016optimal}):
 %
 %$H_1$ and $H_2$ is same as the problem complexity defined in \cite{locatelli2016optimal} for the thresholding bandit problem while $H_{CSAR,2}=\max_{i}\frac{i}{\Delta_{(i)}^2}$ is defined in \cite{chen2014combinatorial}. Also we know from \cite{locatelli2016optimal} that,
-\item<3-> The relationship between $H_1$ and $H_2$ can be derived as,
+\item<3-> From {Audibert and Bubeck (2010)} the relationship between $H_1$ and $H_2$ can be derived as,
 \begin{align*}
 H_{2} \leq H_{1}\leq \log(2K)H_{2} 
 %\mbox{ and }
@@ -32,7 +35,7 @@ H_{2} \leq H_{1}\leq \log(2K)H_{2}
 \item<2-> Finally, analogous to $H_{2}$, we introduce $H_{\sigma,2}$, such that $
 H_{\sigma,2}=\max_{i\in \mathcal{A}} \frac{i}{\tilde{\Delta}_{(i)}^{2}}$ , where $\tilde{\Delta}_{i}^{2}=\frac{\Delta_{i}^{2}}{\sigma_{i}+\sqrt{\sigma_{i}^{2}+(16/3)\Delta_{i}}}$,  $(\tilde{\Delta}_{(i)})$ is an increasing ordering of $(\tilde{\Delta}_{i})$.
 
-\item<3-> From \cite{audibert2010best}, we can show that
+\item<3-> From {Audibert and Bubeck (2010)}, we can show that
 \begin{align*}
 H_{\sigma,2}\le H_{\sigma,1} \le \log(2K) H_{\sigma,2}.
 \end{align*}
@@ -62,25 +65,25 @@ the expected loss of the AugUCB algorithm is given by,
 \caption{AugUCB vs.\ State of the art}
 \label{tab:regret-bds}
 \begin{center}
-\begin{tabular}{|p{1.5cm}|p{6.4cm}|}
+\begin{tabular}{|p{1.5cm}|p{6.4cm}|p{1.5cm}|}
 % \toprule
 \hline
-Algorithm  & Upper Bound on Expected Loss \\
+Algorithm  & Upper Bound on Expected Loss & Oracle \\
 % \midrule
 \hline
 %\hline
-AugUCB      &$ \exp\left(- \frac{T}{4096 \log(K\log K)H_{\sigma,2}} + \log\left(2KT\right) \right) $ \\
+AugUCB      &$ \exp\left(- \frac{T}{4096 \log(K\log K)H_{\sigma,2}} + \log\left(2KT\right) \right) $ & No\\
 %\hline
 \hline
-UCBEV		&$\exp\left(-\frac{1}{512}\frac{T-2K}{H_{\sigma,1}} + \log\left(6KT\right)\right)$ \\
+UCBEV		&$\exp\left(-\frac{1}{512}\frac{T-2K}{H_{\sigma,1}} + \log\left(6KT\right)\right)$ & Yes\\
 %\midrule
 %\hline
 \hline
-APT         &$\exp\left(-\frac{T}{64 H_1}+2\log((\log(T)+1)K)\right)$ \\
+APT         &$\exp\left(-\frac{T}{64 H_1}+2\log((\log(T)+1)K)\right)$ & No\\
 % \midrule
 %\hline
 \hline
-CSAR		&$\exp\left(-\frac{T-K}{72\log(K)H_{CSAR,2}}+2\log(K)\right)$ \\
+UCBE		&$\exp\left(-\frac{T-K}{18 H_1} - 2\log(\log(T)K\right)$ &  Yes\\
 %\midrule
 \hline
 
