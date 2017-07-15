@@ -74,16 +74,15 @@
 
 \begin{frame}
 \frametitle{Parameter initialization}
-\begin{itemize}
-\item<1-> We define $\ell_{0} =\left\lceil \frac{2\psi_0\log( T\epsilon_{0})}{\epsilon_{0}} \right\rceil$ as the budget allocated to each arm in a round.
-\item<2-> The first round gets divided into $N_{0}=K\ell_{0}$ timesteps.
-\item<3-> We define a large exploration regulatory factor $\psi_{0}=\frac{T\epsilon_{0}}{128\Big(\log(\frac{3}{16}K\log K)\Big)^2}$ which controls exploration.
-%\item<1-> M&=\left\lfloor \frac{1}{2}\log_{2} \frac{T}{e}\right\rfloor; 
-%\hspace{2mm}\psi_{0}=\frac{T\epsilon_{0}}{128\Big(\log(\frac{3}{16}K\log K)\Big)^2}; \\
-%\ell_{0}&=\left\lceil \frac{2\psi_0\log( T\epsilon_{0})}{\epsilon_{0}} \right\rceil ;
-%\hspace{2mm}N_{0}=K\ell_{0}
-%\item<2->
-\end{itemize}
+\begin{figure}
+%\caption{AugUCB parameter initialization}
+\includegraphics[scale=0.24]{img/InitReset.png}
+\end{figure}
+%\begin{itemize}
+%\item<1-> We define $\ell_{0} =\left\lceil \frac{2\psi_0\log( T\epsilon_{0})}{\epsilon_{0}} \right\rceil$ as the budget allocated to each arm in a round.
+%\item<2-> The first round gets divided into $N_{0}=K\ell_{0}$ timesteps.
+%\item<3-> We define a large exploration regulatory factor $\psi_{0}=\frac{T\epsilon_{0}}{128\Big(\log(\frac{3}{16}K\log K)\Big)^2}$ which controls exploration.
+%\end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -135,9 +134,10 @@
 \begin{frame}
 \frametitle{AugUCB parameter reset}
 \begin{itemize}
-\item<1-> Reduce the exploration factor as time progresses.
-\item<2-> Recalculate the budget for each surviving arms.
-\item<3-> Recalculate the length of each round on the number of surviving arms.
+\item<1-> Reduce the exploration factor $\psi_m$ for next round.
+\item<2-> Increase the allocated pulls $\ell_m$ for each surviving arms.
+%\item<2-> Recalculate the budget for each surviving arms.
+\item<3-> Recalculate the length of next round on the number of surviving arms.
 \end{itemize}
 \end{frame}
 
