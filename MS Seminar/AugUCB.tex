@@ -25,8 +25,9 @@
 \begin{frame}
 \frametitle{AugUCB algorithm (Intuition, Arm Elimination)}
 \begin{itemize}
-\item It is risky to eliminate arm $i$ while $\hat{r}_i$ is inside \emph{Margin}. 
-\item Confidence interval $s_i$ will make sure arm $i$ is not eliminated while inside Margin with a high probability. 
+\item We eliminate an arm when we are sure that $\hat{r}_i$ is close to $r_i$ with high probability and hence identify it as good or bad arm.
+\item It's risky to eliminate an arm when $\hat{r}_i$ is inside \emph{Margin}. 
+\item Confidence interval $s_i$ will make sure arm $i$ is not eliminated while inside Margin with a high probability.  
 \end{itemize}
 
 \begin{figure}
@@ -37,6 +38,13 @@
 
 \begin{frame}
 \frametitle{AugUCB algorithm (Intuition, Arm Elimination)}
+
+\begin{itemize}
+\item Now we see that $\hat{r}_i$ has moved close to its true estimate $r_i$.
+\item We eliminate $i$ and re-allocate the remaining budget to pull arms close to the threshold
+\end{itemize}
+
+
 \begin{figure}
 %\caption{AugUCB Intuition (Arm Elimination)}
 \includegraphics[scale=0.278]{img/ArmElim2.png}
@@ -116,8 +124,8 @@
 \frametitle{Arm elimination}
 \begin{itemize}
 \item<1-> Arm elimination condition is checked at every timestep.
-\item<2-> It eliminated arm which are above or below margin.
-\item<3-> Re-allocates the remaining budget for surviving arms. 
+\item<2-> It identifies the arm whose estimates lies close to their true mean and thus help in identifying the good or bad arms. 
+\item<3-> It eliminates the arms which have been identified as good or bad arms (with a high probability) and re-allocates the remaining budget for surviving arms. 
 \end{itemize}
 \end{frame}
 

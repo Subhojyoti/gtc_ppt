@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  16 JUL 2017 22:00
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  16 JUL 2017 22:35
 entering extended mode
  %&-line parsing enabled.
 **presentation_bandit.tex
@@ -1778,7 +1778,7 @@ Overfull \hbox (191.82262pt too wide) has occurred while \output is active
 <img/ArmElim1.png, id=1164, 1300.86pt x 443.6575pt>
 File: img/ArmElim1.png Graphic file (type png)
  <use img/ArmElim1.png>
-Overfull \hbox (19.34273pt too wide) in paragraph at lines 36--36
+Overfull \hbox (19.34273pt too wide) in paragraph at lines 37--37
  [] 
  []
 
@@ -1793,7 +1793,7 @@ Overfull \hbox (191.82262pt too wide) has occurred while \output is active
 <img/ArmElim2.png, id=1192, 1303.87125pt x 431.6125pt>
 File: img/ArmElim2.png Graphic file (type png)
  <use img/ArmElim2.png>
-Overfull \hbox (20.17986pt too wide) in paragraph at lines 44--44
+Overfull \hbox (20.17986pt too wide) in paragraph at lines 52--52
  [] 
  []
 
@@ -1809,7 +1809,7 @@ Overfull \hbox (191.82262pt too wide) has occurred while \output is active
 File: img/AugUCB_flow_param.png Graphic file (type png)
 
 <use img/AugUCB_flow_param.png>
-Overfull \vbox (25.99463pt too high) detected at line 72
+Overfull \vbox (25.99463pt too high) detected at line 80
  []
 
 
@@ -1835,7 +1835,7 @@ Overfull \hbox (191.82262pt too wide) has occurred while \output is active
 File: img/AugUCB_flow_armpull.png Graphic file (type png)
 
 <use img/AugUCB_flow_armpull.png>
-Overfull \vbox (25.99463pt too high) detected at line 94
+Overfull \vbox (25.99463pt too high) detected at line 102
  []
 
 
@@ -1877,7 +1877,7 @@ Overfull \hbox (191.82262pt too wide) has occurred while \output is active
 File: img/AugUCB_flow_elim.png Graphic file (type png)
 
 <use img/AugUCB_flow_elim.png>
-Overfull \vbox (25.99463pt too high) detected at line 112
+Overfull \vbox (25.99463pt too high) detected at line 120
  []
 
 
@@ -1912,7 +1912,7 @@ Overfull \hbox (191.82262pt too wide) has occurred while \output is active
 File: img/AugUCB_flow_reset.png Graphic file (type png)
 
 <use img/AugUCB_flow_reset.png>
-Overfull \vbox (25.99463pt too high) detected at line 131
+Overfull \vbox (25.99463pt too high) detected at line 139
  []
 
 
@@ -2175,7 +2175,7 @@ exlive/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-texlive
 /fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/
 helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvro8a.
 pfb>
-Output written on presentation_bandit.pdf (79 pages, 1261198 bytes).
+Output written on presentation_bandit.pdf (79 pages, 1276443 bytes).
 PDF statistics:
  2260 PDF objects out of 2487 (max. 8388607)
  172 named destinations out of 1000 (max. 500000)
