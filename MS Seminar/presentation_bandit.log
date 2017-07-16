@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  15 JUL 2017 17:30
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  16 JUL 2017 16:15
 entering extended mode
  %&-line parsing enabled.
 **presentation_bandit.tex
@@ -1512,6 +1512,9 @@ Overfull \hbox (191.82262pt too wide) has occurred while \output is active
 [10
 
 ]) (./ProbDef.tex
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 8.
+
 Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
@@ -1533,9 +1536,6 @@ Overfull \hbox (191.82262pt too wide) has occurred while \output is active
 [13
 
 ]
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 29.
-
 Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
@@ -1951,16 +1951,6 @@ Overfull \hbox (191.82262pt too wide) has occurred while \output is active
 [59
 
 ]) (./Theory.tex
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 2.
- (/usr/share/texmf-texlive/tex/latex/psnfss/omsphv.fd
-File: omsphv.fd 
-)
-LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
@@ -1972,7 +1962,9 @@ Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
-[61]
+[61
+
+]
 Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
@@ -2008,19 +2000,27 @@ Overfull \hbox (191.82262pt too wide) has occurred while \output is active
 [66
 
 ]
+Overfull \hbox (3.72626pt too wide) in paragraph at lines 92--92
+[]|\OT1/phv/m/n/10.95 Algorithm| 
+ []
+
+
+Overfull \vbox (2.12187pt too high) detected at line 92
+ []
+
+
 Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [67
 
-]
-Overfull \hbox (3.72626pt too wide) in paragraph at lines 94--94
-[]|\OT1/phv/m/n/10.95 Algorithm| 
- []
+] <img/ArmElim3.png, id=1861, 1318.9275pt x 567.11874pt>
+File: img/ArmElim3.png Graphic file (type png)
 
-
-Overfull \vbox (2.12187pt too high) detected at line 94
+<use img/ArmElim3.png>
+Overfull \hbox (24.36548pt too wide) in paragraph at lines 125--125
+ [] 
  []
 
 
@@ -2030,22 +2030,14 @@ Overfull \hbox (191.82262pt too wide) has occurred while \output is active
 
 [68
 
-] <img/ArmElim3.png, id=1887, 1318.9275pt x 567.11874pt>
-File: img/ArmElim3.png Graphic file (type png)
-
-<use img/ArmElim3.png>
-Overfull \hbox (24.36548pt too wide) in paragraph at lines 127--127
- [] 
- []
-
-
+ <./img/ArmElim3.png>]) (./expt.tex
 Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [69
 
- <./img/ArmElim3.png>]) (./expt.tex
+]
 Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
@@ -2088,13 +2080,6 @@ Overfull \hbox (191.82262pt too wide) has occurred while \output is active
 [75
 
 ]
-Overfull \hbox (191.82262pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
- []
-
-[76
-
-]
 PGFPlots: reading {results/budgetTestGR4/APT1_comp_subsampled.txt}
 PGFPlots: reading {results/budgetTestGR4/AugUCB1_comp_subsampled.txt}
 PGFPlots: reading {results/budgetTestGR4/UCBEM1_comp_subsampled.txt}
@@ -2119,9 +2104,16 @@ Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
-[77
+[76
 
 ]) (./conclusion.tex
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
+ [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+[77
+
+]
 Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
@@ -2135,19 +2127,12 @@ Overfull \hbox (191.82262pt too wide) has occurred while \output is active
 
 [79
 
-]
-Overfull \hbox (191.82262pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
- []
-
-[80
-
 ])
 Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
-[81
+[80
 
 ]
 \tf@nav=\write7
@@ -2161,10 +2146,10 @@ Overfull \hbox (191.82262pt too wide) has occurred while \output is active
 
  (./presentation_bandit.aux) ) 
 Here is how much of TeX's memory you used:
- 24862 strings out of 493848
- 526651 string characters out of 1152823
- 687009 words of memory out of 3000000
- 27230 multiletter control sequences out of 15000+50000
+ 24842 strings out of 493848
+ 526338 string characters out of 1152823
+ 686948 words of memory out of 3000000
+ 27215 multiletter control sequences out of 15000+50000
  43006 words of font info for 91 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  51i,26n,77p,1054b,1735s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2181,9 +2166,9 @@ exlive/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-texlive
 /fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/
 helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvro8a.
 pfb>
-Output written on presentation_bandit.pdf (81 pages, 1259356 bytes).
+Output written on presentation_bandit.pdf (80 pages, 1260666 bytes).
 PDF statistics:
- 2310 PDF objects out of 2487 (max. 8388607)
- 174 named destinations out of 1000 (max. 500000)
+ 2284 PDF objects out of 2487 (max. 8388607)
+ 172 named destinations out of 1000 (max. 500000)
  203 words of extra memory for PDF output out of 10000 (max. 10000000)
 

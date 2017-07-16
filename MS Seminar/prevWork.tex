@@ -4,7 +4,7 @@
 \frametitle{The Upper Confidence Bound (UCB) Approach}
 \begin{itemize}
 \item<1-> Since there is an initial uncertainty in the estimated mean ($\hat{r}_i$) introduce a confidence interval term $c_i$.
-\item<2-> $c_i$ represents the uncertainty about $\hat{r}_i$.
+\item<2-> $c_i$ represents the uncertainty about $\hat{r}_i$. Higher the $c_i$, higher is the uncertainty.
 \item<2-> $c_i$ ensures that the arm $i$ is properly explored and is gradually reduced with time as one pulls the arm $i$ more.
 \item<3-> At every timestep pull arm $j\in \argmax_{i\in A} \lbrace \hat{r}_i + c_i\rbrace$ and this will ensure that proper exploration is done. 
 \end{itemize}
@@ -97,7 +97,7 @@
 \begin{frame}
 \frametitle{APT Approach}
 \begin{itemize}
-\item<1-> The Anytime Parameter Free (APT) [{Locatelli et al. (2016)}] algorithm was proposed for TBP setting in ICML 2016. 
+\item<1-> The Anytime Parameter Free (APT) [{Locatelli et al. (2016)}] algorithm \textit{was proposed for TBP setting} in ICML 2016. 
 \item<2-> This algorithm uses only mean estimation to find the $S_{\tau}$. 
 \item<3-> Theoretically they proved this algorithm to be almost optimal when only mean estimation is used as a metric of comparison.
 \item<4-> Empirically it outperformed other state-of-the-art algorithms which were modified to perform in the TBP setting.  
