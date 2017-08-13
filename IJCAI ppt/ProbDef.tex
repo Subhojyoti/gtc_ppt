@@ -1,0 +1,61 @@
+\begin{frame}
+\frametitle{Problem Definition of TBP}
+\begin{itemize}
+\item<1-> \textbf{Primary aim:} Identify all the arms whose mean of the reward distribution ($r_i$) is above a particular threshold $\tau$ given as input.
+\item<2-> \textbf{Condition:} This has to be achieved within $T$ timesteps of exploration and this is termed as a fixed-budget problem.
+%\item<3-> At the end of the given $T$ timesteps the learner must recommend a set of arms which (according to it) are the arms having reward mean above $\tau$.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Problem Definition of TBP}
+\begin{itemize}
+\item<1-> We define the set $S_{\tau}=\lbrace i\in \mathcal{A}: r_{i}\geq \tau \rbrace$. 
+%Note that, $S_\tau$ is the set of all arms whose reward mean is greater than $\tau$. Let 
+\item<2-> $S_\tau^c$ denote the complement of $S_\tau$, i.e.,  $S_{\tau}^{c}=\lbrace i\in \mathcal{A}: r_{i} < \tau \rbrace$. 
+\item<3-> Let $\hat{S}_{\tau}$ denote the recommendation of a learning algorithm after $T$ time units of exploration, while $\hat{S}_{\tau}^c$ denotes its complement.
+
+%\item<4-> The performance of the learning agent is measured by the accuracy with which it can classify the arms into $S_{\tau}$ and $S_{\tau}^{c}$ after time horizon $T$. Equivalently, the \emph{loss} $\mathcal{L}(T)$ is defined as
+%\begin{align*}
+%\Ls (T) = \mathbb{I}\big(\lbrace S_{\tau}\cap \hat{S}_{\tau}^{c}\neq \emptyset\rbrace    \cup    \lbrace\hat{S}_{\tau}\cap S_{\tau}^{c}\neq \emptyset\rbrace\big).
+%\end{align*}			
+
+\item<4-> The goal of the learning agent is to minimize the expected loss:
+\begin{align*}
+\Ex[\Ls(T)] &= \Pb\big(\underbrace{\lbrace S_{\tau}\cap \hat{S}_{\tau}^{c} \neq \emptyset \rbrace}_{\textbf{Rejected good arms}}  \cup   \underbrace{\lbrace \hat{S}_{\tau}\cap S_{\tau}^{c} \neq \emptyset\rbrace}_{\textbf{Accepted bad arms}}\big) \\
+%& = 1 - \Pb\big(\lbrace \hat{S}_{\tau}\cap {S}_{\tau}^{c} = \emptyset \rbrace \cap \lbrace \hat{S}_{\tau}^c \cap {S}_{\tau} = \emptyset \rbrace \big )
+\end{align*}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Challenges in the TBP Settings}
+%\begin{itemize}
+%\item<1-> The more number of arms' means are closer to the threshold the harder is to discriminate between them.
+%\item<2-> The lesser the budget is, the harder the problem becomes.
+%\item<3-> The higher the variance of the arms' the more difficult is to discriminate.
+%\end{itemize}
+
+\begin{itemize}
+\item<1-> Closer the true mean of reward distribution of the arms' to the threshold $\Rightarrow$ harder the problem.
+\item<2-> Lesser the budget $\Rightarrow$ harder the problem.
+\item<3-> Higher the variance of reward distribution of the arms' $\Rightarrow$ harder the problem.
+
+%\item<1-> Closer the true mean to the threshold $\Rightarrow$ harder the problem.
+%\item<2-> Lesser the budget $\Rightarrow$ harder the problem.
+%\item<3-> Higher the variance of the arms' $\Rightarrow$ harder the problem.
+
+\end{itemize}
+
+\end{frame}
+
+
+%\begin{frame}
+%\frametitle{Applications}
+%\begin{itemize}
+%\item<1-> Selecting the best channels (out of several existing channels) for mobile communications in a very short duration whose qualities are above an acceptable threshold (see Audibert and Bubeck (2010)).
+%\item<2-> Selecting a small set of best workers (out of a very large pool of workers) whose productivity is above a threshold.
+%\item<3-> In anomaly detection and classification (see {Locatelli et al. (2016)}).
+%\end{itemize}
+%\end{frame}
+

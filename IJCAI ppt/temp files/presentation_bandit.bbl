@@ -1,0 +1,278 @@
+\begin{thebibliography}{37}
+% this bibliography was produced with the style dinat.bst v2.5
+\makeatletter
+\newcommand{\dinatlabel}[1]%
+{\ifNAT@numbers\else\NAT@biblabelnum{#1}\hspace{2\labelsep}\fi}
+\makeatother
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax\def\url#1{\texttt{#1}}\fi
+
+\bibitem[Abbasi-Yadkori u.\,a.(2011)]{abbasi2011improved}
+\dinatlabel{Abbasi-Yadkori u.\,a. 2011} \textsc{Abbasi-Yadkori}, Yasin~;
+  \textsc{P{\'a}l}, D{\'a}vid~; \textsc{Szepesv{\'a}ri}, Csaba:
+\newblock Improved algorithms for linear stochastic bandits.
+\newblock In: \emph{Advances in Neural Information Processing Systems}, 2011,
+  S.~2312--2320
+
+\bibitem[Abernethy u.\,a.(2016)]{abernethy2016threshold}
+\dinatlabel{Abernethy u.\,a. 2016} \textsc{Abernethy}, Jacob~D.~;
+  \textsc{Amin}, Kareem~; \textsc{Zhu}, Ruihao:
+\newblock Threshold Bandits, With and Without Censored Feedback.
+\newblock In: \emph{Advances In Neural Information Processing Systems}, 2016,
+  S.~4889--4897
+
+\bibitem[Agrawal und Goyal(2011)]{agrawal2011analysis}
+\dinatlabel{Agrawal und Goyal 2011} \textsc{Agrawal}, Shipra~; \textsc{Goyal},
+  Navin:
+\newblock Analysis of thompson sampling for the multi-armed bandit problem.
+\newblock In: \emph{arXiv preprint arXiv:1111.1797}
+\newblock (2011)
+
+\bibitem[Audibert und Bubeck(2009)]{audibert2009minimax}
+\dinatlabel{Audibert und Bubeck 2009} \textsc{Audibert}, Jean-Yves~;
+  \textsc{Bubeck}, S{\'e}bastien:
+\newblock Minimax policies for adversarial and stochastic bandits.
+\newblock In: \emph{COLT}, 2009, S.~217--226
+
+\bibitem[Audibert und Bubeck(2010)]{audibert2010best}
+\dinatlabel{Audibert und Bubeck 2010} \textsc{Audibert}, Jean-Yves~;
+  \textsc{Bubeck}, S{\'e}bastien:
+\newblock Best arm identification in multi-armed bandits.
+\newblock In: \emph{COLT-23th Conference on Learning Theory-2010}, 2010,
+  S.~13--p
+
+\bibitem[Audibert u.\,a.(2009)]{audibert2009exploration}
+\dinatlabel{Audibert u.\,a. 2009} \textsc{Audibert}, Jean-Yves~;
+  \textsc{Munos}, R{\'e}mi~; \textsc{Szepesv{\'a}ri}, Csaba:
+\newblock Exploration--exploitation tradeoff using variance estimates in
+  multi-armed bandits.
+\newblock In: \emph{Theoretical Computer Science}
+\newblock 410 (2009), Nr.~19, S.~1876--1902
+
+\bibitem[Auer u.\,a.(2002{\natexlab{a}})]{auer2002finite}
+\dinatlabel{Auer u.\,a. 2002{\natexlab{a}}} \textsc{Auer}, Peter~;
+  \textsc{Cesa-Bianchi}, Nicolo~; \textsc{Fischer}, Paul:
+\newblock Finite-time analysis of the multiarmed bandit problem.
+\newblock In: \emph{Machine learning}
+\newblock 47 (2002), Nr.~2-3, S.~235--256
+
+\bibitem[Auer u.\,a.(2002{\natexlab{b}})]{auer2002nonstochastic}
+\dinatlabel{Auer u.\,a. 2002{\natexlab{b}}} \textsc{Auer}, Peter~;
+  \textsc{Cesa-Bianchi}, Nicolo~; \textsc{Freund}, Yoav~; \textsc{Schapire},
+  Robert~E.:
+\newblock The nonstochastic multiarmed bandit problem.
+\newblock In: \emph{SIAM Journal on Computing}
+\newblock 32 (2002), Nr.~1, S.~48--77
+
+\bibitem[Auer und Ortner(2010)]{auer2010ucb}
+\dinatlabel{Auer und Ortner 2010} \textsc{Auer}, Peter~; \textsc{Ortner},
+  Ronald:
+\newblock UCB revisited: Improved regret bounds for the stochastic multi-armed
+  bandit problem.
+\newblock In: \emph{Periodica Mathematica Hungarica}
+\newblock 61 (2010), Nr.~1-2, S.~55--65
+
+\bibitem[Bertsekas und Tsitsiklis(1996)]{bertsekas1996neuro}
+\dinatlabel{Bertsekas und Tsitsiklis 1996} \textsc{Bertsekas}, Dimitri~P.~;
+  \textsc{Tsitsiklis}, John~N.:
+\newblock Neuro-dynamic programming (optimization and neural computation
+  series, 3).
+\newblock In: \emph{Athena Scientific}
+\newblock 7 (1996), S.~15--23
+
+\bibitem[Bubeck und Cesa-Bianchi(2012)]{bubeck2012regret}
+\dinatlabel{Bubeck und Cesa-Bianchi 2012} \textsc{Bubeck}, S{\'e}bastien~;
+  \textsc{Cesa-Bianchi}, Nicolo:
+\newblock Regret analysis of stochastic and nonstochastic multi-armed bandit
+  problems.
+\newblock In: \emph{arXiv preprint arXiv:1204.5721}
+\newblock (2012)
+
+\bibitem[Bubeck u.\,a.(2012)]{bubeck2012bandits}
+\dinatlabel{Bubeck u.\,a. 2012} \textsc{Bubeck}, S{\'e}bastien~;
+  \textsc{Cesa-Bianchi}, Nicolo~; \textsc{Lugosi}, G{\'a}bor:
+\newblock Bandits with heavy tail.
+\newblock In: \emph{arXiv preprint arXiv:1209.1727}
+\newblock (2012)
+
+\bibitem[Bubeck u.\,a.(2011)]{bubeck2011pure}
+\dinatlabel{Bubeck u.\,a. 2011} \textsc{Bubeck}, S{\'e}bastien~;
+  \textsc{Munos}, R{\'e}mi~; \textsc{Stoltz}, Gilles:
+\newblock Pure exploration in finitely-armed and continuous-armed bandits.
+\newblock In: \emph{Theoretical Computer Science}
+\newblock 412 (2011), Nr.~19, S.~1832--1852
+
+\bibitem[Bubeck u.\,a.(2013{\natexlab{a}})]{bubeck2013bounded}
+\dinatlabel{Bubeck u.\,a. 2013{\natexlab{a}}} \textsc{Bubeck}, S{\'e}bastien~;
+  \textsc{Perchet}, Vianney~; \textsc{Rigollet}, Philippe:
+\newblock Bounded regret in stochastic multi-armed bandits.
+\newblock In: \emph{arXiv preprint arXiv:1302.1611}
+\newblock (2013)
+
+\bibitem[Bubeck u.\,a.(2013{\natexlab{b}})]{bubeck2013multiple}
+\dinatlabel{Bubeck u.\,a. 2013{\natexlab{b}}} \textsc{Bubeck}, S{\'e}bastien~;
+  \textsc{Wang}, Tengyao~; \textsc{Viswanathan}, Nitin:
+\newblock Multiple Identifications in Multi-Armed Bandits.
+\newblock In: \emph{ICML (1)}, 2013, S.~258--265
+
+\bibitem[Cappe u.\,a.(2012)]{CapGarKau12}
+\dinatlabel{Cappe u.\,a. 2012} \textsc{Cappe}, Olivier~; \textsc{Garivier},
+  Aurelien~; \textsc{Kaufmann}, Emilie:
+\newblock \emph{pymaBandits}.
+\newblock 2012. --
+\newblock \url{http://mloss.org/software/view/415/}
+
+\bibitem[Chen u.\,a.(2014)]{chen2014combinatorial}
+\dinatlabel{Chen u.\,a. 2014} \textsc{Chen}, Shouyuan~; \textsc{Lin}, Tian~;
+  \textsc{King}, Irwin~; \textsc{Lyu}, Michael~R.~; \textsc{Chen}, Wei:
+\newblock Combinatorial pure exploration of multi-armed bandits.
+\newblock In: \emph{Advances in Neural Information Processing Systems}, 2014,
+  S.~379--387
+
+\bibitem[Even-Dar u.\,a.(2006)]{even2006action}
+\dinatlabel{Even-Dar u.\,a. 2006} \textsc{Even-Dar}, Eyal~; \textsc{Mannor},
+  Shie~; \textsc{Mansour}, Yishay:
+\newblock Action elimination and stopping conditions for the multi-armed bandit
+  and reinforcement learning problems.
+\newblock In: \emph{The Journal of Machine Learning Research}
+\newblock 7 (2006), S.~1079--1105
+
+\bibitem[Friedman u.\,a.(2001)]{friedman2001elements}
+\dinatlabel{Friedman u.\,a. 2001} \textsc{Friedman}, Jerome~; \textsc{Hastie},
+  Trevor~; \textsc{Tibshirani}, Robert:
+\newblock \emph{The elements of statistical learning}. Bd.~1.
+\newblock Springer series in statistics Springer, Berlin, 2001
+
+\bibitem[Gabillon u.\,a.(2012)]{gabillon2012best}
+\dinatlabel{Gabillon u.\,a. 2012} \textsc{Gabillon}, Victor~;
+  \textsc{Ghavamzadeh}, Mohammad~; \textsc{Lazaric}, Alessandro:
+\newblock Best arm identification: A unified approach to fixed budget and fixed
+  confidence.
+\newblock In: \emph{Advances in Neural Information Processing Systems}, 2012,
+  S.~3212--3220
+
+\bibitem[Gabillon u.\,a.(2011)]{gabillon2011multi}
+\dinatlabel{Gabillon u.\,a. 2011} \textsc{Gabillon}, Victor~;
+  \textsc{Ghavamzadeh}, Mohammad~; \textsc{Lazaric}, Alessandro~;
+  \textsc{Bubeck}, S{\'e}bastien:
+\newblock Multi-bandit best arm identification.
+\newblock In: \emph{Advances in Neural Information Processing Systems}, 2011,
+  S.~2222--2230
+
+\bibitem[Garivier und Capp{\'e}(2011)]{garivier2011kl}
+\dinatlabel{Garivier und Capp{\'e} 2011} \textsc{Garivier}, Aur{\'e}lien~;
+  \textsc{Capp{\'e}}, Olivier:
+\newblock The KL-UCB algorithm for bounded stochastic bandits and beyond.
+\newblock In: \emph{arXiv preprint arXiv:1102.2490}
+\newblock (2011)
+
+\bibitem[Ghavamzadeh u.\,a.(2015)]{ghavamzadeh2015bayesian}
+\dinatlabel{Ghavamzadeh u.\,a. 2015} \textsc{Ghavamzadeh}, Mohammad~;
+  \textsc{Mannor}, Shie~; \textsc{Pineau}, Joelle~; \textsc{Tamar}, Aviv
+  u.\,a.:
+\newblock \emph{Bayesian reinforcement learning: a survey}.
+\newblock World Scientific, 2015
+
+\bibitem[Honda und Takemura(2010)]{honda2010asymptotically}
+\dinatlabel{Honda und Takemura 2010} \textsc{Honda}, Junya~; \textsc{Takemura},
+  Akimichi:
+\newblock An Asymptotically Optimal Bandit Algorithm for Bounded Support
+  Models.
+\newblock In: \emph{COLT}
+\newblock Citeseer (Veranst.), 2010, S.~67--79
+
+\bibitem[Jamieson und Nowak(2014)]{jamieson2014best}
+\dinatlabel{Jamieson und Nowak 2014} \textsc{Jamieson}, Kevin~; \textsc{Nowak},
+  Robert:
+\newblock Best-arm identification algorithms for multi-armed bandits in the
+  fixed confidence setting.
+\newblock In: \emph{Information Sciences and Systems (CISS), 2014 48th Annual
+  Conference on}
+\newblock IEEE (Veranst.), 2014, S.~1--6
+
+\bibitem[Kalyanakrishnan u.\,a.(2012)]{kalyanakrishnan2012pac}
+\dinatlabel{Kalyanakrishnan u.\,a. 2012} \textsc{Kalyanakrishnan}, Shivaram~;
+  \textsc{Tewari}, Ambuj~; \textsc{Auer}, Peter~; \textsc{Stone}, Peter:
+\newblock PAC subset selection in stochastic multi-armed bandits.
+\newblock In: \emph{Proceedings of the 29th International Conference on Machine
+  Learning (ICML-12)}, 2012, S.~655--662
+
+\bibitem[Lai und Robbins(1985)]{lai1985asymptotically}
+\dinatlabel{Lai und Robbins 1985} \textsc{Lai}, Tze~L.~; \textsc{Robbins},
+  Herbert:
+\newblock Asymptotically efficient adaptive allocation rules.
+\newblock In: \emph{Advances in applied mathematics}
+\newblock 6 (1985), Nr.~1, S.~4--22
+
+\bibitem[Lattimore(2015)]{lattimore2015optimally}
+\dinatlabel{Lattimore 2015} \textsc{Lattimore}, Tor:
+\newblock Optimally confident UCB: Improved regret for finite-armed bandits.
+\newblock In: \emph{arXiv preprint arXiv:1507.07880}
+\newblock (2015)
+
+\bibitem[Liu und Tsuruoka(2016)]{liu2016modification}
+\dinatlabel{Liu und Tsuruoka 2016} \textsc{Liu}, Yun-Ching~; \textsc{Tsuruoka},
+  Yoshimasa:
+\newblock Modification of improved upper confidence bounds for regulating
+  exploration in Monte-Carlo tree search.
+\newblock In: \emph{Theoretical Computer Science}
+\newblock (2016)
+
+\bibitem[Locatelli u.\,a.(2016)]{locatelli2016optimal}
+\dinatlabel{Locatelli u.\,a. 2016} \textsc{Locatelli}, Andrea~;
+  \textsc{Gutzeit}, Maurilio~; \textsc{Carpentier}, Alexandra:
+\newblock An optimal algorithm for the Thresholding Bandit Problem.
+\newblock In: \emph{arXiv preprint arXiv:1605.08671}
+\newblock (2016)
+
+\bibitem[Mannor und Tsitsiklis(2004)]{mannor2004sample}
+\dinatlabel{Mannor und Tsitsiklis 2004} \textsc{Mannor}, Shie~;
+  \textsc{Tsitsiklis}, John~N.:
+\newblock The sample complexity of exploration in the multi-armed bandit
+  problem.
+\newblock In: \emph{Journal of Machine Learning Research}
+\newblock 5 (2004), Nr.~Jun, S.~623--648
+
+\bibitem[Mukherjee u.\,a.(2017)]{DBLP:journals/corr/MukherjeeNSR17}
+\dinatlabel{Mukherjee u.\,a. 2017} \textsc{Mukherjee}, Subhojyoti~;
+  \textsc{Naveen}, K.~P.~; \textsc{Sudarsanam}, Nandan~; \textsc{Ravindran},
+  Balaraman:
+\newblock Thresholding Bandits with Augmented {UCB}.
+\newblock In: \emph{CoRR}
+\newblock abs/1704.02281 (2017). --
+\newblock URL \url{http://arxiv.org/abs/1704.02281}
+
+\bibitem[Perchet u.\,a.(2015)Perchet, Rigollet, Chassang und
+  Snowberg]{perchet2015batched}
+\dinatlabel{Perchet u.\,a. 2015} \textsc{Perchet}, Vianney~; \textsc{Rigollet},
+  Philippe~; \textsc{Chassang}, Sylvain~; \textsc{Snowberg}, Erik:
+\newblock Batched Bandit Problems.
+\newblock In: \emph{arXiv preprint arXiv:1505.00369}
+\newblock (2015)
+
+\bibitem[Robbins(1952)]{robbins1952some}
+\dinatlabel{Robbins 1952} \textsc{Robbins}, Herbert:
+\newblock Some aspects of the sequential design of experiments.
+\newblock In: \emph{Herbert Robbins Selected Papers}.
+\newblock Springer, 1952, S.~169--177
+
+\bibitem[Sutton und Barto(1998)]{sutton1998reinforcement}
+\dinatlabel{Sutton und Barto 1998} \textsc{Sutton}, Richard~S.~;
+  \textsc{Barto}, Andrew~G.:
+\newblock \emph{Reinforcement learning: An introduction}.
+\newblock MIT press, 1998
+
+\bibitem[Thompson(1933)]{thompson1933likelihood}
+\dinatlabel{Thompson 1933} \textsc{Thompson}, William~R.:
+\newblock On the likelihood that one unknown probability exceeds another in
+  view of the evidence of two samples.
+\newblock In: \emph{Biometrika}
+\newblock (1933), S.~285--294
+
+\bibitem[Tolpin und Shimony(2012)]{tolpin2012mcts}
+\dinatlabel{Tolpin und Shimony 2012} \textsc{Tolpin}, David~; \textsc{Shimony},
+  Solomon~E.:
+\newblock MCTS Based on Simple Regret.
+\newblock In: \emph{AAAI}, 2012
+
+\end{thebibliography}
