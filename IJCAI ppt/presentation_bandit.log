@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  20 AUG 2017 16:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  20 AUG 2017 19:06
 entering extended mode
 **presentation_bandit.tex
 ("C:\Users\Subhojyoti\Desktop\github\gtc_ppt\IJCAI ppt\presentation_bandit.tex"
@@ -1414,21 +1414,21 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 ("C:\Users\Subhojyoti\Desktop\github\gtc_ppt\IJCAI ppt\presentation_bandit.aux"
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 103.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 104.
 
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
@@ -1482,7 +1482,7 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 \everyMPtoPDFconversion=\toks58
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box82
-Package hyperref Info: Link coloring OFF on input line 103.
+Package hyperref Info: Link coloring OFF on input line 104.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1492,56 +1492,56 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count195
 )
-LaTeX Info: Redefining \ref on input line 103.
-LaTeX Info: Redefining \pageref on input line 103.
-LaTeX Info: Redefining \nameref on input line 103.
+LaTeX Info: Redefining \ref on input line 104.
+LaTeX Info: Redefining \pageref on input line 104.
+LaTeX Info: Redefining \nameref on input line 104.
 
 ("C:\Users\Subhojyoti\Desktop\github\gtc_ppt\IJCAI ppt\presentation_bandit.out"
 ) ("C:\Users\Subhojyoti\Desktop\github\gtc_ppt\IJCAI ppt\presentation_bandit.ou
 t")
 \@outlinefile=\write5
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 103.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 104.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 103.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 104.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/ptm/m/n on input line 103.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 103.
+(Font)                  OT1/cmss/m/n --> OT1/ptm/m/n on input line 104.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 103.
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 103.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 103.
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 104.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 103.
+(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/phv/m/n on input line 103.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 103.
+(Font)                  OT1/cmss/bx/n --> OT1/phv/m/n on input line 104.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/phv/m/it on input line 103.
+(Font)                  OT1/cmr/m/it --> OT1/phv/m/it on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/phv/m/it on input line 103.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 103.
+(Font)                  OT1/cmr/bx/it --> OT1/phv/m/it on input line 104.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 103.
+(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 103.
+(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 104.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 103.
+(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 104.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/phv/m/it --> OT1/phv/bx/it on input line 103.
+(Font)                  OT1/phv/m/it --> OT1/phv/bx/it on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/ptm/bx/n on input line 103.
+(Font)                  OT1/cmss/bx/n --> OT1/ptm/bx/n on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/phv/bx/n --> OT1/phv/bx/n on input line 103.
+(Font)                  OT1/phv/bx/n --> OT1/phv/bx/n on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 103.
+(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/phv/m/it --> OT1/phv/bx/it on input line 103.
+(Font)                  OT1/phv/m/it --> OT1/phv/bx/it on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/pcr/m/n --> OT1/pcr/bx/n on input line 103.
+(Font)                  OT1/pcr/m/n --> OT1/pcr/bx/n on input line 104.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\translator\dicts\tran
 slator-basic-dictionary\translator-basic-dictionary-English.dict"
@@ -1567,17 +1567,17 @@ Dictionary: translator-numbers-dictionary, Language: English
 slator-theorem-dictionary\translator-theorem-dictionary-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 103.
+LaTeX Info: Redefining \includegraphics on input line 104.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.13} into 
 your preamble.
- on input line 103.
+ on input line 104.
 
 ("C:\Users\Subhojyoti\Desktop\github\gtc_ppt\IJCAI ppt\presentation_bandit.nav"
 )
-Overfull \hbox (128.13992pt too wide) in paragraph at lines 103--103
+Overfull \hbox (128.13992pt too wide) in paragraph at lines 104--104
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
@@ -1616,15 +1616,6 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 7.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 7.
-
-
-Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
-d on input line 7.
-
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <6> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 7.
 
 Overfull \hbox (128.13992pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
@@ -1758,7 +1749,7 @@ Overfull \hbox (128.13992pt too wide) has occurred while \output is active
 
 [21
 
-] <img/APT_intuition.png, id=624, 1282.7925pt x 548.0475pt>
+] <img/APT_intuition.png, id=602, 1282.7925pt x 548.0475pt>
 File: img/APT_intuition.png Graphic file (type png)
 
 <use img/APT_intuition.png>
@@ -1778,7 +1769,7 @@ Overfull \hbox (128.13992pt too wide) has occurred while \output is active
 
  <C:/Users/Subhojyoti/Desktop/github/gtc_ppt/IJCAI ppt/img/APT_intuition.png>])
  ("C:\Users\Subhojyoti\Desktop\github\gtc_ppt\IJCAI ppt\AugUCB.tex"
-<img/AugUCB_flow.png, id=652, 1064.97874pt x 959.585pt>
+<img/AugUCB_flow.png, id=630, 1064.97874pt x 959.585pt>
 File: img/AugUCB_flow.png Graphic file (type png)
 
 <use img/AugUCB_flow.png>
@@ -1796,7 +1787,7 @@ Overfull \hbox (128.13992pt too wide) has occurred while \output is active
 [23
 
  <C:/Users/Subhojyoti/Desktop/github/gtc_ppt/IJCAI ppt/img/AugUCB_flow.png>] <i
-mg/SeminarThresholdBandit.png, id=681, 1281.78876pt x 554.07pt>
+mg/SeminarThresholdBandit.png, id=660, 1281.78876pt x 554.07pt>
 File: img/SeminarThresholdBandit.png Graphic file (type png)
 
 <use img/SeminarThresholdBandit.png>
@@ -1819,7 +1810,7 @@ Overfull \hbox (128.13992pt too wide) has occurred while \output is active
 [24
 
  <C:/Users/Subhojyoti/Desktop/github/gtc_ppt/IJCAI ppt/img/SeminarThresholdBand
-it.png>] <img/ArmElim_1.png, id=709, 1300.86pt x 443.6575pt>
+it.png>] <img/ArmElim_1.png, id=688, 1300.86pt x 443.6575pt>
 File: img/ArmElim_1.png Graphic file (type png)
 
 <use img/ArmElim_1.png>
@@ -1838,7 +1829,7 @@ Overfull \hbox (128.13992pt too wide) has occurred while \output is active
 [25
 
  <C:/Users/Subhojyoti/Desktop/github/gtc_ppt/IJCAI ppt/img/ArmElim_1.png>]
-<img/ArmElim2.png, id=738, 1303.87125pt x 431.6125pt>
+<img/ArmElim2.png, id=717, 1303.87125pt x 431.6125pt>
 File: img/ArmElim2.png Graphic file (type png)
  <use img/ArmElim2.png>
 Package pdftex.def Info: img/ArmElim2.png used on input line 52.
@@ -1856,71 +1847,50 @@ Overfull \hbox (128.13992pt too wide) has occurred while \output is active
 [26
 
  <C:/Users/Subhojyoti/Desktop/github/gtc_ppt/IJCAI ppt/img/ArmElim2.png>]
-<img/AugUCB_flow_param.png, id=766, 1064.97874pt x 959.585pt>
-File: img/AugUCB_flow_param.png Graphic file (type png)
-
-<use img/AugUCB_flow_param.png>
-Package pdftex.def Info: img/AugUCB_flow_param.png used on input line 80.
-(pdftex.def)             Requested size: 255.60011pt x 230.3051pt.
-
-Overfull \vbox (12.50395pt too high) detected at line 80
- []
-
-
 Overfull \hbox (128.13992pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [27
 
- <C:/Users/Subhojyoti/Desktop/github/gtc_ppt/IJCAI ppt/img/AugUCB_flow_param.pn
-g>] <img/InitReset.png, id=794, 1117.17375pt x 788.9475pt>
-File: img/InitReset.png Graphic file (type png)
-
-<use img/InitReset.png>
-Package pdftex.def Info: img/InitReset.png used on input line 94.
-(pdftex.def)             Requested size: 268.12718pt x 189.35126pt.
-
+]
 Overfull \hbox (128.13992pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [28
 
- <C:/Users/Subhojyoti/Desktop/github/gtc_ppt/IJCAI ppt/img/InitReset.png>]
-<img/AugUCB_flow_armpull.png, id=822, 1064.97874pt x 959.585pt>
-File: img/AugUCB_flow_armpull.png Graphic file (type png)
-
-<use img/AugUCB_flow_armpull.png>
-Package pdftex.def Info: img/AugUCB_flow_armpull.png used on input line 102.
-(pdftex.def)             Requested size: 255.60011pt x 230.3051pt.
-
-Overfull \vbox (12.50395pt too high) detected at line 102
- []
-
-
+]
 Overfull \hbox (128.13992pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [29
 
- <C:/Users/Subhojyoti/Desktop/github/gtc_ppt/IJCAI ppt/img/AugUCB_flow_armpull.
-png>]
+]
 Overfull \hbox (128.13992pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [30
 
-]
+]) ("C:\Users\Subhojyoti\Desktop\github\gtc_ppt\IJCAI ppt\Theory.tex"
+Overfull \hbox (3.72626pt too wide) in paragraph at lines 84--84
+[]|\OT1/phv/m/n/10.95 Algorithm| 
+ []
+
+
+Overfull \vbox (2.12187pt too high) detected at line 84
+ []
+
+
 Overfull \hbox (128.13992pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [31
 
-]
+]) ("C:\Users\Subhojyoti\Desktop\github\gtc_ppt\IJCAI ppt\expt.tex"
 Overfull \hbox (128.13992pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
@@ -1934,25 +1904,14 @@ Overfull \hbox (128.13992pt too wide) has occurred while \output is active
 
 [33
 
-] <img/AugUCB_flow_elim.png, id=956, 1064.97874pt x 959.585pt>
-File: img/AugUCB_flow_elim.png Graphic file (type png)
-
-<use img/AugUCB_flow_elim.png>
-Package pdftex.def Info: img/AugUCB_flow_elim.png used on input line 120.
-(pdftex.def)             Requested size: 255.60011pt x 230.3051pt.
-
-Overfull \vbox (12.50395pt too high) detected at line 120
- []
-
-
+]
 Overfull \hbox (128.13992pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [34
 
- <C:/Users/Subhojyoti/Desktop/github/gtc_ppt/IJCAI ppt/img/AugUCB_flow_elim.png
->]
+]
 Overfull \hbox (128.13992pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
@@ -1973,125 +1932,18 @@ Overfull \hbox (128.13992pt too wide) has occurred while \output is active
 
 [37
 
-] <img/AugUCB_flow_reset.png, id=1063, 1064.97874pt x 959.585pt>
-File: img/AugUCB_flow_reset.png Graphic file (type png)
-
-<use img/AugUCB_flow_reset.png>
-Package pdftex.def Info: img/AugUCB_flow_reset.png used on input line 139.
-(pdftex.def)             Requested size: 255.60011pt x 230.3051pt.
-
-Overfull \vbox (12.50395pt too high) detected at line 139
- []
-
-
-Overfull \hbox (128.13992pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
- []
-
-[38
-
- <C:/Users/Subhojyoti/Desktop/github/gtc_ppt/IJCAI ppt/img/AugUCB_flow_reset.pn
-g>]
-Overfull \hbox (128.13992pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
- []
-
-[39
-
-]
-Overfull \hbox (128.13992pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
- []
-
-[40
-
-]
-Overfull \hbox (128.13992pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
- []
-
-[41
-
-]) ("C:\Users\Subhojyoti\Desktop\github\gtc_ppt\IJCAI ppt\Theory.tex"
-Overfull \hbox (3.72626pt too wide) in paragraph at lines 84--84
-[]|\OT1/phv/m/n/10.95 Algorithm| 
- []
-
-
-Overfull \vbox (2.12187pt too high) detected at line 84
- []
-
-
-Overfull \hbox (128.13992pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
- []
-
-[42
-
-]) ("C:\Users\Subhojyoti\Desktop\github\gtc_ppt\IJCAI ppt\expt.tex"
-Overfull \hbox (128.13992pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
- []
-
-[43
-
-]
-Overfull \hbox (128.13992pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
- []
-
-[44
-
-]
-Overfull \hbox (128.13992pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
- []
-
-[45
-
-]
-Overfull \hbox (128.13992pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
- []
-
-[46
-
-]
-Overfull \hbox (128.13992pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
- []
-
-[47
-
-]
-Overfull \hbox (128.13992pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
- []
-
-[48
-
 ]
 PGFPlots: reading {results/budgetTestGR4/APT1_comp_subsampled.txt}
 PGFPlots: reading {results/budgetTestGR4/AugUCB1_comp_subsampled.txt}
 PGFPlots: reading {results/budgetTestGR4/UCBEM1_comp_subsampled.txt}
 PGFPlots: reading {results/budgetTestGR4/UCBEMV1_comp_subsampled.txt}
 PGFPlots: reading {results/budgetTestGR4/UA1_comp_subsampled.txt}
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 236.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 236.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <7> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 236.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <14.4> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 236.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 236.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 236.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 236.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <5> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 236.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 236.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
@@ -2105,7 +1957,7 @@ Overfull \hbox (128.13992pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
-[49
+[38
 
 ]
 PGFPlots: reading {results/budgetTestAP/APT12_comp_subsampled.txt}
@@ -2128,98 +1980,86 @@ Overfull \hbox (128.13992pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
-[50
+[39
 
 ]) ("C:\Users\Subhojyoti\Desktop\github\gtc_ppt\IJCAI ppt\conclusion.tex"
 Overfull \hbox (128.13992pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
-[51
+[40
 
 ]
 Overfull \hbox (128.13992pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
-[52
+[41
 
 ]
 Overfull \hbox (128.13992pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
-[53
+[42
 
 ])
 Overfull \hbox (128.13992pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
-[54
+[43
 
 ]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
 
 ("C:\Users\Subhojyoti\Desktop\github\gtc_ppt\IJCAI ppt\presentation_bandit.aux"
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
-Package rerunfilecheck Info: File `presentation_bandit.out' has not changed.
-(rerunfilecheck)             Checksum: 311B93C046B0C2B37A417D4FE62F1714;343.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
 
+
+Package rerunfilecheck Warning: File `presentation_bandit.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `presentation_bandit.out':
+(rerunfilecheck)             Before: 1812295308D3F95296E7CA877CBC8E06;54
+(rerunfilecheck)             After:  311B93C046B0C2B37A417D4FE62F1714;343.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
  ) 
 Here is how much of TeX's memory you used:
- 33595 strings out of 493921
- 810908 string characters out of 3144861
- 1085081 words of memory out of 3000000
- 35974 multiletter control sequences out of 15000+200000
- 45686 words of font info for 96 fonts, out of 3000000 for 9000
+ 33506 strings out of 493921
+ 809587 string characters out of 3144861
+ 1083990 words of memory out of 3000000
+ 35918 multiletter control sequences out of 15000+200000
+ 43006 words of font info for 91 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  68i,26n,112p,1055b,2451s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Navigation57} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Navigation56} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Navigation55} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Navigation58} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Navigation59} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Navigation62} has been referenced but does not exis
-t, replaced by a fixed one
-
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-urw/helvetic/uhvro8a.pfb>
-Output written on presentation_bandit.pdf (54 pages, 985261 bytes).
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/urw/helvetic/uhvro8a.pfb>
+Output written on presentation_bandit.pdf (43 pages, 565676 bytes).
 PDF statistics:
- 1591 PDF objects out of 1728 (max. 8388607)
- 127 named destinations out of 1000 (max. 500000)
- 185 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1264 PDF objects out of 1440 (max. 8388607)
+ 99 named destinations out of 1000 (max. 500000)
+ 112 words of extra memory for PDF output out of 10000 (max. 10000000)
 
