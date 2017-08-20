@@ -2,7 +2,7 @@
 \frametitle{Problem Complexity}
 \begin{itemize}
 %\item<1-> We must delve into the notion of hardness which come from the general pure exploration bandit literature.
-\item<1-> We have defined $\Delta_i= |r_i - \tau |$.
+\item<1-> We define $\Delta_i= |r_i - \tau |$ as in Locatelli et al. (2016).
 \item<2-> We define $H_{1} = \sum_{i=1}^{K}\dfrac{1}{\Delta_{i}^{2}}$ and $
 H_{2} =\min_{i\in \mathcal{A}}\dfrac{i}{{\Delta_{(i)}^{2}}} $ where $\Delta_{(i)}$ is an increasing ordering of ${\Delta}_{i}$.
 %\end{align*}$
@@ -19,6 +19,17 @@ H_{2} \leq H_{1}\leq \log(2K)H_{2}
 %\mbox{ and }
  %H_1 \leq \log(K)H_{CSAR,2}.
 \end{align*}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+\item We define $\Delta_i= |r_i - \tau |$ as in Locatelli et al. (2016).
+\item We define $H_{1} = \sum_{i=1}^{K}\dfrac{1}{\Delta_{i}^{2}}$ and $
+H_{2} =\min_{i\in \mathcal{A}}\dfrac{i}{{\Delta_{(i)}^{2}}}$ as in Audibert and Bubeck (2010).
+\item $H_{\sigma,1}=\sum_{i=1}^{K}\frac{\sigma_{i}+\sqrt{\sigma_{i}^{2}+(16/3)\Delta_{i}}}{\Delta_{i}^{2}}$.
+\item $H_{\sigma,2}=\max_{i\in \mathcal{A}} \frac{i}{\tilde{\Delta}_{(i)}^{2}}$ where $\tilde{\Delta}_{i}^{2}=\frac{\Delta_{i}^{2}}{\sigma_{i}+\sqrt{\sigma_{i}^{2}+(16/3)\Delta_{i}}}$.
+\item From Audibert and Bubeck (2010) we can show $H_{2} \leq H_{1}\leq \log(2K)H_{2}$ and $H_{\sigma,2}\le H_{\sigma,1} \le \log(2K) H_{\sigma,2}$.
 \end{itemize}
 \end{frame}
 

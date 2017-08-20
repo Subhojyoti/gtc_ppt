@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  13 AUG 2017 22:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  15 AUG 2017 11:19
 entering extended mode
 **presentation_bandit.tex
 ("C:\Users\Subhojyoti\Desktop\github\gtc_ppt\MS Seminar\presentation_bandit.tex
@@ -1956,14 +1956,14 @@ Overfull \hbox (191.82262pt too wide) has occurred while \output is active
 [41
 
  <C:/Users/Subhojyoti/Desktop/github/gtc_ppt/MS Seminar/img/SeminarThresholdBan
-dit.png>] <img/ArmElim1.png, id=1166, 1791.69376pt x 71.26625pt>
-File: img/ArmElim1.png Graphic file (type png)
+dit.png>] <img/ArmElim_1.png, id=1166, 1300.86pt x 443.6575pt>
+File: img/ArmElim_1.png Graphic file (type png)
 
-<use img/ArmElim1.png>
-Package pdftex.def Info: img/ArmElim1.png used on input line 37.
-(pdftex.def)             Requested size: 498.08943pt x 19.81195pt.
+<use img/ArmElim_1.png>
+Package pdftex.def Info: img/ArmElim_1.png used on input line 37.
+(pdftex.def)             Requested size: 361.63803pt x 123.33641pt.
 
-Overfull \hbox (155.79413pt too wide) in paragraph at lines 37--37
+Overfull \hbox (19.34273pt too wide) in paragraph at lines 37--37
  [] 
  []
 
@@ -1974,7 +1974,7 @@ Overfull \hbox (191.82262pt too wide) has occurred while \output is active
 
 [42
 
- <C:/Users/Subhojyoti/Desktop/github/gtc_ppt/MS Seminar/img/ArmElim1.png>]
+ <C:/Users/Subhojyoti/Desktop/github/gtc_ppt/MS Seminar/img/ArmElim_1.png>]
 <img/ArmElim2.png, id=1194, 1303.87125pt x 431.6125pt>
 File: img/ArmElim2.png Graphic file (type png)
  <use img/ArmElim2.png>
@@ -2199,30 +2199,19 @@ Overfull \hbox (191.82262pt too wide) has occurred while \output is active
 [65
 
 ]
-Overfull \hbox (3.72626pt too wide) in paragraph at lines 92--92
-[]|\OT1/phv/m/n/10.95 Algorithm| 
- []
-
-
-Overfull \vbox (2.12187pt too high) detected at line 92
- []
-
-
 Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [66
 
-] <img/ArmElim3.png, id=1836, 1318.9275pt x 567.11874pt>
-File: img/ArmElim3.png Graphic file (type png)
+]
+Overfull \hbox (3.72626pt too wide) in paragraph at lines 103--103
+[]|\OT1/phv/m/n/10.95 Algorithm| 
+ []
 
-<use img/ArmElim3.png>
-Package pdftex.def Info: img/ArmElim3.png used on input line 125.
-(pdftex.def)             Requested size: 366.66078pt x 157.65855pt.
 
-Overfull \hbox (24.36548pt too wide) in paragraph at lines 125--125
- [] 
+Overfull \vbox (2.12187pt too high) detected at line 103
  []
 
 
@@ -2232,15 +2221,26 @@ Overfull \hbox (191.82262pt too wide) has occurred while \output is active
 
 [67
 
- <C:/Users/Subhojyoti/Desktop/github/gtc_ppt/MS Seminar/img/ArmElim3.png>])
-("C:\Users\Subhojyoti\Desktop\github\gtc_ppt\MS Seminar\expt.tex"
+] <img/ArmElim3.png, id=1863, 1318.9275pt x 567.11874pt>
+File: img/ArmElim3.png Graphic file (type png)
+
+<use img/ArmElim3.png>
+Package pdftex.def Info: img/ArmElim3.png used on input line 136.
+(pdftex.def)             Requested size: 366.66078pt x 157.65855pt.
+
+Overfull \hbox (24.36548pt too wide) in paragraph at lines 136--136
+ [] 
+ []
+
+
 Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [68
 
-]
+ <C:/Users/Subhojyoti/Desktop/github/gtc_ppt/MS Seminar/img/ArmElim3.png>])
+("C:\Users\Subhojyoti\Desktop\github\gtc_ppt\MS Seminar\expt.tex"
 Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
@@ -2276,6 +2276,13 @@ Overfull \hbox (191.82262pt too wide) has occurred while \output is active
 [73
 
 ]
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
+ [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+[74
+
+]
 PGFPlots: reading {results/budgetTestGR4/APT1_comp_subsampled.txt}
 PGFPlots: reading {results/budgetTestGR4/AugUCB1_comp_subsampled.txt}
 PGFPlots: reading {results/budgetTestGR4/UCBEM1_comp_subsampled.txt}
@@ -2300,7 +2307,7 @@ Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
-[74
+[75
 
 ]
 PGFPlots: reading {results/budgetTestAP/APT12_comp_subsampled.txt}
@@ -2323,16 +2330,9 @@ Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
-[75
-
-]) ("C:\Users\Subhojyoti\Desktop\github\gtc_ppt\MS Seminar\conclusion.tex"
-Overfull \hbox (191.82262pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
- []
-
 [76
 
-]
+]) ("C:\Users\Subhojyoti\Desktop\github\gtc_ppt\MS Seminar\conclusion.tex"
 Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
@@ -2346,12 +2346,19 @@ Overfull \hbox (191.82262pt too wide) has occurred while \output is active
 
 [78
 
-])
+]
 Overfull \hbox (191.82262pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
 [79
+
+])
+Overfull \hbox (191.82262pt too wide) has occurred while \output is active
+ [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+[80
 
 ]
 \tf@nav=\write6
@@ -2369,10 +2376,10 @@ Package rerunfilecheck Info: File `presentation_bandit.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 163.
  ) 
 Here is how much of TeX's memory you used:
- 33671 strings out of 493921
- 811921 string characters out of 3144861
- 1085894 words of memory out of 3000000
- 35998 multiletter control sequences out of 15000+200000
+ 33675 strings out of 493921
+ 811963 string characters out of 3144861
+ 1085939 words of memory out of 3000000
+ 36000 multiletter control sequences out of 15000+200000
  43006 words of font info for 91 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  68i,26n,112p,1055b,2451s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2390,9 +2397,9 @@ X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2
 X 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/urw/helvetic/uhvro8a.pfb>
-Output written on presentation_bandit.pdf (79 pages, 1253956 bytes).
+Output written on presentation_bandit.pdf (80 pages, 1272536 bytes).
 PDF statistics:
- 2262 PDF objects out of 2487 (max. 8388607)
- 172 named destinations out of 1000 (max. 500000)
+ 2288 PDF objects out of 2487 (max. 8388607)
+ 174 named destinations out of 1000 (max. 500000)
  213 words of extra memory for PDF output out of 10000 (max. 10000000)
 
