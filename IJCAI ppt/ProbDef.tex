@@ -1,8 +1,9 @@
 \begin{frame}
 \frametitle{Problem Definition of TBP}
 \begin{itemize}
-\item<1-> \textbf{Primary aim:} Identify \textit{all} the arms whose expected mean of the reward distribution ($r_i$) is above a particular threshold $\mathbin{\textcolor{red}{\tau}}$ given as input.
-\item<2-> \textbf{Condition:} This has to be achieved within $\mathbin{\textcolor{red}{T}}$ timesteps of exploration and this is termed as a fixed-budget problem.
+\item<1-> At every timestep the learner selects (pulls) a single action (arm) and receives an i.i.d random reward from the distribution attached to that arm.
+\item<2-> \textbf{Primary aim:} Identify \textit{all} the arms whose expected mean of the reward distribution ($r_i$) is above a particular threshold $\mathbin{\textcolor{red}{\tau}}$ given as input.
+\item<3-> \textbf{Condition:} This has to be achieved within $\mathbin{\textcolor{red}{T}}$ timesteps of exploration and this is termed as a fixed-budget problem.
 \end{itemize}
 \end{frame}
 

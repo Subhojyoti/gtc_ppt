@@ -1,9 +1,8 @@
 \beamer@endinputifotherversion {3.36pt}
 \select@language {english}
 \beamer@sectionintoc {1}{Problem Definition}{3}{0}{1}
-\beamer@sectionintoc {2}{Contribution}{12}{0}{2}
-\beamer@sectionintoc {3}{Previous Works}{17}{0}{3}
-\beamer@sectionintoc {4}{AugUCB}{23}{0}{4}
-\beamer@sectionintoc {5}{Theoretical Analysis}{31}{0}{5}
-\beamer@sectionintoc {6}{Experiments}{32}{0}{6}
-\beamer@sectionintoc {7}{Conclusion}{39}{0}{7}
+\beamer@sectionintoc {2}{Contribution}{13}{0}{2}
+\beamer@sectionintoc {3}{AugUCB}{18}{0}{3}
+\beamer@sectionintoc {4}{Theoretical Analysis}{26}{0}{4}
+\beamer@sectionintoc {5}{Experiments}{27}{0}{5}
+\beamer@sectionintoc {6}{Conclusion}{35}{0}{6}
