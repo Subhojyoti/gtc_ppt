@@ -23,6 +23,16 @@
 \end{frame}
 
 \begin{frame}
+\frametitle{Arm pull}
+\begin{itemize}
+\item<1-> We pull the arm that minimizes $j\in\argmin_{i\in B_{m}}\Big\lbrace |\hat{r}_{i} - \tau | - 2s_{i}\Big\rbrace$
+\item<2-> We define the confidence interval $s_i  = \sqrt{\frac{\rho\psi_m (\mathbin{\textcolor{red}{\hat{v}_{i}}}+1) \log ( T \epsilon_{m})}{4 n_{i}}}$.
+\item<3-> $s_i$ decreases with more $n_i$ and $\psi_m$ and $\rho$ ensures that it decreases at a correct rate.
+\item<4-> Note that $\hat{v}_i$ estimated variance in $s_i$ makes the algorithm pull the arm which shows more variance. 
+\end{itemize}
+\end{frame}
+
+\begin{frame}
 \frametitle{AugUCB algorithm (Intuition, Arm Elimination)}
 \begin{itemize}
 \item We eliminate an arm when we are sure that $\hat{r}_i$ is close to $r_i$ with high probability and hence identify it as good or bad arm.
@@ -96,15 +106,7 @@
 %\end{figure}
 %\end{frame}
 
-\begin{frame}
-\frametitle{Arm pull}
-\begin{itemize}
-\item<1-> We pull the arm that minimizes $j\in\argmin_{i\in B_{m}}\Big\lbrace |\hat{r}_{i} - \tau | - 2s_{i}\Big\rbrace$
-\item<2-> We define the confidence interval $s_i  = \sqrt{\frac{\rho\psi_m (\mathbin{\textcolor{red}{\hat{v}_{i}}}+1) \log ( T \epsilon_{m})}{4 n_{i}}}$.
-\item<3-> $s_i$ decreases with more $n_i$ and $\psi_m$ and $\rho$ ensures that it decreases at a correct rate.
-\item<4-> Note that $\hat{v}_i$ estimated variance in $s_i$ makes the algorithm pull the arm which shows more variance. 
-\end{itemize}
-\end{frame}
+
 
 %\begin{frame}
 %\frametitle{AugUCB arm elimination}

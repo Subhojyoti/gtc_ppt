@@ -6,4 +6,4 @@
 \beamer@sectionintoc {4}{AugUCB}{23}{0}{4}
 \beamer@sectionintoc {5}{Theoretical Analysis}{31}{0}{5}
 \beamer@sectionintoc {6}{Experiments}{32}{0}{6}
-\beamer@sectionintoc {7}{Conclusion}{40}{0}{7}
+\beamer@sectionintoc {7}{Conclusion}{39}{0}{7}
