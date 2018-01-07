@@ -1,0 +1,24 @@
+\begin{frame}
+\frametitle{Contributions in TBP ({Chapter 4})}
+\begin{itemize}
+%\cite{DBLP:journals/corr/MukherjeeNSR17}
+\item<1-> We propose the Augmented UCB (AugUCB) algorithm for the fixed-budget TBP setting.
+\item<2-> AugUCB takes into account the empirical variances of the arms along with mean estimates.
+\item<3-> It is the first variance-based arm elimination algorithm for the considered TBP settings. 
+%\item<4-> It addresses an open problem discussed in {Auer and Ortner (2010)} of designing an algorithm that can eliminate arms based on variance estimates.
+\item<4-> We also define a new problem complexity which uses empirical variance estimates along with arm's mean for giving the theoretical bound.
+\item<5-> Empirically, in the considered environments AugUCB outperforms all the algorithms that rely on on estomation of mean to conduct exploration.
+\end{itemize}
+\end{frame}
+
+
+%Our theoretical contribution comprises proving an upper bound on the expected loss incurred by AugUCB (Theorem~\ref{Result:Theorem:1}).
+%In Table \ref{tab:regret-bds} we compare the upper bound on the losses incurred by the various algorithms, including AugUCB. The terms $H_1, H_2$, $H_{CSAR,2}, H_{\sigma,1}$ and $H_{\sigma,2}$ represent various problem complexities, and are as defined in Section~\ref{results}. From Section~\ref{results} we note that, for all $K\ge8$, we have
+%\begin{align*}
+%\log\left(K\log K\right) H_{\sigma,2} > \log(2K) H_{\sigma,2} \ge H_{\sigma,1}.
+%\end{align*}
+%
+%Thus, it follows that the upper bound for UCBEV is better than that for AugUCB. However, implementation of UCBEV algorithm requires $H_{\sigma,1}$ as input, whose computation is not realistic in practice. In contrast, our AugUCB algorithm requires no such complexity factor as input. Proceeding with the comparisons, we emphasize that the upper bound for  AugUCB is, in fact, not comparable with that of APT and CSAR; this is because the complexity term $H_{\sigma,2}$ is not explicitly comparable with either $H_1$ or $H_{CSAR,2}$. However, through extensive simulation experiments we find that AugUCB significantly outperforms both APT, CSAR and other non variance-based algorithms. AugUCB also outperforms UCBEV under explorations where non-optimal values of $H_{\sigma,1}$  are used. In particular, we consider experimental scenarios comprising large number of arms, with the variances of arms in $S_\tau$ being large. AugUCB, being variance based, exhibits superior performance under these settings.  
+%%
+
+
