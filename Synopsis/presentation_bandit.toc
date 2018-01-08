@@ -1,4 +1,4 @@
-\beamer@endinputifotherversion {3.36pt}
+\beamer@endinputifotherversion {3.10pt}
 \select@language {english}
 \beamer@sectionintoc {1}{Stochastic Multi-Armed Bandit Problem}{3}{0}{1}
 \beamer@sectionintoc {2}{Problem Definition of SMAB}{6}{0}{2}
